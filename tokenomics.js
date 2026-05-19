@@ -50,25 +50,35 @@
         <div class="tk-sub">Fixed factory mint</div>
       </div>`;
 
-    // Lockups (still pending addresses)
-    const lp = d.lockups && d.lockups.lp_locked;
-    const oyciLocked = d.lockups && d.lockups.oyci_locked;
-    const unlock = d.lockups && d.lockups.unlock_date;
+    // Lockups — Choice locker data
+    const lp = (d.lockups && d.lockups.lp) || {};
+    const oyciLock = (d.lockups && d.lockups.oyci) || {};
+    const lpPct = Number.isFinite(lp.locked_percentage) ? lp.locked_percentage : null;
+    const lpPosCount = Number.isFinite(lp.position_count) ? lp.position_count : 0;
+    const oyciLockedRaw = oyciLock.total_locked_raw;
+    const hasOyciLock = oyciLockedRaw && oyciLockedRaw !== "0";
+    const earliest = lp.earliest_unlock;
+    const latest = lp.latest_unlock;
+
     const lockupTile = `
       <div class="tk-tile">
         <div class="tk-k">LP locked</div>
-        <div class="tk-v">${lp !== null && lp !== undefined ? escapeHTML(String(lp)) : "—"}</div>
-        <div class="tk-sub">${lp ? "via locker contract" : "Pending — locker address not configured yet"}</div>
+        <div class="tk-v">${lpPct !== null ? fmtNum(lpPct, { maximumFractionDigits: 1 }) + "%" : "—"}</div>
+        <div class="tk-sub">${lpPosCount > 0
+          ? "of supply, " + lpPosCount + " position" + (lpPosCount === 1 ? "" : "s") + " on Choice locker"
+          : "No positions on Choice locker"}</div>
       </div>
       <div class="tk-tile">
         <div class="tk-k">OYCI locked</div>
-        <div class="tk-v">${oyciLocked !== null && oyciLocked !== undefined ? escapeHTML(String(oyciLocked)) : "—"}</div>
-        <div class="tk-sub">${oyciLocked ? "via locker contract" : "Pending — locker address not configured yet"}</div>
+        <div class="tk-v">${hasOyciLock ? escapeHTML(oyciLockedRaw) : "0"}</div>
+        <div class="tk-sub">${hasOyciLock ? "via Choice locker" : "No OYCI lock positions on Choice"}</div>
       </div>
       <div class="tk-tile">
-        <div class="tk-k">Unlock date</div>
-        <div class="tk-v">${unlock ? fmtDate(unlock) : "—"}</div>
-        <div class="tk-sub">${unlock ? "Configured" : "Pending"}</div>
+        <div class="tk-k">${earliest && latest && earliest !== latest ? "Unlock window" : "Final unlock"}</div>
+        <div class="tk-v">${latest ? fmtDate(latest) : "—"}</div>
+        <div class="tk-sub">${earliest && latest && earliest !== latest
+          ? "Earliest " + fmtDate(earliest) + " · " + (lp.schedule_type || "vesting")
+          : (earliest ? (lp.schedule_type || "vesting") : "—")}</div>
       </div>`;
 
     // Farms — list each farm as its own tile, plus a summary tile
