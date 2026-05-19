@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T03:59:37Z",
+  "updated_at": "2026-05-19T06:29:55Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -14,8 +14,9 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 142
-      }
+        "view_count": 159
+      },
+      "media": []
     },
     {
       "id": "2056452518872219662",
@@ -27,7 +28,8 @@
         "retweet_count": 5,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     },
     {
       "id": "2056404539767509028",
@@ -36,10 +38,11 @@
       "url": "https://x.com/0yst3rs/status/2056404539767509028",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 98,
+        "retweet_count": 106,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     },
     {
       "id": "2056314432339259797",
@@ -50,8 +53,15 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 87
-      }
+        "view_count": 88
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIl_E4PWAAAKeY0.jpg",
+          "video_url": null
+        }
+      ]
     },
     {
       "id": "2056150656495333880",
@@ -63,7 +73,14 @@
         "retweet_count": 3,
         "reply_count": 3,
         "view_count": 158
-      }
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIjqIHdWEAAjC4c.jpg",
+          "video_url": null
+        }
+      ]
     },
     {
       "id": "2056149306046808256",
@@ -72,10 +89,11 @@
       "url": "https://x.com/0yst3rs/status/2056149306046808256",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 23,
+        "retweet_count": 25,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     },
     {
       "id": "2055437000908419409",
@@ -87,7 +105,14 @@
         "retweet_count": 2,
         "reply_count": 4,
         "view_count": 136
-      }
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIZhD3DWcAAYn2Y.jpg",
+          "video_url": null
+        }
+      ]
     },
     {
       "id": "2055378872351244499",
@@ -99,7 +124,8 @@
         "retweet_count": 9,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     },
     {
       "id": "2055291957346172943",
@@ -111,7 +137,8 @@
         "retweet_count": 2,
         "reply_count": 0,
         "view_count": 91
-      }
+      },
+      "media": []
     },
     {
       "id": "2055288140412166290",
@@ -123,7 +150,8 @@
         "retweet_count": 9,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     },
     {
       "id": "2055283754562736592",
@@ -135,7 +163,8 @@
         "retweet_count": 147,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     },
     {
       "id": "2055251392420331995",
@@ -147,7 +176,8 @@
         "retweet_count": 0,
         "reply_count": 0,
         "view_count": 30
-      }
+      },
+      "media": []
     },
     {
       "id": "2055236535725830447",
@@ -158,8 +188,15 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 58
-      }
+        "view_count": 59
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIWqvBYXoAALwHN.jpg",
+          "video_url": null
+        }
+      ]
     },
     {
       "id": "2055091255751667834",
@@ -171,7 +208,8 @@
         "retweet_count": 2,
         "reply_count": 0,
         "view_count": 94
-      }
+      },
+      "media": []
     },
     {
       "id": "2055087708033135014",
@@ -183,7 +221,8 @@
         "retweet_count": 5,
         "reply_count": 0,
         "view_count": 0
-      }
+      },
+      "media": []
     }
   ]
 }
