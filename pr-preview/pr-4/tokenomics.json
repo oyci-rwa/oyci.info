@@ -1,6 +1,0 @@
-{
-  "updated_at": null,
-  "supply": { "total": 1000000000, "denom": "OYCI", "factory_denom": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI" },
-  "lockups": { "lp_locked": null, "oyci_locked": null, "unlock_date": null },
-  "farms": []
-}
