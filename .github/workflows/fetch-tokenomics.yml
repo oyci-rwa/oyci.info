@@ -1,0 +1,120 @@
+name: Fetch Tokenomics
+
+on:
+  schedule:
+    - cron: '15 */6 * * *'  # every 6 hours at :15 (offset from other cron jobs)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to dispatch deploy.yml after a content push
+
+concurrency:
+  group: fetch-tokenomics
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch OYCI supply + Choice farms
+        id: fetch
+        env:
+          OYCI_DENOM: 'factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI'
+          LP_DENOM: 'factory/inj1qxp3uga2q2x8sfs46ul2luk7tvq09x9r4cvuzr/lp'
+          INJ_REST: 'https://injective-rest.publicnode.com'
+          CHOICE_GQL: 'https://api.choice.exchange/v1/graphql'
+        run: |
+          set -e
+          echo "pushed=false" >> "$GITHUB_OUTPUT"
+
+          # call_get — HTTP GET with status surface; fails on >=400
+          call_get() {
+            local url="$1"
+            local resp body status
+            resp=$(curl -sS -w '\n%{http_code}' "$url")
+            body=$(printf '%s' "$resp" | sed '$d')
+            status=$(printf '%s' "$resp" | tail -n1)
+            echo "GET $url -> $status" >&2
+            if [ "$status" -ge 400 ]; then
+              echo "BODY: $body" >&2
+              return 1
+            fi
+            printf '%s' "$body"
+          }
+
+          # 1) Total OYCI supply via Cosmos bank module
+          OYCI_DENOM_ENC=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1], safe=''))" "$OYCI_DENOM")
+          SUPPLY_RESP=$(call_get "$INJ_REST/cosmos/bank/v1beta1/supply/by_denom?denom=$OYCI_DENOM_ENC")
+          OYCI_TOTAL_RAW=$(jq -r '.amount.amount' <<< "$SUPPLY_RESP")
+          OYCI_TOTAL=$(python3 -c "print(int('$OYCI_TOTAL_RAW') / 10**6)")
+
+          # 2) Choice farms via GraphQL — filtered by staking_token_id matching the LP denom
+          GQL_QUERY=$(cat <<'EOF'
+          {"query":"{ staking_farm(where: {staking_token_id: {_eq: \"factory/inj1qxp3uga2q2x8sfs46ul2luk7tvq09x9r4cvuzr/lp\"}}) { id contract_addr reward_token_id reward_token { name symbol decimals address } distribution_schedules { start_time end_time amount } analytics { current_apr_percentage current_tvl_usd updated_at } } }"}
+          EOF
+          )
+          FARM_RESP=$(curl -sS -X POST -H "Content-Type: application/json" -d "$GQL_QUERY" "$CHOICE_GQL")
+          # quick sanity
+          jq -e '.data.staking_farm | length > 0' <<< "$FARM_RESP" >/dev/null || { echo "Farm query failed"; echo "$FARM_RESP" >&2; exit 1; }
+
+          # 3) Build tokenomics.json
+          NEW_JSON=$(jq -n \
+            --arg updated "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+            --arg oyci_denom "$OYCI_DENOM" \
+            --arg lp_denom "$LP_DENOM" \
+            --argjson total "$OYCI_TOTAL" \
+            --argjson farm "$FARM_RESP" '
+            {
+              updated_at: $updated,
+              supply: {
+                total: $total,
+                denom: "OYCI",
+                factory_denom: $oyci_denom
+              },
+              lockups: {
+                lp_locked: null,
+                oyci_locked: null,
+                unlock_date: null,
+                _note: "addresses pending — fill once known"
+              },
+              farms: (($farm.data.staking_farm // []) | map({
+                id: .id,
+                contract: .contract_addr,
+                reward_symbol: .reward_token.symbol,
+                reward_decimals: .reward_token.decimals,
+                programmed_amount_raw: (.distribution_schedules[0].amount // null),
+                schedule_start: (.distribution_schedules[0].start_time // null),
+                schedule_end: (.distribution_schedules[0].end_time // null),
+                tvl_usd: (.analytics[0].current_tvl_usd // null),
+                apr_percentage: (.analytics[0].current_apr_percentage // null)
+              }))
+            }')
+
+          # 4) Skip commit if unchanged (excluding updated_at)
+          if [ -f tokenomics.json ]; then
+            OLD_CORE=$(jq 'del(.updated_at)' tokenomics.json 2>/dev/null || echo '{}')
+            NEW_CORE=$(jq 'del(.updated_at)' <<< "$NEW_JSON")
+            if [ "$OLD_CORE" = "$NEW_CORE" ]; then
+              echo "No changes; skipping commit."
+              exit 0
+            fi
+          fi
+
+          echo "$NEW_JSON" > tokenomics.json
+          jq -r '"Supply: " + (.supply.total|tostring) + " OYCI · " + (.farms | length | tostring) + " farms"' tokenomics.json
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add tokenomics.json
+          git commit -m "data: refresh tokenomics.json"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger deploy
+        if: steps.fetch.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
