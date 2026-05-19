@@ -289,6 +289,81 @@ a { color: inherit; text-decoration: none; }
   margin: 0;
 }
 
+/* ───── vision section (descending below the surface) ───── */
+.vision-section {
+  position: relative;
+  background: #0f1244; /* matches hero's deepest blue so the seam disappears */
+  color: var(--sand);
+  padding: 140px 0 180px;
+  overflow: hidden;
+}
+.vision-deco {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  display: block;
+}
+.vision-section .wrap { position: relative; z-index: 1; }
+.vision-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 72px;
+  align-items: start;
+}
+.vision-lead .kicker { color: var(--amber); }
+.vision-lead .h2 {
+  font-size: clamp(38px, 4.8vw, 60px);
+  margin: 0;
+  color: var(--sand);
+  text-shadow: 0 2px 24px rgba(10, 12, 36, 0.5);
+}
+.vision-lead .h2 em { font-style: italic; color: #ffd28a; }
+.vision-lead .lead {
+  margin-top: 22px;
+  color: rgba(241, 231, 210, 0.82);
+  max-width: 480px;
+}
+.vision-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-top: 18px;
+}
+.vision-pillar {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 18px;
+  padding: 22px 0;
+  border-top: 1px solid rgba(241, 231, 210, 0.18);
+}
+.vision-pillar:last-child { border-bottom: 1px solid rgba(241, 231, 210, 0.18); }
+.vision-pillar .num {
+  font-family: var(--mono); font-size: 18px;
+  font-weight: 500;
+  color: var(--amber);
+  letter-spacing: -0.01em;
+}
+.vision-pillar h3 {
+  font-family: var(--font);
+  font-size: 18px; font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+  color: var(--sand);
+}
+.vision-pillar p {
+  font-size: 14px; line-height: 1.55;
+  color: rgba(241, 231, 210, 0.72);
+  margin: 0;
+}
+@media (max-width: 1000px) {
+  .vision-grid { grid-template-columns: 1fr; gap: 40px; }
+  .vision-section { padding: 90px 0 110px; }
+}
+@media (max-width: 640px) {
+  .vision-section { padding: 72px 0 88px; }
+  .vision-pillar { grid-template-columns: 44px 1fr; gap: 12px; padding: 18px 0; }
+}
+
 /* ───── tweets section ───── */
 .tweets-section .h2 .handle-link {
   color: var(--coral);
