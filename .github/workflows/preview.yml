@@ -1,0 +1,73 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: pr-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage site
+        if: github.event.action != 'closed'
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_site' --exclude='node_modules' ./ _site/
+
+      - name: Deploy / remove preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_site/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: auto
+
+      - name: Notify Telegram (preview ready)
+        if: github.event.action != 'closed'
+        env:
+          TG: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: '-5247305923'
+          PR_NUM: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_USER: ${{ github.event.pull_request.user.login }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          if [ -z "$TG" ]; then
+            echo "TELEGRAM_BOT_TOKEN secret not set — skipping notification"
+            exit 0
+          fi
+          PREVIEW_URL="https://oyci-rwa.github.io/oyci.info/pr-preview/pr-${PR_NUM}/"
+          TEXT=$(printf '🦪 Preview ready · PR #%s\n%s (by %s)\n\n%s\n\nPR: %s' "$PR_NUM" "$PR_TITLE" "$PR_USER" "$PREVIEW_URL" "$PR_URL")
+          curl -sS "https://api.telegram.org/bot${TG}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT_ID}" \
+            --data-urlencode "text=${TEXT}" \
+            --data-urlencode "disable_web_page_preview=true" \
+            > /dev/null || echo "Telegram notify failed (non-fatal)"
+
+      - name: Notify Telegram (preview removed)
+        if: github.event.action == 'closed'
+        env:
+          TG: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: '-5247305923'
+          PR_NUM: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          if [ -z "$TG" ]; then
+            echo "TELEGRAM_BOT_TOKEN secret not set — skipping notification"
+            exit 0
+          fi
+          TEXT=$(printf '🦪 Preview removed · PR #%s: %s' "$PR_NUM" "$PR_TITLE")
+          curl -sS "https://api.telegram.org/bot${TG}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT_ID}" \
+            --data-urlencode "text=${TEXT}" \
+            > /dev/null || echo "Telegram notify failed (non-fatal)"

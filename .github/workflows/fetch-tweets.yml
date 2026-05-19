@@ -1,0 +1,114 @@
+name: Fetch Tweets
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'  # every 8 hours — ~90 calls/month at $0.001 each (~$0.03/mo after free credits)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # needed for `gh workflow run deploy.yml` after a content push
+
+concurrency:
+  group: fetch-tweets
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch @0yst3rs via getxapi.com and update tweets.json
+        id: fetch
+        env:
+          GETXAPI_TOKEN: ${{ secrets.GETXAPI_TOKEN }}
+          HANDLE: '0yst3rs'
+        run: |
+          set -e
+          echo "pushed=false" >> "$GITHUB_OUTPUT"
+          if [ -z "$GETXAPI_TOKEN" ]; then
+            echo "GETXAPI_TOKEN not set — skipping"
+            exit 0
+          fi
+
+          # call() — prints status/body to stderr, returns body on stdout, fails on HTTP >=400
+          call() {
+            local url="$1"
+            local resp body status
+            resp=$(curl -sS -w '\n%{http_code}' \
+              -H "Authorization: Bearer $GETXAPI_TOKEN" "$url")
+            body=$(printf '%s' "$resp" | sed '$d')
+            status=$(printf '%s' "$resp" | tail -n1)
+            echo "REQ: GET $url" >&2
+            echo "STATUS: $status" >&2
+            echo "BODY: $body" >&2
+            if [ "$status" -ge 400 ]; then
+              return 1
+            fi
+            printf '%s' "$body"
+          }
+
+          # Single call — getxapi accepts userName directly, no need for separate user lookup
+          RESP=$(call "https://api.getxapi.com/twitter/user/tweets?userName=${HANDLE}")
+
+          # Transform to our schema. Author name comes from the first tweet's author field
+          # (getxapi enriches each tweet with the author object).
+          NEW_JSON=$(jq -n \
+            --arg updated "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+            --arg username "$HANDLE" \
+            --argjson resp "$RESP" '
+            {
+              updated_at: $updated,
+              user: {
+                name: (($resp.tweets // [])[0].author.name // $username),
+                username: $username
+              },
+              tweets: (($resp.tweets // [])
+                | map(select((.isReply // false) | not))
+                | map({
+                    id: .id,
+                    text: .text,
+                    created_at: .createdAt,
+                    url: (.url // ("https://x.com/" + $username + "/status/" + .id)),
+                    metrics: {
+                      like_count: (.likeCount // 0),
+                      retweet_count: (.retweetCount // 0),
+                      reply_count: (.replyCount // 0),
+                      view_count: (.viewCount // 0)
+                    },
+                    media: ((.media // []) | map({
+                      type: .type,
+                      url: .url,
+                      video_url: (.video_url // null)
+                    }))
+                  }))
+            }')
+
+          # Skip commit if tweet content unchanged (compare excluding updated_at)
+          if [ -f tweets.json ]; then
+            OLD_CORE=$(jq 'del(.updated_at)' tweets.json 2>/dev/null || echo '{}')
+            NEW_CORE=$(jq 'del(.updated_at)' <<< "$NEW_JSON")
+            if [ "$OLD_CORE" = "$NEW_CORE" ]; then
+              echo "No changes in tweet content; skipping commit."
+              exit 0
+            fi
+          fi
+
+          echo "$NEW_JSON" > tweets.json
+          jq '.tweets | length' tweets.json | xargs -I{} echo "Wrote {} tweets to tweets.json"
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add tweets.json
+          git commit -m "data: refresh tweets.json from @${HANDLE} (via getxapi)"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes from GITHUB_TOKEN don't trigger other workflows (loop guard),
+      # so we explicitly kick deploy.yml here. Only when we actually pushed.
+      - name: Trigger deploy
+        if: steps.fetch.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
