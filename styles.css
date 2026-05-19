@@ -410,6 +410,27 @@ a { color: inherit; text-decoration: none; }
   color: rgba(10,35,43,0.55);
 }
 .tk-tile.tk-farm { background: #fff5e0; }
+.tk-tile.tk-link {
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+.tk-tile.tk-link:hover {
+  border-color: var(--coral);
+  background: #fff7f3;
+  transform: translateY(-1px);
+}
+.tk-tile.tk-link:hover .tk-arrow { transform: translateX(3px); }
+.tk-tile .tk-v-text {
+  display: inline-flex; align-items: baseline; gap: 8px;
+  font-size: 18px; font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.tk-tile .tk-arrow {
+  color: var(--coral);
+  font-size: 18px; font-weight: 600;
+  transition: transform 0.15s;
+  display: inline-block;
+}
 .tk-tile.tk-live { background: var(--ink); color: var(--sand); }
 .tk-tile.tk-live .tk-k { color: var(--amber); }
 .tk-tile.tk-live .tk-v { color: var(--sand); }

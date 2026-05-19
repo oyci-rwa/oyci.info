@@ -116,7 +116,14 @@
          </div>`
       : "";
 
-    root.innerHTML = supplyTile + lockupTile + farmTiles + liveTile;
+    const holdersTile = `
+      <a class="tk-tile tk-link" href="https://injscan.com/asset/factory%2Finj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w%2FOYCI/" target="_blank" rel="noopener noreferrer">
+        <div class="tk-k">Holders</div>
+        <div class="tk-v tk-v-text">View top wallets <span class="tk-arrow" aria-hidden="true">→</span></div>
+        <div class="tk-sub">Live on-chain list — opens injscan in a new tab</div>
+      </a>`;
+
+    root.innerHTML = supplyTile + lockupTile + farmTiles + holdersTile + liveTile;
 
     // Updated-at stamp
     const stamp = document.getElementById("tokenomics-updated");
