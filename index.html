@@ -199,6 +199,246 @@
   </div>
 </section>
 
+<!-- ─── Vision (descending below the surface) ─── -->
+<section class="vision-section" id="vision">
+  <svg class="vision-deco" viewBox="0 0 1600 1100" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <!-- Depth gradient: continues from the hero's deepest blue at top, fades to near-black at the seabed -->
+      <linearGradient id="vsDepth" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0f1244" />
+        <stop offset="30%" stop-color="#0b0e34" />
+        <stop offset="65%" stop-color="#06081f" />
+        <stop offset="100%" stop-color="#020410" />
+      </linearGradient>
+      <!-- God ray: fanning, soft -->
+      <linearGradient id="vsRay" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffe4b8" stop-opacity="0.22" />
+        <stop offset="40%" stop-color="#ffe4b8" stop-opacity="0.09" />
+        <stop offset="100%" stop-color="#ffe4b8" stop-opacity="0" />
+      </linearGradient>
+      <!-- Soft caustic ripple at top -->
+      <linearGradient id="vsCaustic" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffe4b8" stop-opacity="0.18" />
+        <stop offset="100%" stop-color="#ffe4b8" stop-opacity="0" />
+      </linearGradient>
+      <!-- Soft vignette to push the corners darker, focus on center -->
+      <radialGradient id="vsVignette" cx="0.5" cy="0.45" r="0.75">
+        <stop offset="55%" stop-color="#000000" stop-opacity="0" />
+        <stop offset="100%" stop-color="#000000" stop-opacity="0.45" />
+      </radialGradient>
+    </defs>
+
+    <!-- Base depth gradient -->
+    <rect width="1600" height="1100" fill="url(#vsDepth)" />
+
+    <!-- Looking up at the rippled water surface — layered caustics that fade with depth -->
+    <!-- Warm wash near the surface: brighter water near the top -->
+    <rect width="1600" height="180" fill="url(#vsCaustic)" opacity="0.95" />
+
+    <!-- Broken bright patches — sun catching wave crests -->
+    <g fill="#ffe4b8" opacity="0.35">
+      <ellipse cx="180" cy="14" rx="120" ry="6" />
+      <ellipse cx="480" cy="22" rx="160" ry="7" />
+      <ellipse cx="820" cy="10" rx="140" ry="5" />
+      <ellipse cx="1140" cy="20" rx="180" ry="8" />
+      <ellipse cx="1460" cy="14" rx="120" ry="6" />
+    </g>
+
+    <!-- Ripple bands — brightest near top, fading and thinning with depth -->
+    <g fill="none" stroke="#ffe4b8">
+      <path d="M0 4 Q 80 -2, 160 6 T 320 8 T 480 2 T 640 6 T 800 0 T 960 8 T 1120 4 T 1280 0 T 1440 6 T 1600 4"
+            stroke-width="1.8" opacity="0.85" />
+      <path d="M0 18 Q 80 10, 160 20 T 320 22 T 480 14 T 640 20 T 800 12 T 960 22 T 1120 18 T 1280 14 T 1440 20 T 1600 18"
+            stroke-width="1.4" opacity="0.7" />
+      <path d="M0 34 Q 80 26, 160 34 T 320 38 T 480 30 T 640 36 T 800 28 T 960 38 T 1120 34 T 1280 30 T 1440 36 T 1600 34"
+            stroke-width="1.1" opacity="0.55" />
+      <path d="M0 52 Q 80 44, 160 52 T 320 56 T 480 48 T 640 54 T 800 46 T 960 56 T 1120 52 T 1280 48 T 1440 54 T 1600 52"
+            stroke-width="0.9" opacity="0.42" />
+      <path d="M0 72 Q 80 64, 160 72 T 320 76 T 480 68 T 640 74 T 800 66 T 960 76 T 1120 72 T 1280 68 T 1440 74 T 1600 72"
+            stroke-width="0.75" opacity="0.32" />
+      <path d="M0 96 Q 80 88, 160 96 T 320 100 T 480 92 T 640 98 T 800 90 T 960 100 T 1120 96 T 1280 92 T 1440 98 T 1600 96"
+            stroke-width="0.6" opacity="0.22" />
+      <path d="M0 124 Q 80 116, 160 124 T 320 128 T 480 120 T 640 126 T 800 118 T 960 128 T 1120 124 T 1280 120 T 1440 126 T 1600 124"
+            stroke-width="0.5" opacity="0.14" />
+      <path d="M0 158 Q 80 150, 160 158 T 320 162 T 480 154 T 640 160 T 800 152 T 960 162 T 1120 158 T 1280 154 T 1440 160 T 1600 158"
+            stroke-width="0.4" opacity="0.08" />
+    </g>
+
+    <!-- God rays — diverging fans, organic edges via quadratic curves -->
+    <g>
+      <path d="M 220 0 L 360 0 Q 380 280, 480 560 Q 540 800, 600 1100 L 200 1100 Q 240 800, 260 560 Q 240 280, 220 0 Z"
+            fill="url(#vsRay)" opacity="0.55" />
+      <path d="M 700 0 L 820 0 Q 860 280, 940 560 Q 1010 820, 1080 1100 L 660 1100 Q 700 820, 720 560 Q 700 280, 700 0 Z"
+            fill="url(#vsRay)" opacity="0.45" />
+      <path d="M 1180 0 L 1320 0 Q 1340 280, 1420 560 Q 1480 820, 1540 1100 L 1140 1100 Q 1180 820, 1200 560 Q 1180 280, 1180 0 Z"
+            fill="url(#vsRay)" opacity="0.4" />
+    </g>
+
+    <!-- Vignette to deepen edges and frame the content -->
+    <rect width="1600" height="1100" fill="url(#vsVignette)" />
+
+    <!-- Marine snow — many small particles, varied sizes and opacities, denser near the top, sparser deep -->
+    <g fill="#f1e7d2">
+      <circle cx="40" cy="120" r="0.9" opacity="0.55" />
+      <circle cx="125" cy="240" r="1.4" opacity="0.5" />
+      <circle cx="210" cy="80" r="0.7" opacity="0.45" />
+      <circle cx="290" cy="190" r="1.1" opacity="0.55" />
+      <circle cx="380" cy="320" r="0.8" opacity="0.4" />
+      <circle cx="460" cy="140" r="1.3" opacity="0.55" />
+      <circle cx="540" cy="280" r="0.7" opacity="0.45" />
+      <circle cx="620" cy="60" r="1" opacity="0.5" />
+      <circle cx="730" cy="210" r="1.6" opacity="0.5" />
+      <circle cx="810" cy="340" r="0.8" opacity="0.4" />
+      <circle cx="890" cy="110" r="1.1" opacity="0.55" />
+      <circle cx="970" cy="260" r="0.9" opacity="0.45" />
+      <circle cx="1060" cy="170" r="1.4" opacity="0.5" />
+      <circle cx="1150" cy="330" r="0.7" opacity="0.4" />
+      <circle cx="1240" cy="90" r="1.2" opacity="0.55" />
+      <circle cx="1330" cy="240" r="0.8" opacity="0.45" />
+      <circle cx="1410" cy="350" r="1.5" opacity="0.5" />
+      <circle cx="1490" cy="130" r="1" opacity="0.5" />
+      <circle cx="1560" cy="280" r="0.7" opacity="0.4" />
+
+      <circle cx="80" cy="460" r="0.8" opacity="0.4" />
+      <circle cx="220" cy="540" r="1.2" opacity="0.42" />
+      <circle cx="380" cy="430" r="0.9" opacity="0.38" />
+      <circle cx="520" cy="600" r="1.1" opacity="0.4" />
+      <circle cx="680" cy="490" r="0.7" opacity="0.36" />
+      <circle cx="840" cy="630" r="1.4" opacity="0.4" />
+      <circle cx="980" cy="540" r="0.8" opacity="0.38" />
+      <circle cx="1130" cy="460" r="1" opacity="0.42" />
+      <circle cx="1290" cy="610" r="0.9" opacity="0.38" />
+      <circle cx="1440" cy="530" r="1.2" opacity="0.4" />
+
+      <circle cx="160" cy="780" r="0.7" opacity="0.28" />
+      <circle cx="340" cy="860" r="1" opacity="0.3" />
+      <circle cx="540" cy="800" r="0.8" opacity="0.25" />
+      <circle cx="720" cy="900" r="1.1" opacity="0.3" />
+      <circle cx="900" cy="820" r="0.7" opacity="0.25" />
+      <circle cx="1100" cy="880" r="0.9" opacity="0.28" />
+      <circle cx="1280" cy="800" r="0.8" opacity="0.25" />
+      <circle cx="1460" cy="870" r="1" opacity="0.28" />
+    </g>
+
+    <!-- A few bubbles rising on the left edge -->
+    <g fill="none" stroke="#f1e7d2" stroke-width="0.8" opacity="0.35">
+      <circle cx="90" cy="700" r="3" />
+      <circle cx="100" cy="640" r="2" />
+      <circle cx="85" cy="580" r="2.5" />
+      <circle cx="105" cy="510" r="1.5" />
+      <circle cx="92" cy="450" r="2" />
+      <circle cx="1500" cy="780" r="2.5" />
+      <circle cx="1510" cy="720" r="2" />
+      <circle cx="1495" cy="660" r="3" />
+      <circle cx="1505" cy="600" r="1.5" />
+    </g>
+
+    <!-- Oyster cage clusters at depth — clearly drawn longline + 3 cages per cluster, getting smaller/dimmer toward back -->
+    <!-- Cluster 1: front-left, larger -->
+    <g opacity="0.85">
+      <line x1="180" y1="0" x2="180" y2="950" stroke="#f1e7d2" stroke-width="0.7" opacity="0.18" />
+      <g transform="translate(180 950)">
+        <rect x="-26" y="0" width="52" height="38" fill="#020410" stroke="#f1e7d2" stroke-width="0.9" />
+        <line x1="-16" y1="0" x2="-16" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="-6" y1="0" x2="-6" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="6" y1="0" x2="6" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="16" y1="0" x2="16" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="-26" y1="13" x2="26" y2="13" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-26" y1="26" x2="26" y2="26" stroke="#f1e7d2" stroke-width="0.5" />
+      </g>
+      <g transform="translate(180 1000)">
+        <rect x="-26" y="0" width="52" height="38" fill="#020410" stroke="#f1e7d2" stroke-width="0.9" />
+        <line x1="-16" y1="0" x2="-16" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="-6" y1="0" x2="-6" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="6" y1="0" x2="6" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="16" y1="0" x2="16" y2="38" stroke="#f1e7d2" stroke-width="0.6" />
+        <line x1="-26" y1="13" x2="26" y2="13" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-26" y1="26" x2="26" y2="26" stroke="#f1e7d2" stroke-width="0.5" />
+      </g>
+    </g>
+
+    <!-- Cluster 2: mid -->
+    <g opacity="0.62">
+      <line x1="780" y1="0" x2="780" y2="970" stroke="#f1e7d2" stroke-width="0.55" opacity="0.15" />
+      <g transform="translate(780 970)">
+        <rect x="-22" y="0" width="44" height="32" fill="#020410" stroke="#f1e7d2" stroke-width="0.7" />
+        <line x1="-14" y1="0" x2="-14" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-5" y1="0" x2="-5" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="4" y1="0" x2="4" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="13" y1="0" x2="13" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-22" y1="11" x2="22" y2="11" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="-22" y1="22" x2="22" y2="22" stroke="#f1e7d2" stroke-width="0.4" />
+      </g>
+      <g transform="translate(780 1010)">
+        <rect x="-22" y="0" width="44" height="32" fill="#020410" stroke="#f1e7d2" stroke-width="0.7" />
+        <line x1="-14" y1="0" x2="-14" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-5" y1="0" x2="-5" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="4" y1="0" x2="4" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="13" y1="0" x2="13" y2="32" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-22" y1="11" x2="22" y2="11" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="-22" y1="22" x2="22" y2="22" stroke="#f1e7d2" stroke-width="0.4" />
+      </g>
+    </g>
+
+    <!-- Cluster 3: back-right, smallest -->
+    <g opacity="0.4">
+      <line x1="1360" y1="0" x2="1360" y2="990" stroke="#f1e7d2" stroke-width="0.4" opacity="0.12" />
+      <g transform="translate(1360 990)">
+        <rect x="-17" y="0" width="34" height="24" fill="#020410" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-10" y1="0" x2="-10" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="-3" y1="0" x2="-3" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="4" y1="0" x2="4" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="11" y1="0" x2="11" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="-17" y1="8" x2="17" y2="8" stroke="#f1e7d2" stroke-width="0.3" />
+        <line x1="-17" y1="16" x2="17" y2="16" stroke="#f1e7d2" stroke-width="0.3" />
+      </g>
+      <g transform="translate(1360 1020)">
+        <rect x="-17" y="0" width="34" height="24" fill="#020410" stroke="#f1e7d2" stroke-width="0.5" />
+        <line x1="-10" y1="0" x2="-10" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="-3" y1="0" x2="-3" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="4" y1="0" x2="4" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="11" y1="0" x2="11" y2="24" stroke="#f1e7d2" stroke-width="0.4" />
+        <line x1="-17" y1="8" x2="17" y2="8" stroke="#f1e7d2" stroke-width="0.3" />
+        <line x1="-17" y1="16" x2="17" y2="16" stroke="#f1e7d2" stroke-width="0.3" />
+      </g>
+    </g>
+  </svg>
+  <div class="wrap vision-grid">
+    <div class="vision-lead">
+      <div class="kicker">Vision</div>
+      <h2 class="h2">Eight years of oyster farming,<br /><em>now on the chain.</em></h2>
+      <p class="lead">
+        OYCI exists to bring on-chain transparency to a quiet, vital industry.
+        We track every cage and every harvest, share the metrics with our
+        stakeholders, and tie real economic growth to ecological harmony.
+      </p>
+    </div>
+    <div class="vision-pillars">
+      <div class="vision-pillar">
+        <div class="num">01</div>
+        <div>
+          <h3>Track every cage</h3>
+          <p>Built, seeded, in the water, harvested — every transition signed by the farm and stamped on Injective.</p>
+        </div>
+      </div>
+      <div class="vision-pillar">
+        <div class="num">02</div>
+        <div>
+          <h3>Share every metric</h3>
+          <p>Inspector logs, water readings, harvest counts — all surfaced to holders, not buried in an annual report.</p>
+        </div>
+      </div>
+      <div class="vision-pillar">
+        <div class="num">03</div>
+        <div>
+          <h3>Economy meets ecology</h3>
+          <p>Sustainable practice isn't a marketing line — it's the precondition for the next harvest, and the next coin.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ─── How it works ─── -->
 <section class="section cream" id="how">
   <div class="wrap">
