@@ -51,22 +51,36 @@ jobs:
           OYCI_TOTAL_RAW=$(jq -r '.amount.amount' <<< "$SUPPLY_RESP")
           OYCI_TOTAL=$(python3 -c "print(int('$OYCI_TOTAL_RAW') / 10**6)")
 
+          # 1b) Total LP supply (raw, for locked-percentage math)
+          LP_DENOM_ENC=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1], safe=''))" "$LP_DENOM")
+          LP_SUPPLY_RESP=$(call_get "$INJ_REST/cosmos/bank/v1beta1/supply/by_denom?denom=$LP_DENOM_ENC")
+          LP_TOTAL_RAW=$(jq -r '.amount.amount' <<< "$LP_SUPPLY_RESP")
+
           # 2) Choice farms via GraphQL — filtered by staking_token_id matching the LP denom
           GQL_QUERY=$(cat <<'EOF'
           {"query":"{ staking_farm(where: {staking_token_id: {_eq: \"factory/inj1qxp3uga2q2x8sfs46ul2luk7tvq09x9r4cvuzr/lp\"}}) { id contract_addr reward_token_id reward_token { name symbol decimals address } distribution_schedules { start_time end_time amount } analytics { current_apr_percentage current_tvl_usd updated_at } } }"}
           EOF
           )
           FARM_RESP=$(curl -sS -X POST -H "Content-Type: application/json" -d "$GQL_QUERY" "$CHOICE_GQL")
-          # quick sanity
           jq -e '.data.staking_farm | length > 0' <<< "$FARM_RESP" >/dev/null || { echo "Farm query failed"; echo "$FARM_RESP" >&2; exit 1; }
+
+          # 2b) Choice locker — LP positions and OYCI total
+          LOCK_QUERY=$(cat <<'EOF'
+          {"query":"{ lp_positions: locker_lockposition(where: {denom: {_eq: \"factory/inj1qxp3uga2q2x8sfs46ul2luk7tvq09x9r4cvuzr/lp\"}, is_fully_withdrawn: {_eq: false}}) { lock_id owner amount_locked amount_withdrawn unlock_at final_unlock_at schedule_type } lp_total: locker_denomtotal(where: {denom: {_eq: \"factory/inj1qxp3uga2q2x8sfs46ul2luk7tvq09x9r4cvuzr/lp\"}}) { total_locked position_count updated_at } oyci_total: locker_denomtotal(where: {denom: {_eq: \"factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI\"}}) { total_locked position_count updated_at } }"}
+          EOF
+          )
+          LOCK_RESP=$(curl -sS -X POST -H "Content-Type: application/json" -d "$LOCK_QUERY" "$CHOICE_GQL")
+          jq -e 'has("data")' <<< "$LOCK_RESP" >/dev/null || { echo "Lock query failed"; echo "$LOCK_RESP" >&2; exit 1; }
 
           # 3) Build tokenomics.json
           NEW_JSON=$(jq -n \
             --arg updated "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
             --arg oyci_denom "$OYCI_DENOM" \
             --arg lp_denom "$LP_DENOM" \
+            --arg lp_total_raw "$LP_TOTAL_RAW" \
             --argjson total "$OYCI_TOTAL" \
-            --argjson farm "$FARM_RESP" '
+            --argjson farm "$FARM_RESP" \
+            --argjson lock "$LOCK_RESP" '
             {
               updated_at: $updated,
               supply: {
@@ -75,10 +89,30 @@ jobs:
                 factory_denom: $oyci_denom
               },
               lockups: {
-                lp_locked: null,
-                oyci_locked: null,
-                unlock_date: null,
-                _note: "addresses pending — fill once known"
+                lp: (
+                  ($lock.data.lp_total[0] // null) as $tot |
+                  ($lock.data.lp_positions // []) as $positions |
+                  ($positions | map(.final_unlock_at | tonumber) | if length > 0 then min else null end) as $earliest_ts |
+                  ($positions | map(.final_unlock_at | tonumber) | if length > 0 then max else null end) as $latest_ts |
+                  ($tot.total_locked // 0) as $locked_raw |
+                  ($lp_total_raw | tonumber) as $supply_raw |
+                  {
+                    total_locked_raw: ($locked_raw | tostring),
+                    lp_total_supply_raw: ($supply_raw | tostring),
+                    locked_percentage: (if $supply_raw > 0 then ($locked_raw / $supply_raw * 100) else null end),
+                    position_count: ($tot.position_count // 0),
+                    earliest_unlock: (if $earliest_ts then ($earliest_ts | todate) else null end),
+                    latest_unlock: (if $latest_ts then ($latest_ts | todate) else null end),
+                    schedule_type: ($positions[0].schedule_type // null)
+                  }
+                ),
+                oyci: (
+                  ($lock.data.oyci_total[0] // null) as $tot |
+                  {
+                    total_locked_raw: (($tot.total_locked // 0) | tostring),
+                    position_count: ($tot.position_count // 0)
+                  }
+                )
               },
               farms: (($farm.data.staking_farm // []) | map({
                 id: .id,
