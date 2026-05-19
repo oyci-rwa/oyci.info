@@ -290,28 +290,62 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ───── vision section ───── */
-.vision-section .h2 em { font-style: italic; color: var(--coral); }
-.vision-pillars {
-  margin-top: 48px;
+.vision-section {
+  position: relative;
+  background: var(--foam);
+  padding: 110px 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(20,22,58,0.06);
+  border-bottom: 1px solid rgba(20,22,58,0.06);
+}
+.vision-deco {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+}
+.vision-section .wrap { position: relative; z-index: 1; }
+.vision-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 72px;
+  align-items: start;
+}
+.vision-lead .kicker { color: var(--sea-1); }
+.vision-lead .h2 {
+  font-size: clamp(38px, 4.8vw, 60px);
+  margin: 0;
+}
+.vision-lead .h2 em { font-style: italic; color: var(--coral); }
+.vision-lead .lead {
+  margin-top: 22px;
+  color: rgba(10,35,43,0.75);
+  max-width: 480px;
+}
+.vision-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-top: 18px;
 }
 .vision-pillar {
-  padding: 24px 0 0;
-  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 18px;
+  padding: 22px 0;
+  border-top: 1px solid rgba(20,22,58,0.12);
 }
+.vision-pillar:last-child { border-bottom: 1px solid rgba(20,22,58,0.12); }
 .vision-pillar .num {
-  font-family: var(--mono); font-size: 11px;
-  letter-spacing: 0.14em;
+  font-family: var(--mono); font-size: 18px;
+  font-weight: 500;
   color: var(--coral);
-  margin-bottom: 12px;
+  letter-spacing: -0.01em;
 }
 .vision-pillar h3 {
   font-family: var(--font);
-  font-size: 20px; font-weight: 700;
+  font-size: 18px; font-weight: 700;
   letter-spacing: -0.01em;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
 }
 .vision-pillar p {
   font-size: 14px; line-height: 1.55;
@@ -319,10 +353,12 @@ a { color: inherit; text-decoration: none; }
   margin: 0;
 }
 @media (max-width: 1000px) {
-  .vision-pillars { grid-template-columns: 1fr 1fr; }
+  .vision-grid { grid-template-columns: 1fr; gap: 40px; }
+  .vision-section { padding: 80px 0; }
 }
 @media (max-width: 640px) {
-  .vision-pillars { grid-template-columns: 1fr; gap: 18px; }
+  .vision-section { padding: 64px 0; }
+  .vision-pillar { grid-template-columns: 44px 1fr; gap: 12px; padding: 18px 0; }
 }
 
 /* ───── tweets section ───── */
