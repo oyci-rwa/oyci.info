@@ -292,9 +292,9 @@ a { color: inherit; text-decoration: none; }
 /* ───── vision section (descending below the surface) ───── */
 .vision-section {
   position: relative;
-  background: var(--sea-1);
+  background: #0f1244; /* matches hero's deepest blue so the seam disappears */
   color: var(--sand);
-  padding: 130px 0 150px;
+  padding: 140px 0 180px;
   overflow: hidden;
 }
 .vision-deco {
