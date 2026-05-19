@@ -1,0 +1,99 @@
+name: Fetch Weather
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 04:00 UTC daily = 11 PM EST (midnight during EDT)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # to dispatch deploy.yml after a content push
+
+concurrency:
+  group: fetch-weather
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch NWS forecast for Menchville, VA
+        id: fetch
+        env:
+          # NWS grid for Menchville / Newport News (AKQ office, x=81, y=60)
+          NWS_GRID_URL: 'https://api.weather.gov/gridpoints/AKQ/81,60/forecast'
+          # NWS requires a descriptive User-Agent so they can identify callers if abuse happens
+          NWS_UA: 'oyci.info weather fetch (https://github.com/oyci-rwa/oyci.info)'
+        run: |
+          set -e
+          echo "pushed=false" >> "$GITHUB_OUTPUT"
+
+          # call() — prints status + body to stderr, returns body on stdout, fails on HTTP >=400
+          call() {
+            local url="$1"
+            local resp body status
+            resp=$(curl -sS -w '\n%{http_code}' -H "User-Agent: $NWS_UA" -H "Accept: application/geo+json" "$url")
+            body=$(printf '%s' "$resp" | sed '$d')
+            status=$(printf '%s' "$resp" | tail -n1)
+            echo "REQ: GET $url" >&2
+            echo "STATUS: $status" >&2
+            if [ "$status" -ge 400 ]; then
+              echo "BODY: $body" >&2
+              return 1
+            fi
+            printf '%s' "$body"
+          }
+
+          RESP=$(call "$NWS_GRID_URL")
+
+          # Transform to our schema: keep next 4 periods (today, tonight, tomorrow, tomorrow night) for context
+          NEW_JSON=$(jq -n \
+            --arg updated "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+            --argjson resp "$RESP" '
+            {
+              updated_at: $updated,
+              location: { name: "Menchville", region: "Virginia", grid: "AKQ 81,60" },
+              elevation_m: ($resp.properties.elevation.value // null),
+              forecast_generated: ($resp.properties.generatedAt // null),
+              periods: (($resp.properties.periods // []) | .[0:4] | map({
+                name: .name,
+                start: .startTime,
+                end: .endTime,
+                temperature: .temperature,
+                temperature_unit: .temperatureUnit,
+                wind_speed: .windSpeed,
+                wind_direction: .windDirection,
+                short_forecast: .shortForecast,
+                detailed_forecast: .detailedForecast,
+                icon: .icon,
+                is_daytime: .isDaytime
+              }))
+            }')
+
+          # Skip commit if forecast content unchanged (excluding updated_at)
+          if [ -f weather.json ]; then
+            OLD_CORE=$(jq 'del(.updated_at)' weather.json 2>/dev/null || echo '{}')
+            NEW_CORE=$(jq 'del(.updated_at)' <<< "$NEW_JSON")
+            if [ "$OLD_CORE" = "$NEW_CORE" ]; then
+              echo "No changes in forecast content; skipping commit."
+              exit 0
+            fi
+          fi
+
+          echo "$NEW_JSON" > weather.json
+          jq -r '.periods[0] | "Today: " + (.temperature|tostring) + .temperature_unit + " " + .short_forecast' weather.json
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add weather.json
+          git commit -m "data: refresh weather.json (NWS, Menchville VA)"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger deploy
+        if: steps.fetch.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
