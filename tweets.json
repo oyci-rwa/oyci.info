@@ -1,20 +1,52 @@
 {
-  "updated_at": "2026-05-21T11:17:07Z",
+  "updated_at": "2026-05-21T17:53:16Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2057478564518269338",
+      "text": "RT @injective: Today, we are officially introducing The Injective Policy Institute (IPI).\n\nThe policy and research arm of Injective will wo…",
+      "created_at": "Thu May 21 15:08:10 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2057478564518269338",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 110,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2057466705337532678",
+      "text": "https://t.co/Q9g2bbFfrZ",
+      "created_at": "Thu May 21 14:21:03 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2057466705337532678",
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 30
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI2XCWFWsAAlDMb.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2057256295929921996",
       "text": "4 rolls of wire ordered\n Will you secure your bag before shipment arrives?.  \n$oyci  tradable on @ChoiceXchange \nClocking is ticking for p2p sales.\n $1750 raised $3150 committed and a dev who is still buying.  Do you get it? @ericinjective @TrashcatMeme  @Being_DerpyAF  @Galactic_Mining  @Galactic_Mining",
       "created_at": "Thu May 21 00:24:57 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2057256295929921996",
       "metrics": {
-        "like_count": 5,
+        "like_count": 8,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 73
+        "view_count": 106
       },
       "media": [
         {
@@ -33,7 +65,7 @@
         "like_count": 9,
         "retweet_count": 4,
         "reply_count": 1,
-        "view_count": 107
+        "view_count": 117
       },
       "media": [
         {
@@ -52,7 +84,7 @@
         "like_count": 9,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 105
+        "view_count": 110
       },
       "media": [
         {
@@ -68,10 +100,10 @@
       "created_at": "Mon May 18 22:39:27 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2056504969503629635",
       "metrics": {
-        "like_count": 6,
+        "like_count": 7,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 411
+        "view_count": 454
       },
       "media": []
     },
@@ -95,7 +127,7 @@
       "url": "https://x.com/0yst3rs/status/2056404539767509028",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 128,
+        "retweet_count": 129,
         "reply_count": 0,
         "view_count": 0
       },
@@ -110,7 +142,7 @@
         "like_count": 8,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 104
+        "view_count": 107
       },
       "media": [
         {
@@ -129,7 +161,7 @@
         "like_count": 11,
         "retweet_count": 3,
         "reply_count": 3,
-        "view_count": 172
+        "view_count": 174
       },
       "media": [
         {
@@ -161,7 +193,7 @@
         "like_count": 7,
         "retweet_count": 2,
         "reply_count": 4,
-        "view_count": 143
+        "view_count": 144
       },
       "media": [
         {
@@ -193,7 +225,7 @@
         "like_count": 7,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 95
+        "view_count": 96
       },
       "media": []
     },
@@ -207,32 +239,6 @@
         "retweet_count": 9,
         "reply_count": 0,
         "view_count": 0
-      },
-      "media": []
-    },
-    {
-      "id": "2055283754562736592",
-      "text": "RT @injective: Regulated $INJ Futures in the U.S. have officially started trading.\n\nINJ is now one of the only digital assets selected via…",
-      "created_at": "Fri May 15 13:46:47 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2055283754562736592",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 149,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
-    },
-    {
-      "id": "2055251392420331995",
-      "text": "https://x.com/i/spaces/1MKgNgeDNDXxL\n\nMorning talk about hoping to hope you and share around 8am",
-      "created_at": "Fri May 15 11:38:11 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2055251392420331995",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 33
       },
       "media": []
     }
