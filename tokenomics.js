@@ -60,7 +60,7 @@
     // OYCI factory token uses 6 decimals — scale raw → token units.
     const oyciLockedScaled = scaleByDecimals(oyciLockedRaw, 6);
     const oyciLockedDisplay = oyciLockedScaled !== null
-      ? fmtNum(oyciLockedScaled, { maximumFractionDigits: 2 }) + " OYCI"
+      ? fmtNum(oyciLockedScaled, { maximumFractionDigits: 2 }) + ' <span class="tk-unit">OYCI</span>'
       : "—";
     const earliest = lp.earliest_unlock;
     const latest = lp.latest_unlock;
