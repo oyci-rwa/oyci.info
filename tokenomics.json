@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T20:29:09Z",
+  "updated_at": "2026-05-21T04:29:10Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -8,16 +8,16 @@
   "lockups": {
     "lp": {
       "total_locked_raw": "202107429620599270",
-      "lp_total_supply_raw": "378660500383381300",
-      "locked_percentage": 53.37431007880995,
+      "lp_total_supply_raw": "412230559337882513",
+      "locked_percentage": 49.02776493456009,
       "position_count": 2,
       "earliest_unlock": "2026-12-15T00:25:00Z",
       "latest_unlock": "2028-04-01T23:49:00Z",
       "schedule_type": "linear"
     },
     "oyci": {
-      "total_locked_raw": "0",
-      "position_count": 0
+      "total_locked_raw": "250000000000000",
+      "position_count": 1
     }
   },
   "farms": [
@@ -29,8 +29,8 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 713.8025,
-      "apr_percentage": 27.199593291430622718
+      "tvl_usd": 1417.7616,
+      "apr_percentage": 13.664811031292642310
     },
     {
       "id": 3,
@@ -40,8 +40,8 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 1464.3576,
-      "apr_percentage": 14.713688452074267721
+      "tvl_usd": 1588.1734,
+      "apr_percentage": 13.621999440118635546
     }
   ]
 }
