@@ -57,6 +57,11 @@
     const lpPosCount = Number.isFinite(lp.position_count) ? lp.position_count : 0;
     const oyciLockedRaw = oyciLock.total_locked_raw;
     const hasOyciLock = oyciLockedRaw && oyciLockedRaw !== "0";
+    // OYCI factory token uses 6 decimals — scale raw → token units.
+    const oyciLockedScaled = scaleByDecimals(oyciLockedRaw, 6);
+    const oyciLockedDisplay = oyciLockedScaled !== null
+      ? fmtNum(oyciLockedScaled, { maximumFractionDigits: 2 }) + " OYCI"
+      : "—";
     const earliest = lp.earliest_unlock;
     const latest = lp.latest_unlock;
 
@@ -70,7 +75,7 @@
       </div>
       <div class="tk-tile">
         <div class="tk-k">OYCI locked</div>
-        <div class="tk-v">${hasOyciLock ? escapeHTML(oyciLockedRaw) : "0"}</div>
+        <div class="tk-v">${oyciLockedDisplay}</div>
         <div class="tk-sub">${hasOyciLock ? "via Choice locker" : "No OYCI lock positions on Choice"}</div>
       </div>
       <div class="tk-tile">
