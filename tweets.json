@@ -1,20 +1,39 @@
 {
-  "updated_at": "2026-05-20T18:12:58Z",
+  "updated_at": "2026-05-21T02:47:11Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2057256295929921996",
+      "text": "4 rolls of wire ordered\n Will you secure your bag before shipment arrives?.  \n$oyci  tradable on @ChoiceXchange \nClocking is ticking for p2p sales.\n $1750 raised $3150 committed and a dev who is still buying.  Do you get it? @ericinjective @TrashcatMeme  @Being_DerpyAF  @Galactic_Mining  @Galactic_Mining",
+      "created_at": "Thu May 21 00:24:57 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2057256295929921996",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 1,
+        "view_count": 29
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIzXswzWgAA-Pnn.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2057040287822700850",
       "text": "https://t.co/As9QEdj0Np",
       "created_at": "Wed May 20 10:06:37 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2057040287822700850",
       "metrics": {
-        "like_count": 6,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 63
+        "like_count": 8,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "view_count": 93
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 9,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 88
+        "view_count": 99
       },
       "media": [
         {
@@ -49,10 +68,10 @@
       "created_at": "Mon May 18 22:39:27 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2056504969503629635",
       "metrics": {
-        "like_count": 5,
+        "like_count": 6,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 323
+        "view_count": 392
       },
       "media": []
     },
@@ -91,7 +110,7 @@
         "like_count": 8,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 95
+        "view_count": 102
       },
       "media": [
         {
@@ -110,7 +129,7 @@
         "like_count": 11,
         "retweet_count": 3,
         "reply_count": 3,
-        "view_count": 163
+        "view_count": 169
       },
       "media": [
         {
@@ -142,7 +161,7 @@
         "like_count": 7,
         "retweet_count": 2,
         "reply_count": 4,
-        "view_count": 138
+        "view_count": 141
       },
       "media": [
         {
@@ -174,7 +193,7 @@
         "like_count": 7,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 91
+        "view_count": 93
       },
       "media": []
     },
@@ -213,28 +232,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 30
+        "view_count": 32
       },
       "media": []
-    },
-    {
-      "id": "2055236535725830447",
-      "text": "Beautiful day for oystering. https://t.co/yjFlOib1SG",
-      "created_at": "Fri May 15 10:39:09 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2055236535725830447",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 66
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HIWqvBYXoAALwHN.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
