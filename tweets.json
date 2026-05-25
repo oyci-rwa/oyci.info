@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T16:55:57Z",
+  "updated_at": "2026-05-25T02:52:51Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -7,7 +7,7 @@
   "tweets": [
     {
       "id": "2058306750684541302",
-      "text": "RT @mattfid1: @GrinDroid @GalacticSynd @injective @0yst3rs @ChoiceXchange @memes_on_inj 🦪🦪🔥📈🚀 https://t.co/vxRZ2MSxNA",
+      "text": "RT @mattfid1: @GrinDroid @GalacticSynd @injective @0yst3rs @ChoiceXchange @memes_on_inj 🦪🦪🔥��🚀 https://t.co/vxRZ2MSxNA",
       "created_at": "Sat May 23 21:59:05 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2058306750684541302",
       "metrics": {
@@ -46,7 +46,7 @@
         "like_count": 8,
         "retweet_count": 6,
         "reply_count": 2,
-        "view_count": 434
+        "view_count": 475
       },
       "media": []
     },
@@ -59,7 +59,7 @@
         "like_count": 6,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 83
+        "view_count": 85
       },
       "media": [
         {
@@ -100,7 +100,7 @@
       "url": "https://x.com/0yst3rs/status/2057478564518269338",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 198,
+        "retweet_count": 201,
         "reply_count": 0,
         "view_count": 0
       },
@@ -191,7 +191,7 @@
         "like_count": 9,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 645
+        "view_count": 660
       },
       "media": []
     },
