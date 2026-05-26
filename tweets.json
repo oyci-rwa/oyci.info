@@ -1,20 +1,96 @@
 {
-  "updated_at": "2026-05-26T02:40:37Z",
+  "updated_at": "2026-05-26T18:21:39Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2059330279337005319",
+      "text": "RT @GrinDroid: @0yst3rs $oyci farming @ChoiceXchange https://t.co/wM2qgIZlSx",
+      "created_at": "Tue May 26 17:46:13 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059330279337005319",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2059329558004789249/img/3dRyEapRbBYu7rPR.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2059329558004789249/vid/avc1/1280x720/oEB3hrpHip5ILbB5.mp4?tag=27"
+        }
+      ]
+    },
+    {
+      "id": "2059299581276434475",
+      "text": "Welcome to the oyster farm @kiraoninjective   $oyci tradeable on @ChoiceXchange  . the only Oyster yield in crypto https://t.co/ApqQ9iVq7w",
+      "created_at": "Tue May 26 15:44:14 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059299581276434475",
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 49
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJQaDYwWwAARK7a.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059291061139247473",
+      "text": "Consistency is key https://t.co/Y9ItqnondL",
+      "created_at": "Tue May 26 15:10:23 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059291061139247473",
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 4,
+        "reply_count": 2,
+        "view_count": 69
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJQSS4mWkAAZsnr.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059211714613149896",
+      "text": "Virginia: The highest-producing state on the East Coast. Virginia has a booming aquaculture industry spanning regions like the Chesapeake Bay, yielding varieties famous for their balanced salinity. \n $oyci we are doing our part! https://t.co/8yUFosAOYQ",
+      "created_at": "Tue May 26 09:55:05 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059211714613149896",
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "view_count": 66
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJPKIlGXkAAdRz6.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2059093050589098279",
       "text": "Glad to get up and share. Stay tuned for more!\nhttps://x.com/i/spaces/1RKjpppBnYZJw",
       "created_at": "Tue May 26 02:03:34 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2059093050589098279",
       "metrics": {
-        "like_count": 1,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 21
+        "view_count": 67
       },
       "media": []
     },
@@ -24,10 +100,10 @@
       "created_at": "Tue May 26 01:27:52 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2059084067186843964",
       "metrics": {
-        "like_count": 2,
-        "retweet_count": 1,
+        "like_count": 3,
+        "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 29
+        "view_count": 73
       },
       "media": []
     },
@@ -39,8 +115,8 @@
       "metrics": {
         "like_count": 10,
         "retweet_count": 4,
-        "reply_count": 2,
-        "view_count": 312
+        "reply_count": 3,
+        "view_count": 415
       },
       "media": []
     },
@@ -66,7 +142,7 @@
         "like_count": 6,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 109
+        "view_count": 119
       },
       "media": [
         {
@@ -117,7 +193,7 @@
         "like_count": 8,
         "retweet_count": 6,
         "reply_count": 2,
-        "view_count": 548
+        "view_count": 561
       },
       "media": []
     },
@@ -130,7 +206,7 @@
         "like_count": 6,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 93
+        "view_count": 95
       },
       "media": [
         {
@@ -154,7 +230,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 94
+        "view_count": 95
       },
       "media": [
         {
@@ -171,7 +247,7 @@
       "url": "https://x.com/0yst3rs/status/2057478564518269338",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 272,
+        "retweet_count": 271,
         "reply_count": 0,
         "view_count": 0
       },
@@ -186,7 +262,7 @@
         "like_count": 10,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 146
+        "view_count": 148
       },
       "media": [
         {
@@ -205,7 +281,7 @@
         "like_count": 11,
         "retweet_count": 4,
         "reply_count": 1,
-        "view_count": 183
+        "view_count": 184
       },
       "media": [
         {
@@ -224,7 +300,7 @@
         "like_count": 9,
         "retweet_count": 4,
         "reply_count": 1,
-        "view_count": 161
+        "view_count": 162
       },
       "media": [
         {
@@ -243,7 +319,7 @@
         "like_count": 9,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 139
+        "view_count": 140
       },
       "media": [
         {
@@ -262,54 +338,9 @@
         "like_count": 9,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 801
+        "view_count": 870
       },
       "media": []
-    },
-    {
-      "id": "2056452518872219662",
-      "text": "RT @GrinDroid: 🔥 Biggest play of the decade. $INJ $OYCI bitcoin:native 🔥\n@GalacticSynd'icate X @0yst3rs X @Galactic_Mining \n\n@ChoiceXchange…",
-      "created_at": "Mon May 18 19:11:02 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2056452518872219662",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 5,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
-    },
-    {
-      "id": "2056404539767509028",
-      "text": "RT @injective: The Injective X Microsoft Nova program launch is officially imminent.\n\nThe program is set to be the largest of its kind to b…",
-      "created_at": "Mon May 18 16:00:23 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2056404539767509028",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 130,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
-    },
-    {
-      "id": "2056314432339259797",
-      "text": "$oyci is built different\nTradeable on @ChoiceXchange \nYour setting the floor and I'm buying on market the whole way up. P2p sales still happening for now.  https://t.me/+Hs_ObFRivWZlZDI5\n@GalacticSynd  @Galactic_Mining  @cryptodungeonma @InjectiveQuants  @PremierNinjas  @TrashcatMeme https://t.co/K4aq4mHIqW",
-      "created_at": "Mon May 18 10:02:19 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2056314432339259797",
-      "metrics": {
-        "like_count": 8,
-        "retweet_count": 3,
-        "reply_count": 1,
-        "view_count": 124
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HIl_E4PWAAAKeY0.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
