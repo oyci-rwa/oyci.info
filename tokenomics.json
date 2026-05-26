@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T10:16:40Z",
+  "updated_at": "2026-05-26T16:05:49Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -29,8 +29,8 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 1673.6178,
-      "apr_percentage": 12.916078594207540917
+      "tvl_usd": 1943.0464,
+      "apr_percentage": 11.499334996908010567
     },
     {
       "id": 3,
@@ -40,8 +40,19 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 1868.8254,
-      "apr_percentage": 12.916451767364257057
+      "tvl_usd": 2144.8206,
+      "apr_percentage": 11.632951378761863738
+    },
+    {
+      "id": 5,
+      "contract": "inj1lww26h0rx5perpf4e68x93ca6pagvr3dzmfkk7",
+      "reward_symbol": "KIRA",
+      "reward_decimals": 6,
+      "programmed_amount_raw": 8380000000000,
+      "schedule_start": "2026-05-26T15:11:00+00:00",
+      "schedule_end": "2026-06-23T15:11:00+00:00",
+      "tvl_usd": 23.9116,
+      "apr_percentage": 1434.603050667411603661
     }
   ]
 }
