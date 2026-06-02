@@ -1,50 +1,24 @@
 {
-  "updated_at": "2026-06-01T09:12:38Z",
+  "updated_at": "2026-06-02T08:20:52Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-06-01T09:12:38+00:00",
+  "forecast_generated": "2026-06-02T08:20:52+00:00",
   "periods": [
     {
       "name": "Overnight",
-      "start": "2026-06-01T05:00:00-04:00",
-      "end": "2026-06-01T06:00:00-04:00",
-      "temperature": 63,
-      "temperature_unit": "F",
-      "wind_speed": "12 mph",
-      "wind_direction": "SW",
-      "short_forecast": "Mostly Cloudy",
-      "detailed_forecast": "Mostly cloudy, with a low around 63. Southwest wind around 12 mph.",
-      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Monday",
-      "start": "2026-06-01T06:00:00-04:00",
-      "end": "2026-06-01T18:00:00-04:00",
-      "temperature": 81,
-      "temperature_unit": "F",
-      "wind_speed": "9 to 14 mph",
-      "wind_direction": "W",
-      "short_forecast": "Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms",
-      "detailed_forecast": "A slight chance of rain showers between 8am and 2pm, then a slight chance of showers and thunderstorms between 2pm and 4pm. Partly sunny, with a high near 81. West wind 9 to 14 mph. Chance of precipitation is 20%.",
-      "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/tsra_hi,20?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Monday Night",
-      "start": "2026-06-01T18:00:00-04:00",
+      "start": "2026-06-02T04:00:00-04:00",
       "end": "2026-06-02T06:00:00-04:00",
       "temperature": 61,
       "temperature_unit": "F",
-      "wind_speed": "14 mph",
+      "wind_speed": "13 mph",
       "wind_direction": "NE",
-      "short_forecast": "Mostly Cloudy",
-      "detailed_forecast": "Mostly cloudy, with a low around 61. Northeast wind around 14 mph.",
-      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "short_forecast": "Partly Cloudy",
+      "detailed_forecast": "Partly cloudy, with a low around 61. Northeast wind around 13 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "is_daytime": false
     },
     {
@@ -53,10 +27,36 @@
       "end": "2026-06-02T18:00:00-04:00",
       "temperature": 71,
       "temperature_unit": "F",
-      "wind_speed": "15 mph",
+      "wind_speed": "14 to 17 mph",
       "wind_direction": "NE",
       "short_forecast": "Sunny",
-      "detailed_forecast": "Sunny, with a high near 71. Northeast wind around 15 mph.",
+      "detailed_forecast": "Sunny, with a high near 71. Northeast wind 14 to 17 mph.",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Tuesday Night",
+      "start": "2026-06-02T18:00:00-04:00",
+      "end": "2026-06-03T06:00:00-04:00",
+      "temperature": 55,
+      "temperature_unit": "F",
+      "wind_speed": "3 to 12 mph",
+      "wind_direction": "NE",
+      "short_forecast": "Clear",
+      "detailed_forecast": "Clear, with a low around 55. Northeast wind 3 to 12 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Wednesday",
+      "start": "2026-06-03T06:00:00-04:00",
+      "end": "2026-06-03T18:00:00-04:00",
+      "temperature": 80,
+      "temperature_unit": "F",
+      "wind_speed": "6 to 10 mph",
+      "wind_direction": "N",
+      "short_forecast": "Sunny",
+      "detailed_forecast": "Sunny, with a high near 80. North wind 6 to 10 mph.",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
       "is_daytime": true
     }
