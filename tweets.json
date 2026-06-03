@@ -1,10 +1,53 @@
 {
-  "updated_at": "2026-06-03T12:38:10Z",
+  "updated_at": "2026-06-03T19:44:46Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2062192761294459301",
+      "text": "RT @GrinDroid: 🥷❤️‍🔥🔥 Name Update deployed\n@GalacticSynd'icate $INJ $SYN https://t.co/HvNaeh7rD6",
+      "created_at": "Wed Jun 03 15:20:42 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2062192761294459301",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2062123749583835137/img/NuAe8PwW4P21ydy_.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2062123749583835137/vid/avc1/752x416/YZ74qUKZihULM1vk.mp4?tag=25"
+        }
+      ]
+    },
+    {
+      "id": "2062178230044365047",
+      "text": "Need an ice permit.. coming soon https://t.co/0Md32LwbSw",
+      "created_at": "Wed Jun 03 14:22:58 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2062178230044365047",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 1,
+        "reply_count": 2,
+        "view_count": 38
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ5UEqMWoAADc3A.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ5UEqAXUAAtuo2.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2061747955560788273",
       "text": "Rise and shine https://t.co/dizxnSIbaG",
@@ -14,7 +57,7 @@
         "like_count": 8,
         "retweet_count": 4,
         "reply_count": 2,
-        "view_count": 309
+        "view_count": 323
       },
       "media": [
         {
@@ -51,7 +94,7 @@
         "like_count": 6,
         "retweet_count": 4,
         "reply_count": 2,
-        "view_count": 130
+        "view_count": 145
       },
       "media": [
         {
@@ -68,7 +111,7 @@
       "url": "https://x.com/0yst3rs/status/2061072583886307677",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 199,
+        "retweet_count": 200,
         "reply_count": 0,
         "view_count": 0
       },
@@ -83,7 +126,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 45
+        "view_count": 46
       },
       "media": [
         {
@@ -115,7 +158,7 @@
         "like_count": 8,
         "retweet_count": 3,
         "reply_count": 2,
-        "view_count": 85
+        "view_count": 88
       },
       "media": [
         {
@@ -134,7 +177,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 34
+        "view_count": 35
       },
       "media": [
         {
@@ -153,7 +196,7 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 91
+        "view_count": 92
       },
       "media": [
         {
@@ -172,7 +215,7 @@
         "like_count": 6,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 126
+        "view_count": 128
       },
       "media": [
         {
@@ -191,7 +234,7 @@
         "like_count": 6,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 89
+        "view_count": 91
       },
       "media": [
         {
@@ -229,7 +272,7 @@
         "like_count": 5,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 102
+        "view_count": 104
       },
       "media": [
         {
@@ -248,7 +291,7 @@
         "like_count": 6,
         "retweet_count": 4,
         "reply_count": 2,
-        "view_count": 127
+        "view_count": 130
       },
       "media": [
         {
@@ -267,7 +310,7 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 82
+        "view_count": 83
       },
       "media": [
         {
@@ -300,32 +343,6 @@
         "retweet_count": 2,
         "reply_count": 0,
         "view_count": 86
-      },
-      "media": []
-    },
-    {
-      "id": "2058957986236690772",
-      "text": "Which coins should I add as incentives to the $oyci/inj LP on @ChoiceXchange.  Whose community wants some motion @InjectiveQuants  @PremierNinjas  @kiraoninjective  @dogwifnunchucks  @DrugsOnInj  @InjPedro  @nonja_inj  @ericinjective",
-      "created_at": "Mon May 25 17:06:52 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2058957986236690772",
-      "metrics": {
-        "like_count": 10,
-        "retweet_count": 4,
-        "reply_count": 3,
-        "view_count": 535
-      },
-      "media": []
-    },
-    {
-      "id": "2058902457158173123",
-      "text": "RT @GrinDroid: 🥷❤️‍🔥🔥 Calm and steadfast is the path of the nINJa.\n\nGMgm @GalacticSynd'icate, @Injective and @0yst3rs .\n\n$INJ $bINJ $SYN $O…",
-      "created_at": "Mon May 25 13:26:13 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2058902457158173123",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 4,
-        "reply_count": 0,
-        "view_count": 0
       },
       "media": []
     }
