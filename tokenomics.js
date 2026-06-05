@@ -112,13 +112,13 @@
 
     const aprAvg = aprTotalWeight > 0 ? aprWeighted / aprTotalWeight : null;
     const liveTile = farms.length
-      ? `<div class="tk-tile tk-live tk-wide">
-           <div class="tk-k">Live on Choice farms</div>
+      ? `<a class="tk-tile tk-live tk-wide tk-link" href="https://choice.exchange/farms" target="_blank" rel="noopener noreferrer">
+           <div class="tk-k">🦪 Join oyster farming now <span class="tk-arrow" aria-hidden="true">→</span></div>
            <div class="tk-v-row">
              <div><span class="tk-v">${aprAvg !== null ? fmtNum(aprAvg, { maximumFractionDigits: 1 }) + "%" : "—"}</span><span class="tk-sub-inline">avg APR (TVL-weighted)</span></div>
              <div><span class="tk-v">$${fmtNum(tvlSum, { maximumFractionDigits: 0 })}</span><span class="tk-sub-inline">total TVL across ${farms.length} farm${farms.length === 1 ? "" : "s"}</span></div>
            </div>
-         </div>`
+         </a>`
       : "";
 
     const holdersTile = `
