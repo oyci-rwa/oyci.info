@@ -420,6 +420,10 @@ a { color: inherit; text-decoration: none; }
   transform: translateY(-1px);
 }
 .tk-tile.tk-link:hover .tk-arrow { transform: translateX(3px); }
+.tk-tile.tk-live.tk-link:hover {
+  background: var(--ink);
+  border-color: var(--amber);
+}
 .tk-tile .tk-v-text {
   display: inline-flex; align-items: baseline; gap: 8px;
   font-size: 18px; font-weight: 700;
