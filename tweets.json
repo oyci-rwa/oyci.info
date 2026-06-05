@@ -1,8 +1,356 @@
 {
-  "updated_at": "2026-06-04T18:11:35Z",
+  "updated_at": "2026-06-05T02:51:36Z",
   "user": {
-    "name": "0yst3rs",
+    "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
-  "tweets": []
+  "tweets": [
+    {
+      "id": "2062549249544335846",
+      "text": "RT @GrinDroid: @PraxMedia $Oyci 🦪 @0yst3rs on @injective\n\n@ChoiceXchange\n\nShellfish is more than a meme! https://t.co/48VlmA4E2Z",
+      "created_at": "Thu Jun 04 14:57:16 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2062549249544335846",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ-iBgcXYAEnacV.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2062511099652591999",
+      "text": "RT @trippykiwi: have you tried out @ChoiceXchange new features yet? \nenhanced volume and liquidity tracking across all sources of liquidity…",
+      "created_at": "Thu Jun 04 12:25:40 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2062511099652591999",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 9,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2062192761294459301",
+      "text": "RT @GrinDroid: 🥷❤️‍🔥🔥 Name Update deployed\n@GalacticSynd'icate $INJ $SYN https://t.co/HvNaeh7rD6",
+      "created_at": "Wed Jun 03 15:20:42 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2062192761294459301",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2062123749583835137/img/NuAe8PwW4P21ydy_.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2062123749583835137/vid/avc1/752x416/YZ74qUKZihULM1vk.mp4?tag=25"
+        }
+      ]
+    },
+    {
+      "id": "2062178230044365047",
+      "text": "Need an ice permit.. coming soon https://t.co/0Md32LwbSw",
+      "created_at": "Wed Jun 03 14:22:58 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2062178230044365047",
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 2,
+        "reply_count": 3,
+        "view_count": 66
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ5UEqMWoAADc3A.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ5UEqAXUAAtuo2.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2061747955560788273",
+      "text": "Rise and shine https://t.co/dizxnSIbaG",
+      "created_at": "Tue Jun 02 09:53:12 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2061747955560788273",
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 4,
+        "reply_count": 2,
+        "view_count": 340
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJzM1J0W4AAUxmE.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJzM1J0XAAAjFtg.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2061596952450453572",
+      "text": "RT @GrinDroid: @AltamashK_inj @injective 🥷❤️‍🔥🔥 Galactic Syndicate\n@leojavi2 x @mattfid1 x @grindroid\nstay alive and have fun SYNer\n\n$INJ $…",
+      "created_at": "Mon Jun 01 23:53:10 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2061596952450453572",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 7,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2061477200273039588",
+      "text": "First day private working the kinks out still need a permit for ice https://t.co/11uKAQgYpU",
+      "created_at": "Mon Jun 01 15:57:19 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2061477200273039588",
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 4,
+        "reply_count": 2,
+        "view_count": 159
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2061476231187492864/pu/img/xp419TEXuUzD48fF.jpg",
+          "video_url": "https://video.twimg.com/ext_tw_video/2061476231187492864/pu/vid/avc1/720x1280/m6vqa_WpbBzQIBJK.mp4?tag=25"
+        }
+      ]
+    },
+    {
+      "id": "2061072583886307677",
+      "text": "RT @injective: NEW: The Injective Vulcan Mainnet upgrade proposal is now live.\n\nOur biggest step yet to be the foundational layer for perpe…",
+      "created_at": "Sun May 31 13:09:31 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2061072583886307677",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 209,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2060726680226848920",
+      "text": "Enjoy the weekend. Shifting gears on the boat into dredging https://t.co/IKF6p12is2",
+      "created_at": "Sat May 30 14:15:01 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2060726680226848920",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 49
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJkr_rUWkAYJuAo.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2060387210466144407",
+      "text": "RT @injective: Regulatory approval for perps in the U.S. has made massive strides\n\nInjective was made in the US. Injective pioneered the fi…",
+      "created_at": "Fri May 29 15:46:05 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2060387210466144407",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 88,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2060298676128317789",
+      "text": "Happy friday!!\n\nWhat a great week\n last day of public seeding\nNext is private lease\n\nThe oyster market is year around https://t.co/3hy8hILn3K",
+      "created_at": "Fri May 29 09:54:17 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2060298676128317789",
+      "metrics": {
+        "like_count": 8,
+        "retweet_count": 3,
+        "reply_count": 2,
+        "view_count": 90
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJemPW9WkAAxfOc.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2060276205941666181",
+      "text": "$oyci is still setting the floor for what's to come. Come get a bag, hop\n in the farms, and get paid https://t.co/8ClS6zXlyq",
+      "created_at": "Fri May 29 08:25:00 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2060276205941666181",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJeR0WoWUAUYvqE.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059934945275953445",
+      "text": "Thankful for another day https://t.co/rPqvdLEmWg",
+      "created_at": "Thu May 28 09:48:57 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059934945275953445",
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 1,
+        "reply_count": 1,
+        "view_count": 93
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJZb6ayWoAQeOOU.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059422799962255830",
+      "text": "When no one else was around you know who was??! @DrugsOnInj    they brought together all the true degens and continues to do so. Welcome to the farm https://t.co/lswbVLZyPv",
+      "created_at": "Tue May 26 23:53:52 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059422799962255830",
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "view_count": 128
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJSKFTRXwAAeFJi.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059349590420127871",
+      "text": "Want to keep up with best parts?  Find all the info at http://oyci.info. @GalacticSynd  @ericinjective  @InjectiveQuants @kiraoninjective https://t.co/BFybPDxE6z",
+      "created_at": "Tue May 26 19:02:57 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059349590420127871",
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 91
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJRHijSWkAARCft.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059330279337005319",
+      "text": "RT @GrinDroid: @0yst3rs $oyci farming @ChoiceXchange https://t.co/wM2qgIZlSx",
+      "created_at": "Tue May 26 17:46:13 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059330279337005319",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2059329558004789249/img/3dRyEapRbBYu7rPR.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2059329558004789249/vid/avc1/1280x720/oEB3hrpHip5ILbB5.mp4?tag=27"
+        }
+      ]
+    },
+    {
+      "id": "2059299581276434475",
+      "text": "Welcome to the oyster farm @kiraoninjective   $oyci tradeable on @ChoiceXchange  . the only Oyster yield in crypto https://t.co/ApqQ9iVq7w",
+      "created_at": "Tue May 26 15:44:14 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059299581276434475",
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 4,
+        "reply_count": 0,
+        "view_count": 104
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJQaDYwWwAARK7a.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059291061139247473",
+      "text": "Consistency is key https://t.co/Y9ItqnondL",
+      "created_at": "Tue May 26 15:10:23 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059291061139247473",
+      "metrics": {
+        "like_count": 6,
+        "retweet_count": 4,
+        "reply_count": 2,
+        "view_count": 130
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJQSS4mWkAAZsnr.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2059211714613149896",
+      "text": "Virginia: The highest-producing state on the East Coast. Virginia has a booming aquaculture industry spanning regions like the Chesapeake Bay, yielding varieties famous for their balanced salinity. \n $oyci we are doing our part! https://t.co/8yUFosAOYQ",
+      "created_at": "Tue May 26 09:55:05 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2059211714613149896",
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "view_count": 83
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJPKIlGXkAAdRz6.jpg",
+          "video_url": null
+        }
+      ]
+    }
+  ]
 }
