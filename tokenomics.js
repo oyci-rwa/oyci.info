@@ -66,13 +66,13 @@
     const latest = lp.latest_unlock;
 
     const lockupTile = `
-      <div class="tk-tile">
-        <div class="tk-k">LP locked</div>
+      <a class="tk-tile tk-link" href="https://choice.exchange/locker?view=explore" target="_blank" rel="noopener noreferrer">
+        <div class="tk-k">🔒 LP locked <span class="tk-arrow" aria-hidden="true">→</span></div>
         <div class="tk-v">${lpPct !== null ? fmtNum(lpPct, { maximumFractionDigits: 1 }) + "%" : "—"}</div>
         <div class="tk-sub">${lpPosCount > 0
           ? "of supply, " + lpPosCount + " position" + (lpPosCount === 1 ? "" : "s") + " on Choice locker"
           : "No positions on Choice locker"}</div>
-      </div>
+      </a>
       <div class="tk-tile">
         <div class="tk-k">OYCI locked</div>
         <div class="tk-v">${oyciLockedDisplay}</div>
