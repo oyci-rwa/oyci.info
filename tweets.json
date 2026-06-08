@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-07T17:08:57Z",
+  "updated_at": "2026-06-08T02:59:26Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2063816021253779862",
+      "text": "New poll in the $oyci telegram\n\nLet your voices be heard.   https://t.me/+Hs_ObFRivWZlZDI5 https://t.co/3ZqPr3uUj6",
+      "created_at": "Mon Jun 08 02:50:57 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2063816021253779862",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 4
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKQlidGXEAA5oXN.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2063413456091418744",
       "text": "RT @Aarshynov: .@injective is making history\n\nATH daily active users this week = 90.5k\n\nMore and more people want to achieve true financial…",
@@ -334,25 +353,6 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HJRHijSWkAARCft.jpg",
           "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2059330279337005319",
-      "text": "RT @GrinDroid: @0yst3rs $oyci farming @ChoiceXchange https://t.co/wM2qgIZlSx",
-      "created_at": "Tue May 26 17:46:13 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2059330279337005319",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 4,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2059329558004789249/img/3dRyEapRbBYu7rPR.jpg",
-          "video_url": "https://video.twimg.com/amplify_video/2059329558004789249/vid/avc1/1280x720/oEB3hrpHip5ILbB5.mp4?tag=27"
         }
       ]
     }
