@@ -1,50 +1,24 @@
 {
-  "updated_at": "2026-06-07T07:47:30Z",
+  "updated_at": "2026-06-08T08:45:52Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-06-07T07:47:30+00:00",
+  "forecast_generated": "2026-06-08T08:45:52+00:00",
   "periods": [
     {
       "name": "Overnight",
-      "start": "2026-06-07T03:00:00-04:00",
-      "end": "2026-06-07T06:00:00-04:00",
-      "temperature": 73,
-      "temperature_unit": "F",
-      "wind_speed": "12 mph",
-      "wind_direction": "SW",
-      "short_forecast": "Partly Cloudy",
-      "detailed_forecast": "Partly cloudy, with a low around 73. Southwest wind around 12 mph.",
-      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Sunday",
-      "start": "2026-06-07T06:00:00-04:00",
-      "end": "2026-06-07T18:00:00-04:00",
-      "temperature": 92,
-      "temperature_unit": "F",
-      "wind_speed": "7 to 10 mph",
-      "wind_direction": "W",
-      "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
-      "detailed_forecast": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 92. West wind 7 to 10 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-      "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,30?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Sunday Night",
-      "start": "2026-06-07T18:00:00-04:00",
+      "start": "2026-06-08T04:00:00-04:00",
       "end": "2026-06-08T06:00:00-04:00",
-      "temperature": 70,
+      "temperature": 72,
       "temperature_unit": "F",
-      "wind_speed": "1 to 6 mph",
-      "wind_direction": "N",
-      "short_forecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-      "detailed_forecast": "A slight chance of showers and thunderstorms before midnight. Partly cloudy, with a low around 70. North wind 1 to 6 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
-      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium",
+      "wind_speed": "8 to 12 mph",
+      "wind_direction": "NE",
+      "short_forecast": "Mostly Clear",
+      "detailed_forecast": "Mostly clear, with a low around 72. Northeast wind 8 to 12 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "is_daytime": false
     },
     {
@@ -53,11 +27,37 @@
       "end": "2026-06-08T18:00:00-04:00",
       "temperature": 76,
       "temperature_unit": "F",
-      "wind_speed": "8 to 14 mph",
-      "wind_direction": "NE",
+      "wind_speed": "15 mph",
+      "wind_direction": "E",
       "short_forecast": "Sunny",
-      "detailed_forecast": "Sunny, with a high near 76. Northeast wind 8 to 14 mph.",
-      "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+      "detailed_forecast": "Sunny, with a high near 76. East wind around 15 mph.",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Monday Night",
+      "start": "2026-06-08T18:00:00-04:00",
+      "end": "2026-06-09T06:00:00-04:00",
+      "temperature": 62,
+      "temperature_unit": "F",
+      "wind_speed": "3 to 14 mph",
+      "wind_direction": "E",
+      "short_forecast": "Partly Cloudy",
+      "detailed_forecast": "Partly cloudy, with a low around 62. East wind 3 to 14 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Tuesday",
+      "start": "2026-06-09T06:00:00-04:00",
+      "end": "2026-06-09T18:00:00-04:00",
+      "temperature": 84,
+      "temperature_unit": "F",
+      "wind_speed": "3 to 9 mph",
+      "wind_direction": "SE",
+      "short_forecast": "Partly Sunny",
+      "detailed_forecast": "Partly sunny, with a high near 84. Southeast wind 3 to 9 mph.",
+      "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
       "is_daytime": true
     }
   ]
