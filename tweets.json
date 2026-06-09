@@ -1,20 +1,39 @@
 {
-  "updated_at": "2026-06-09T10:56:02Z",
+  "updated_at": "2026-06-09T17:56:14Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2064349560726536341",
+      "text": "Now that's oystering https://t.co/zYTjSCoe5z",
+      "created_at": "Tue Jun 09 14:11:03 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2064349560726536341",
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 134
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2064349487489748992/pu/img/kb1VCSEuMNsiUvHf.jpg",
+          "video_url": "https://video.twimg.com/ext_tw_video/2064349487489748992/pu/vid/avc1/720x1280/8u_yqRkAgyEsfvBi.mp4?tag=25"
+        }
+      ]
+    },
+    {
       "id": "2064276155809558553",
       "text": "Can't complain https://t.co/X2NuYocNWl",
       "created_at": "Tue Jun 09 09:19:22 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2064276155809558553",
       "metrics": {
-        "like_count": 1,
-        "retweet_count": 1,
+        "like_count": 4,
+        "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 13
+        "view_count": 34
       },
       "media": [
         {
@@ -30,10 +49,10 @@
       "created_at": "Tue Jun 09 02:43:32 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2064176541907505216",
       "metrics": {
-        "like_count": 1,
-        "retweet_count": 1,
+        "like_count": 3,
+        "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 33
+        "view_count": 44
       },
       "media": []
     },
@@ -257,7 +276,7 @@
         "like_count": 7,
         "retweet_count": 4,
         "reply_count": 2,
-        "view_count": 219
+        "view_count": 220
       },
       "media": [
         {
@@ -327,25 +346,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HJemPW9WkAAxfOc.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2060276205941666181",
-      "text": "$oyci is still setting the floor for what's to come. Come get a bag, hop\n in the farms, and get paid https://t.co/8ClS6zXlyq",
-      "created_at": "Fri May 29 08:25:00 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2060276205941666181",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 37
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJeR0WoWUAUYvqE.jpg",
           "video_url": null
         }
       ]
