@@ -1,10 +1,42 @@
 {
-  "updated_at": "2026-06-09T02:37:17Z",
+  "updated_at": "2026-06-09T10:56:02Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2064276155809558553",
+      "text": "Can't complain https://t.co/X2NuYocNWl",
+      "created_at": "Tue Jun 09 09:19:22 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2064276155809558553",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 13
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKXIGICXEAAIZ2i.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2064176541907505216",
+      "text": "Have you looked at the farms lately on @ChoiceXchange . Oyster yield is real yield. Buy $oyci, LP to get in.\n39% drugs apr @DrugsOnInj\n27% Binj apr  @BackBone_Labs \n47% kira apr @kiraoninjective \n39% inj apr @injective  @ericinjective just getting started who else is active @neptune_finance  @MarioNawfal @nonja_inj @InjPedro @TrashcatMeme",
+      "created_at": "Tue Jun 09 02:43:32 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2064176541907505216",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 1,
+        "view_count": 33
+      },
+      "media": []
+    },
     {
       "id": "2063816021253779862",
       "text": "New poll in the $oyci telegram\n\nLet your voices be heard.   https://t.me/+Hs_ObFRivWZlZDI5 https://t.co/3ZqPr3uUj6",
@@ -14,7 +46,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 32
+        "view_count": 35
       },
       "media": [
         {
@@ -33,7 +65,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 25
+        "view_count": 30
       },
       "media": [
         {
@@ -58,7 +90,7 @@
     },
     {
       "id": "2062905959605850221",
-      "text": "RT @GrinDroid: 🥷���️‍🔥🔥 @GalacticSynd'icate Excursion: Splinter Group - Gen N IRL \n\n$INJ $SYN @mattfid1 @leojavi2 https://t.co/2DdUehhZmV",
+      "text": "RT @GrinDroid: 🥷❤️‍🔥🔥 @GalacticSynd'icate Excursion: Splinter Group - Gen N IRL \n\n$INJ $SYN @mattfid1 @leojavi2 https://t.co/2DdUehhZmV",
       "created_at": "Fri Jun 05 14:34:42 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2062905959605850221",
       "metrics": {
@@ -314,44 +346,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HJeR0WoWUAUYvqE.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2059934945275953445",
-      "text": "Thankful for another day https://t.co/rPqvdLEmWg",
-      "created_at": "Thu May 28 09:48:57 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2059934945275953445",
-      "metrics": {
-        "like_count": 5,
-        "retweet_count": 1,
-        "reply_count": 1,
-        "view_count": 94
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJZb6ayWoAQeOOU.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2059422799962255830",
-      "text": "When no one else was around you know who was??! @DrugsOnInj    they brought together all the true degens and continues to do so. Welcome to the farm https://t.co/lswbVLZyPv",
-      "created_at": "Tue May 26 23:53:52 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2059422799962255830",
-      "metrics": {
-        "like_count": 7,
-        "retweet_count": 3,
-        "reply_count": 1,
-        "view_count": 129
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJSKFTRXwAAeFJi.jpg",
           "video_url": null
         }
       ]
