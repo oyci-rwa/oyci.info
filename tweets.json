@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-11T03:23:19Z",
+  "updated_at": "2026-06-11T12:06:17Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2065003968275620105",
+      "text": "That morning sail https://t.co/oyEEeoMsQH",
+      "created_at": "Thu Jun 11 09:31:26 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2065003968275620105",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 25
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2065002249160404992/pu/img/D6hePqQbbqSOfC_p.jpg",
+          "video_url": "https://video.twimg.com/ext_tw_video/2065002249160404992/pu/vid/avc1/720x1280/vEv23CEwZgtt7v3t.mp4?tag=25"
+        }
+      ]
+    },
     {
       "id": "2064349560726536341",
       "text": "Now that's oystering https://t.co/zYTjSCoe5z",
@@ -14,7 +33,7 @@
         "like_count": 5,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 338
+        "view_count": 343
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 59
+        "view_count": 61
       },
       "media": []
     },
@@ -330,25 +349,6 @@
         "view_count": 0
       },
       "media": []
-    },
-    {
-      "id": "2060298676128317789",
-      "text": "Happy friday!!\n\nWhat a great week\n last day of public seeding\nNext is private lease\n\nThe oyster market is year around https://t.co/3hy8hILn3K",
-      "created_at": "Fri May 29 09:54:17 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2060298676128317789",
-      "metrics": {
-        "like_count": 8,
-        "retweet_count": 3,
-        "reply_count": 2,
-        "view_count": 92
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJemPW9WkAAxfOc.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
