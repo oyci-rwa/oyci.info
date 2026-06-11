@@ -1,20 +1,39 @@
 {
-  "updated_at": "2026-06-11T12:06:17Z",
+  "updated_at": "2026-06-11T18:43:35Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2065122933198999859",
+      "text": "On the meat https://t.co/E8dKIC9sjE",
+      "created_at": "Thu Jun 11 17:24:10 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2065122933198999859",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 18
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2065122673349246976/pu/img/ezvNRiXgGixzHuUB.jpg",
+          "video_url": "https://video.twimg.com/ext_tw_video/2065122673349246976/pu/vid/avc1/720x1280/y4AerXb987W1--_L.mp4?tag=25"
+        }
+      ]
+    },
+    {
       "id": "2065003968275620105",
       "text": "That morning sail https://t.co/oyEEeoMsQH",
       "created_at": "Thu Jun 11 09:31:26 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2065003968275620105",
       "metrics": {
-        "like_count": 2,
+        "like_count": 4,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 25
+        "view_count": 40
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 5,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 343
+        "view_count": 358
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 5,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 64
+        "view_count": 73
       },
       "media": [
         {
@@ -71,7 +90,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 61
+        "view_count": 65
       },
       "media": []
     },
@@ -84,7 +103,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 38
+        "view_count": 39
       },
       "media": [
         {
@@ -336,19 +355,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2060387210466144407",
-      "text": "RT @injective: Regulatory approval for perps in the U.S. has made massive strides\n\nInjective was made in the US. Injective pioneered the fi…",
-      "created_at": "Fri May 29 15:46:05 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2060387210466144407",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 88,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
     }
   ]
 }
