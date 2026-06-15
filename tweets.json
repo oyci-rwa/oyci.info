@@ -1,10 +1,34 @@
 {
-  "updated_at": "2026-06-15T03:36:03Z",
+  "updated_at": "2026-06-15T13:50:13Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2066462203717234734",
+      "text": "30 minutes makes a difference.   Just keep going! https://t.co/rUPD9eCVlU",
+      "created_at": "Mon Jun 15 10:05:57 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2066462203717234734",
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 25
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK2MapnXUAAOVqs.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK2MarJXQAAO8gA.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2065122933198999859",
       "text": "On the meat https://t.co/E8dKIC9sjE",
@@ -14,7 +38,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 64
+        "view_count": 67
       },
       "media": [
         {
@@ -33,7 +57,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 60
+        "view_count": 63
       },
       "media": [
         {
@@ -52,7 +76,7 @@
         "like_count": 6,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 385
+        "view_count": 391
       },
       "media": [
         {
@@ -71,7 +95,7 @@
         "like_count": 5,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 89
+        "view_count": 92
       },
       "media": [
         {
@@ -87,10 +111,10 @@
       "created_at": "Tue Jun 09 02:43:32 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2064176541907505216",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 2,
-        "reply_count": 1,
-        "view_count": 77
+        "reply_count": 2,
+        "view_count": 81
       },
       "media": []
     },
@@ -103,7 +127,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 42
+        "view_count": 43
       },
       "media": [
         {
@@ -122,7 +146,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 38
+        "view_count": 39
       },
       "media": [
         {
@@ -277,7 +301,7 @@
         "like_count": 8,
         "retweet_count": 4,
         "reply_count": 2,
-        "view_count": 351
+        "view_count": 352
       },
       "media": [
         {
@@ -314,7 +338,7 @@
         "like_count": 7,
         "retweet_count": 4,
         "reply_count": 2,
-        "view_count": 224
+        "view_count": 225
       },
       "media": [
         {
@@ -336,25 +360,6 @@
         "view_count": 0
       },
       "media": []
-    },
-    {
-      "id": "2060726680226848920",
-      "text": "Enjoy the weekend. Shifting gears on the boat into dredging https://t.co/IKF6p12is2",
-      "created_at": "Sat May 30 14:15:01 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2060726680226848920",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 50
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJkr_rUWkAYJuAo.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
