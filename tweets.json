@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-16T03:32:35Z",
+  "updated_at": "2026-06-16T12:48:35Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2066810512826917143",
+      "text": "Out the house at 4am just for moments like this https://t.co/KJIa2SSpoO",
+      "created_at": "Tue Jun 16 09:10:00 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2066810512826917143",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 11
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK7JNCYXIAACD_W.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2066462203717234734",
       "text": "30 minutes makes a difference.   Just keep going! https://t.co/rUPD9eCVlU",
@@ -14,7 +33,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 40
+        "view_count": 43
       },
       "media": [
         {
@@ -38,7 +57,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 68
+        "view_count": 69
       },
       "media": [
         {
@@ -57,7 +76,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 63
+        "view_count": 64
       },
       "media": [
         {
@@ -76,7 +95,7 @@
         "like_count": 6,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 391
+        "view_count": 392
       },
       "media": [
         {
@@ -92,10 +111,10 @@
       "created_at": "Tue Jun 09 09:19:22 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2064276155809558553",
       "metrics": {
-        "like_count": 5,
-        "retweet_count": 2,
+        "like_count": 6,
+        "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 92
+        "view_count": 95
       },
       "media": [
         {
@@ -114,7 +133,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 81
+        "view_count": 82
       },
       "media": []
     },
@@ -127,7 +146,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 43
+        "view_count": 44
       },
       "media": [
         {
@@ -146,7 +165,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 39
+        "view_count": 41
       },
       "media": [
         {
@@ -347,19 +366,6 @@
           "video_url": "https://video.twimg.com/ext_tw_video/2061476231187492864/pu/vid/avc1/720x1280/m6vqa_WpbBzQIBJK.mp4?tag=25"
         }
       ]
-    },
-    {
-      "id": "2061072583886307677",
-      "text": "RT @injective: NEW: The Injective Vulcan Mainnet upgrade proposal is now live.\n\nOur biggest step yet to be the foundational layer for perpe…",
-      "created_at": "Sun May 31 13:09:31 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2061072583886307677",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 208,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
     }
   ]
 }
