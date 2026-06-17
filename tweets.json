@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-17T03:30:19Z",
+  "updated_at": "2026-06-17T12:12:42Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2067183104050016556",
+      "text": "Love a calm sail https://t.co/XKx31fgreo",
+      "created_at": "Wed Jun 17 09:50:33 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2067183104050016556",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 21
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAcER_WAAAph9s.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2066810512826917143",
       "text": "Out the house at 4am just for moments like this https://t.co/KJIa2SSpoO",
@@ -14,7 +33,7 @@
         "like_count": 1,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 26
+        "view_count": 27
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 48
+        "view_count": 49
       },
       "media": [
         {
@@ -347,25 +366,6 @@
         "view_count": 0
       },
       "media": []
-    },
-    {
-      "id": "2061477200273039588",
-      "text": "First day private working the kinks out still need a permit for ice https://t.co/11uKAQgYpU",
-      "created_at": "Mon Jun 01 15:57:19 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2061477200273039588",
-      "metrics": {
-        "like_count": 7,
-        "retweet_count": 4,
-        "reply_count": 2,
-        "view_count": 225
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2061476231187492864/pu/img/xp419TEXuUzD48fF.jpg",
-          "video_url": "https://video.twimg.com/ext_tw_video/2061476231187492864/pu/vid/avc1/720x1280/m6vqa_WpbBzQIBJK.mp4?tag=25"
-        }
-      ]
     }
   ]
 }
