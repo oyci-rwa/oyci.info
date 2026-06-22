@@ -1,10 +1,42 @@
 {
-  "updated_at": "2026-06-22T03:36:56Z",
+  "updated_at": "2026-06-22T13:30:37Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2069009341714256295",
+      "text": "Dredge daddy\n\n https://x.com/i/broadcasts/1AxRnnVzgWyxl",
+      "created_at": "Mon Jun 22 10:47:22 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2069009341714256295",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "media": []
+    },
+    {
+      "id": "2068985246603727060",
+      "text": "Happily sailing https://t.co/wUa6OHdWv3",
+      "created_at": "Mon Jun 22 09:11:37 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2068985246603727060",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 16
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLaDBUGWYAAAIWD.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2067183104050016556",
       "text": "Love a calm sail https://t.co/XKx31fgreo",
@@ -14,7 +46,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 82
+        "view_count": 83
       },
       "media": [
         {
@@ -33,7 +65,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 37
+        "view_count": 38
       },
       "media": [
         {
@@ -52,7 +84,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 62
+        "view_count": 63
       },
       "media": [
         {
@@ -76,7 +108,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 76
+        "view_count": 77
       },
       "media": [
         {
@@ -95,7 +127,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 69
+        "view_count": 70
       },
       "media": [
         {
@@ -114,7 +146,7 @@
         "like_count": 6,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 397
+        "view_count": 399
       },
       "media": [
         {
@@ -133,7 +165,7 @@
         "like_count": 6,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 108
+        "view_count": 110
       },
       "media": [
         {
@@ -152,7 +184,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 90
+        "view_count": 92
       },
       "media": []
     },
@@ -329,43 +361,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2061747955560788273",
-      "text": "Rise and shine https://t.co/dizxnSIbaG",
-      "created_at": "Tue Jun 02 09:53:12 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2061747955560788273",
-      "metrics": {
-        "like_count": 8,
-        "retweet_count": 4,
-        "reply_count": 2,
-        "view_count": 356
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJzM1J0W4AAUxmE.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJzM1J0XAAAjFtg.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2061596952450453572",
-      "text": "RT @GrinDroid: @AltamashK_inj @injective 🥷❤️‍🔥🔥 Galactic Syndicate\n@leojavi2 x @mattfid1 x @grindroid\nstay alive and have fun SYNer\n\n$INJ $…",
-      "created_at": "Mon Jun 01 23:53:10 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2061596952450453572",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 7,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
     }
   ]
 }
