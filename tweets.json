@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-23T02:42:31Z",
+  "updated_at": "2026-06-23T10:57:56Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2069358051488825641",
+      "text": "Still about 40min of sailing https://t.co/2zIXMVwu2c",
+      "created_at": "Tue Jun 23 09:53:00 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2069358051488825641",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLfWLSWWsAEFaiX.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2069009341714256295",
       "text": "Dredge daddy\n\n https://x.com/i/broadcasts/1AxRnnVzgWyxl",
@@ -14,7 +33,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 55
+        "view_count": 65
       },
       "media": []
     },
@@ -27,7 +46,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 21
+        "view_count": 22
       },
       "media": [
         {
@@ -46,7 +65,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 83
+        "view_count": 84
       },
       "media": [
         {
@@ -335,30 +354,6 @@
           "type": "video",
           "url": "https://pbs.twimg.com/amplify_video_thumb/2062123749583835137/img/NuAe8PwW4P21ydy_.jpg",
           "video_url": "https://video.twimg.com/amplify_video/2062123749583835137/vid/avc1/752x416/YZ74qUKZihULM1vk.mp4?tag=25"
-        }
-      ]
-    },
-    {
-      "id": "2062178230044365047",
-      "text": "Need an ice permit.. coming soon https://t.co/0Md32LwbSw",
-      "created_at": "Wed Jun 03 14:22:58 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2062178230044365047",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 2,
-        "reply_count": 3,
-        "view_count": 76
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJ5UEqMWoAADc3A.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJ5UEqAXUAAtuo2.jpg",
-          "video_url": null
         }
       ]
     }
