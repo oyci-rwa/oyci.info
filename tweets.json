@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-24T02:43:09Z",
+  "updated_at": "2026-06-24T10:43:45Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2069720362166751399",
+      "text": "30min to go still. Happy to just have the opportunity. https://t.co/uRlUb0iGj2",
+      "created_at": "Wed Jun 24 09:52:42 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2069720362166751399",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 3
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLkfsn3XMAAzpYw.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2069358051488825641",
       "text": "Still about 40min of sailing https://t.co/2zIXMVwu2c",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 31
+        "view_count": 33
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 69
+        "view_count": 70
       },
       "media": []
     },
@@ -46,7 +65,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 24
+        "view_count": 25
       },
       "media": [
         {
@@ -65,7 +84,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 85
+        "view_count": 86
       },
       "media": [
         {
@@ -84,7 +103,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 39
+        "view_count": 40
       },
       "media": [
         {
@@ -337,25 +356,6 @@
         "view_count": 0
       },
       "media": []
-    },
-    {
-      "id": "2062192761294459301",
-      "text": "RT @GrinDroid: 🥷❤️‍🔥🔥 Name Update deployed\n@GalacticSynd'icate $INJ $SYN https://t.co/HvNaeh7rD6",
-      "created_at": "Wed Jun 03 15:20:42 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2062192761294459301",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 3,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2062123749583835137/img/NuAe8PwW4P21ydy_.jpg",
-          "video_url": "https://video.twimg.com/amplify_video/2062123749583835137/vid/avc1/752x416/YZ74qUKZihULM1vk.mp4?tag=25"
-        }
-      ]
     }
   ]
 }
