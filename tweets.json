@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-25T02:43:44Z",
+  "updated_at": "2026-06-25T10:37:31Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2070078069482606608",
+      "text": "Another farm added      USDC \nKira farm topped off\n$oyci farms on @ChoiceXchange \nApr that isn't inflation \n\n@DrugsOnInj @BackBoneLabsHub @kiraoninjective @TrashcatMeme  @ericinjective  @FourPillarsFP @Entrepreneur @Being_DerpyAF @GalacticSynd @Galactic_Mining https://t.co/bsQyhNfHKk",
+      "created_at": "Thu Jun 25 09:34:06 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2070078069482606608",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 21
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLpkyJ-XoAAzoSW.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2069720362166751399",
       "text": "30min to go still. Happy to just have the opportunity. https://t.co/uRlUb0iGj2",
@@ -14,7 +33,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 43
+        "view_count": 47
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 45
+        "view_count": 49
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 71
+        "view_count": 72
       },
       "media": []
     },
@@ -65,7 +84,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 26
+        "view_count": 27
       },
       "media": [
         {
@@ -84,7 +103,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 86
+        "view_count": 87
       },
       "media": [
         {
@@ -103,7 +122,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 40
+        "view_count": 41
       },
       "media": [
         {
@@ -122,7 +141,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 64
+        "view_count": 65
       },
       "media": [
         {
@@ -222,7 +241,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 93
+        "view_count": 94
       },
       "media": []
     },
@@ -343,19 +362,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2062511099652591999",
-      "text": "RT @trippykiwi: have you tried out @ChoiceXchange new features yet? \nenhanced volume and liquidity tracking across all sources of liquidity…",
-      "created_at": "Thu Jun 04 12:25:40 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2062511099652591999",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 10,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
     }
   ]
 }
