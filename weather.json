@@ -1,49 +1,23 @@
 {
-  "updated_at": "2026-06-25T07:33:58Z",
+  "updated_at": "2026-06-26T07:41:58Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-06-25T07:33:58+00:00",
+  "forecast_generated": "2026-06-26T07:41:58+00:00",
   "periods": [
     {
       "name": "Overnight",
-      "start": "2026-06-25T03:00:00-04:00",
-      "end": "2026-06-25T06:00:00-04:00",
-      "temperature": 68,
-      "temperature_unit": "F",
-      "wind_speed": "6 mph",
-      "wind_direction": "S",
-      "short_forecast": "Mostly Clear",
-      "detailed_forecast": "Mostly clear, with a low around 68. South wind around 6 mph.",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Thursday",
-      "start": "2026-06-25T06:00:00-04:00",
-      "end": "2026-06-25T18:00:00-04:00",
-      "temperature": 88,
-      "temperature_unit": "F",
-      "wind_speed": "3 to 7 mph",
-      "wind_direction": "S",
-      "short_forecast": "Mostly Sunny",
-      "detailed_forecast": "Mostly sunny, with a high near 88. South wind 3 to 7 mph.",
-      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Thursday Night",
-      "start": "2026-06-25T18:00:00-04:00",
+      "start": "2026-06-26T03:00:00-04:00",
       "end": "2026-06-26T06:00:00-04:00",
       "temperature": 72,
       "temperature_unit": "F",
       "wind_speed": "10 mph",
-      "wind_direction": "S",
+      "wind_direction": "SW",
       "short_forecast": "Mostly Clear",
-      "detailed_forecast": "Mostly clear, with a low around 72. South wind around 10 mph.",
+      "detailed_forecast": "Mostly clear, with a low around 72. Southwest wind around 10 mph.",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "is_daytime": false
     },
@@ -51,13 +25,39 @@
       "name": "Friday",
       "start": "2026-06-26T06:00:00-04:00",
       "end": "2026-06-26T18:00:00-04:00",
-      "temperature": 95,
+      "temperature": 94,
       "temperature_unit": "F",
-      "wind_speed": "9 mph",
+      "wind_speed": "12 mph",
       "wind_direction": "SW",
       "short_forecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
-      "detailed_forecast": "A slight chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 95. Heat index values as high as 100. Southwest wind around 9 mph. Chance of precipitation is 20%.",
+      "detailed_forecast": "A slight chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 94. Southwest wind around 12 mph. Chance of precipitation is 20%.",
       "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,20?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Friday Night",
+      "start": "2026-06-26T18:00:00-04:00",
+      "end": "2026-06-27T06:00:00-04:00",
+      "temperature": 75,
+      "temperature_unit": "F",
+      "wind_speed": "12 mph",
+      "wind_direction": "SW",
+      "short_forecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+      "detailed_forecast": "A slight chance of showers and thunderstorms before 8pm, then a chance of showers and thunderstorms between 8pm and 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 75. Southwest wind around 12 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
+      "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Saturday",
+      "start": "2026-06-27T06:00:00-04:00",
+      "end": "2026-06-27T18:00:00-04:00",
+      "temperature": 90,
+      "temperature_unit": "F",
+      "wind_speed": "10 mph",
+      "wind_direction": "SW",
+      "short_forecast": "Slight Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
+      "detailed_forecast": "A slight chance of showers and thunderstorms before 11am, then showers and thunderstorms likely. Partly sunny, with a high near 90. Southwest wind around 10 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible.",
+      "icon": "https://api.weather.gov/icons/land/day/tsra_sct,30/tsra_sct,60?size=medium",
       "is_daytime": true
     }
   ]
