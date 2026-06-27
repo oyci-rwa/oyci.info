@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-06-26T17:42:40Z",
+  "updated_at": "2026-06-27T02:38:50Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2070673562839461934",
+      "text": "RT @trippykiwi: We keep it pushing on $INJ",
+      "created_at": "Sat Jun 27 01:00:23 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2070673562839461934",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 2
+      },
+      "media": []
+    },
     {
       "id": "2070078069482606608",
       "text": "Another farm added      USDC \nKira farm topped off\n$oyci farms on @ChoiceXchange \nApr that isn't inflation \n\n@DrugsOnInj @BackBoneLabsHub @kiraoninjective @TrashcatMeme  @ericinjective  @FourPillarsFP @Entrepreneur @Being_DerpyAF @GalacticSynd @Galactic_Mining https://t.co/bsQyhNfHKk",
@@ -14,7 +27,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 32
+        "view_count": 35
       },
       "media": [
         {
@@ -33,7 +46,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 50
+        "view_count": 52
       },
       "media": [
         {
@@ -52,7 +65,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 51
+        "view_count": 52
       },
       "media": [
         {
@@ -71,7 +84,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 74
+        "view_count": 75
       },
       "media": []
     },
@@ -84,7 +97,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 29
+        "view_count": 30
       },
       "media": [
         {
@@ -340,25 +353,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HKCsKoIXsAAh10a.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2062549249544335846",
-      "text": "RT @GrinDroid: @PraxMedia $Oyci 🦪 @0yst3rs on @injective\n\n@ChoiceXchange\n\nShellfish is more than a meme! https://t.co/48VlmA4E2Z",
-      "created_at": "Thu Jun 04 14:57:16 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2062549249544335846",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 5,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HJ-iBgcXYAEnacV.jpg",
           "video_url": null
         }
       ]
