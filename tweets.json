@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-06-28T17:03:14Z",
+  "updated_at": "2026-06-30T10:52:26Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2071891930070343934",
+      "text": "Another beautiful day https://t.co/zRpUT2n8m3",
+      "created_at": "Tue Jun 30 09:41:44 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2071891930070343934",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 7
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMDWujCXMAEQk_E.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2070673562839461934",
       "text": "RT @trippykiwi: We keep it pushing on $INJ",
@@ -334,25 +353,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HKCxZgzXEAAow91.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2062837945724293544",
-      "text": "Happy Friday. Crypto got you feeling down?  Move some risk/yield off chain with $oyci.  Buy it on @ChoiceXchange . Then let me do the work! https://t.co/rOppv6dWeN",
-      "created_at": "Fri Jun 05 10:04:26 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2062837945724293544",
-      "metrics": {
-        "like_count": 5,
-        "retweet_count": 4,
-        "reply_count": 0,
-        "view_count": 77
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HKCsKoIXsAAh10a.jpg",
           "video_url": null
         }
       ]
