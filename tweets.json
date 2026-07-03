@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-03T02:25:39Z",
+  "updated_at": "2026-07-03T10:29:51Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2072984691607535864",
+      "text": "Lovely day for some heat. https://t.co/OCDZhkY0hO",
+      "created_at": "Fri Jul 03 10:03:59 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2072984691607535864",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 5
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMS4k2kW0AA-Cj3.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2072264345539461436",
       "text": "RT @0yst3rs: @CoinMarketCap https://t.co/09tbbXuybR",
@@ -292,7 +311,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 96
+        "view_count": 97
       },
       "media": []
     },
@@ -333,19 +352,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2063413456091418744",
-      "text": "RT @Aarshynov: .@injective is making history\n\nATH daily active users this week = 90.5k\n\nMore and more people want to achieve true financial…",
-      "created_at": "Sun Jun 07 00:11:18 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2063413456091418744",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
     }
   ]
 }
