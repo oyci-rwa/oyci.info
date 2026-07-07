@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T02:33:30Z",
+  "updated_at": "2026-07-07T17:54:23Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -11,10 +11,10 @@
       "created_at": "Fri Jul 03 10:03:59 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2072984691607535864",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 65
+        "view_count": 68
       },
       "media": [
         {
@@ -49,10 +49,10 @@
       "created_at": "Tue Jun 30 09:41:44 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2071891930070343934",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 96
+        "view_count": 99
       },
       "media": [
         {
@@ -81,10 +81,10 @@
       "created_at": "Thu Jun 25 09:34:06 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2070078069482606608",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 41
+        "view_count": 43
       },
       "media": [
         {
@@ -100,10 +100,10 @@
       "created_at": "Wed Jun 24 09:52:42 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2069720362166751399",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 58
+        "view_count": 60
       },
       "media": [
         {
@@ -119,10 +119,10 @@
       "created_at": "Tue Jun 23 09:53:00 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2069358051488825641",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 56
+        "view_count": 58
       },
       "media": [
         {
@@ -138,10 +138,10 @@
       "created_at": "Mon Jun 22 10:47:22 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2069009341714256295",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 77
+        "view_count": 79
       },
       "media": []
     },
@@ -151,10 +151,10 @@
       "created_at": "Mon Jun 22 09:11:37 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2068985246603727060",
       "metrics": {
-        "like_count": 1,
+        "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 32
+        "view_count": 34
       },
       "media": [
         {
@@ -173,7 +173,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 89
+        "view_count": 90
       },
       "media": [
         {
