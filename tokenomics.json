@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T14:37:01Z",
+  "updated_at": "2026-07-08T19:51:46Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -29,7 +29,7 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 289.1077,
+      "tvl_usd": 290.4867,
       "apr_percentage": 0E-18
     },
     {
@@ -40,8 +40,8 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 323.1728,
-      "apr_percentage": 57.175298005269043293
+      "tvl_usd": 324.7142,
+      "apr_percentage": 56.574178821390523607
     },
     {
       "id": 6,
@@ -51,8 +51,8 @@
       "programmed_amount_raw": 385000000000,
       "schedule_start": "2026-05-26T23:42:00+00:00",
       "schedule_end": "2026-07-10T23:42:00+00:00",
-      "tvl_usd": 746.7383,
-      "apr_percentage": 41.378671891987483344
+      "tvl_usd": 750.2999,
+      "apr_percentage": 41.115316246884938103
     },
     {
       "id": 8,
@@ -62,8 +62,8 @@
       "programmed_amount_raw": 16000000,
       "schedule_start": "2026-06-25T02:55:00+00:00",
       "schedule_end": "2026-07-25T02:55:00+00:00",
-      "tvl_usd": 621.8901,
-      "apr_percentage": 31.295533891256377599
+      "tvl_usd": 624.8563,
+      "apr_percentage": 31.147632084275230721
     },
     {
       "id": 5,
@@ -73,8 +73,8 @@
       "programmed_amount_raw": 8380000000000,
       "schedule_start": "2026-05-26T15:11:00+00:00",
       "schedule_end": "2026-06-23T15:11:00+00:00",
-      "tvl_usd": 774.2024,
-      "apr_percentage": 48.197956686458962565
+      "tvl_usd": 777.8951,
+      "apr_percentage": 48.542077467651473760
     }
   ]
 }
