@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-08T17:23:44Z",
+  "updated_at": "2026-07-09T10:49:06Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2075146525143917039",
+      "text": "Back on the water https://t.co/gIHt1bghdr",
+      "created_at": "Thu Jul 09 09:14:20 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075146525143917039",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 4
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMxmwuVXUAADZ6p.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2072984691607535864",
       "text": "Lovely day for some heat. https://t.co/OCDZhkY0hO",
