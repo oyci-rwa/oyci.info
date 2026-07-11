@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-07-10T17:43:04Z",
+  "updated_at": "2026-07-11T02:04:59Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2075762951185723713",
+      "text": "RT @injective: Robinhood Chain assets on $INJ\n\nL O A D I N G https://t.co/jFFBZVUTk4",
+      "created_at": "Sat Jul 11 02:03:48 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075762951185723713",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 92,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM4BxDzWwAAoJpn.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM4BxDvXMAA0j02.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2075521163913003060",
       "text": "Game time \n\nHappy oyster Friday.\n\n@GalacticSynd  @Galactic_Mining  @TrashcatMeme  @culturemaxxing \n\n$oyci taking it a day at a time https://t.co/dQCOnzdcar",
       "created_at": "Fri Jul 10 10:03:01 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2075521163913003060",
       "metrics": {
-        "like_count": 2,
-        "retweet_count": 1,
+        "like_count": 3,
+        "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 142
+        "view_count": 162
       },
       "media": [
         {
@@ -33,7 +57,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 62
+        "view_count": 72
       },
       "media": [
         {
@@ -90,7 +114,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 114
+        "view_count": 115
       },
       "media": [
         {
@@ -352,25 +376,6 @@
         "view_count": 97
       },
       "media": []
-    },
-    {
-      "id": "2063816021253779862",
-      "text": "New poll in the $oyci telegram\n\nLet your voices be heard.   https://t.me/+Hs_ObFRivWZlZDI5 https://t.co/3ZqPr3uUj6",
-      "created_at": "Mon Jun 08 02:50:57 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2063816021253779862",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 47
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HKQlidGXEAA5oXN.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
