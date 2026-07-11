@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-11T09:22:04Z",
+  "updated_at": "2026-07-11T16:49:22Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2075918613186220301",
+      "text": "Proudly presenting a new farm of $sai offered through the oyci/inj LP.  A true builder for the community and well deserving of recognition.   \n$oyci is a commercial fishing operation located in Virginia.  Real yield coming on chain not inflation.\n@injective  @ericinjective  @GalacticSynd  @Galactic_Mining  @t",
+      "created_at": "Sat Jul 11 12:22:20 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075918613186220301",
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 85
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM8klQbWEAAbJt_.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2075762951185723713",
       "text": "RT @injective: Robinhood Chain assets on $INJ\n\nL O A D I N G https://t.co/jFFBZVUTk4",
@@ -12,9 +31,9 @@
       "url": "https://x.com/0yst3rs/status/2075762951185723713",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 100,
+        "retweet_count": 110,
         "reply_count": 0,
-        "view_count": 1
+        "view_count": 2
       },
       "media": [
         {
@@ -38,7 +57,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 170
+        "view_count": 177
       },
       "media": [
         {
@@ -57,7 +76,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 74
+        "view_count": 79
       },
       "media": [
         {
@@ -76,7 +95,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 80
+        "view_count": 81
       },
       "media": [
         {
@@ -114,7 +133,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 115
+        "view_count": 116
       },
       "media": [
         {
@@ -335,7 +354,7 @@
         "like_count": 6,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 402
+        "view_count": 403
       },
       "media": [
         {
@@ -363,19 +382,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2064176541907505216",
-      "text": "Have you looked at the farms lately on @ChoiceXchange . Oyster yield is real yield. Buy $oyci, LP to get in.\n39% drugs apr @DrugsOnInj\n27% Binj apr  @BackBone_Labs \n47% kira apr @kiraoninjective \n39% inj apr @injective  @ericinjective just getting started who else is active @neptune_finance  @MarioNawfal @nonja_inj @InjPedro @TrashcatMeme",
-      "created_at": "Tue Jun 09 02:43:32 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2064176541907505216",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 2,
-        "reply_count": 2,
-        "view_count": 97
-      },
-      "media": []
     }
   ]
 }
