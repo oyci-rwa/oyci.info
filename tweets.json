@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T02:04:59Z",
+  "updated_at": "2026-07-11T09:22:04Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -12,9 +12,9 @@
       "url": "https://x.com/0yst3rs/status/2075762951185723713",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 92,
+        "retweet_count": 100,
         "reply_count": 0,
-        "view_count": 0
+        "view_count": 1
       },
       "media": [
         {
@@ -38,7 +38,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 162
+        "view_count": 170
       },
       "media": [
         {
@@ -57,7 +57,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 72
+        "view_count": 74
       },
       "media": [
         {
@@ -76,7 +76,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 79
+        "view_count": 80
       },
       "media": [
         {
