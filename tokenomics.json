@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T08:29:34Z",
+  "updated_at": "2026-07-12T13:51:26Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -29,7 +29,7 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 309.0184,
+      "tvl_usd": 304.1836,
       "apr_percentage": 0E-18
     },
     {
@@ -40,8 +40,8 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 345.4296,
-      "apr_percentage": 57.261986150742696414
+      "tvl_usd": 340.0251,
+      "apr_percentage": 57.261986150742696418
     },
     {
       "id": 10,
@@ -51,8 +51,8 @@
       "programmed_amount_raw": 250000000000000000000,
       "schedule_start": "2026-07-10T17:40:00+00:00",
       "schedule_end": "2026-08-09T17:40:00+00:00",
-      "tvl_usd": 428.9625,
-      "apr_percentage": 73.894753059633392595
+      "tvl_usd": 422.2511,
+      "apr_percentage": 75.878493859841289025
     },
     {
       "id": 6,
@@ -62,8 +62,8 @@
       "programmed_amount_raw": 385000000000,
       "schedule_start": "2026-05-26T23:42:00+00:00",
       "schedule_end": "2026-07-10T23:42:00+00:00",
-      "tvl_usd": 798.1657,
-      "apr_percentage": 14.196565864082036991
+      "tvl_usd": 785.6779,
+      "apr_percentage": 14.196565864082123124
     },
     {
       "id": 8,
@@ -73,8 +73,8 @@
       "programmed_amount_raw": 16000000,
       "schedule_start": "2026-06-25T02:55:00+00:00",
       "schedule_end": "2026-07-25T02:55:00+00:00",
-      "tvl_usd": 302.9117,
-      "apr_percentage": 64.252328841111580187
+      "tvl_usd": 298.1725,
+      "apr_percentage": 65.274257024936393338
     },
     {
       "id": 5,
@@ -84,8 +84,8 @@
       "programmed_amount_raw": 8380000000000,
       "schedule_start": "2026-05-26T15:11:00+00:00",
       "schedule_end": "2026-06-23T15:11:00+00:00",
-      "tvl_usd": 760.3664,
-      "apr_percentage": 37.724872522219342011
+      "tvl_usd": 748.4700,
+      "apr_percentage": 37.724872522208663946
     }
   ]
 }
