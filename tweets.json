@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-13T02:10:21Z",
+  "updated_at": "2026-07-13T10:54:19Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2076611647746027690",
+      "text": "$oyci is steady building and paying LP providers.   Check out @ChoiceXchange .  Get involved in the oyster operation @ericinjective  @ABCSharkTank  @Entrepreneur https://t.co/5xSZUVJMAw",
+      "created_at": "Mon Jul 13 10:16:13 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2076611647746027690",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 5
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNGbSSNWkAAMplm.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2075994894393286997",
       "text": "| Reward | Amount programmed | Price|USD value | Window |\n|---|---|---|---|---|\n| INJ | 5 | $5.05 | $25.23 | May 15 → Jul 1 *(ended)* |\n| bINJ | 10 | $5.02 | $50.23 | May 15 → Aug 13 |\n| SAI | 250 | $0.1333 | $33.33 | Jul 10 → Aug 9 *(new)* |\n| DRUGS | 885,000 | $0.0000730 | $64.59 | May 26 → Oct 1 *(2 tranches)* |\n| USDC | 16 | $1.00 | $16.00 | Jun 25 → Jul 25 |\n| KIRA | 25,380,000 | $0.00000201 | $50.93 | May 26 → Jul 25 *(3 tranches)* |\n\n**TOTAL programmed rewards value: ~$240 USD**",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 76
+        "view_count": 77
       },
       "media": []
     },
@@ -27,7 +46,7 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 214
+        "view_count": 217
       },
       "media": [
         {
@@ -44,7 +63,7 @@
       "url": "https://x.com/0yst3rs/status/2075762951185723713",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 118,
+        "retweet_count": 120,
         "reply_count": 0,
         "view_count": 2
       },
@@ -336,25 +355,6 @@
           "type": "video",
           "url": "https://pbs.twimg.com/ext_tw_video_thumb/2065122673349246976/pu/img/ezvNRiXgGixzHuUB.jpg",
           "video_url": "https://video.twimg.com/ext_tw_video/2065122673349246976/pu/vid/avc1/720x1280/y4AerXb987W1--_L.mp4?tag=25"
-        }
-      ]
-    },
-    {
-      "id": "2065003968275620105",
-      "text": "That morning sail https://t.co/oyEEeoMsQH",
-      "created_at": "Thu Jun 11 09:31:26 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2065003968275620105",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 1,
-        "reply_count": 1,
-        "view_count": 71
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2065002249160404992/pu/img/D6hePqQbbqSOfC_p.jpg",
-          "video_url": "https://video.twimg.com/ext_tw_video/2065002249160404992/pu/vid/avc1/720x1280/vEv23CEwZgtt7v3t.mp4?tag=25"
         }
       ]
     }
