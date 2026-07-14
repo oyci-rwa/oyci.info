@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-14T09:51:29Z",
+  "updated_at": "2026-07-14T17:07:56Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2076971922743595416",
+      "text": "Gonna want some shade today https://t.co/2re8blMLyo",
+      "created_at": "Tue Jul 14 10:07:49 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2076971922743595416",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 28
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNLi88zXIAA8-jl.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2076611647746027690",
       "text": "$oyci is steady building and paying LP providers.   Check out @ChoiceXchange .  Get involved in the oyster operation @ericinjective  @ABCSharkTank  @Entrepreneur https://t.co/5xSZUVJMAw",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 19
+        "view_count": 21
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 87
+        "view_count": 90
       },
       "media": []
     },
@@ -46,7 +65,7 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 228
+        "view_count": 232
       },
       "media": [
         {
@@ -89,7 +108,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 187
+        "view_count": 189
       },
       "media": [
         {
@@ -108,7 +127,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 88
+        "view_count": 90
       },
       "media": [
         {
@@ -165,7 +184,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 119
+        "view_count": 120
       },
       "media": [
         {
@@ -336,25 +355,6 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HK2MarJXQAAO8gA.jpg",
           "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2065122933198999859",
-      "text": "On the meat https://t.co/E8dKIC9sjE",
-      "created_at": "Thu Jun 11 17:24:10 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2065122933198999859",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 1,
-        "reply_count": 1,
-        "view_count": 78
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2065122673349246976/pu/img/ezvNRiXgGixzHuUB.jpg",
-          "video_url": "https://video.twimg.com/ext_tw_video/2065122673349246976/pu/vid/avc1/720x1280/y4AerXb987W1--_L.mp4?tag=25"
         }
       ]
     }
