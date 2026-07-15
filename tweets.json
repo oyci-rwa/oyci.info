@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T17:07:56Z",
+  "updated_at": "2026-07-15T01:52:23Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -11,10 +11,10 @@
       "created_at": "Tue Jul 14 10:07:49 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2076971922743595416",
       "metrics": {
-        "like_count": 1,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 28
+        "view_count": 60
       },
       "media": [
         {
@@ -30,10 +30,10 @@
       "created_at": "Mon Jul 13 10:16:13 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2076611647746027690",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 21
+        "view_count": 23
       },
       "media": [
         {
@@ -52,7 +52,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 90
+        "view_count": 93
       },
       "media": []
     },
@@ -65,7 +65,7 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 232
+        "view_count": 238
       },
       "media": [
         {
@@ -108,7 +108,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 189
+        "view_count": 191
       },
       "media": [
         {
@@ -127,7 +127,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 90
+        "view_count": 92
       },
       "media": [
         {
@@ -146,7 +146,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 83
+        "view_count": 84
       },
       "media": [
         {
@@ -184,7 +184,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 120
+        "view_count": 122
       },
       "media": [
         {
@@ -216,7 +216,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 44
+        "view_count": 45
       },
       "media": [
         {
