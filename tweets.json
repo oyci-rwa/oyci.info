@@ -1,10 +1,52 @@
 {
-  "updated_at": "2026-07-15T09:55:54Z",
+  "updated_at": "2026-07-15T17:10:49Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2077395659825541493",
+      "text": "RT @injective: Injective is officially a core member of the x402 Foundation under the @linuxfoundation alongside Google, AWS, Visa, Masterc…",
+      "created_at": "Wed Jul 15 14:11:36 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077395659825541493",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 58,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2077335051193262500",
+      "text": "Grateful https://t.co/mS6urslsF6",
+      "created_at": "Wed Jul 15 10:10:45 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077335051193262500",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 31
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2077334772074872832/img/Eux7aLUuuOMgn05l.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2077334772074872832/vid/avc1/1080x1920/MYAsoVATOsPwNDwE.mp4?tag=28"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNQtNjyXoAACFnb.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNQtN8AXIAATTtW.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2077321707958755621",
       "text": "Slow rideeeee, take it easyyy https://t.co/CUdRGWtBIh",
@@ -14,7 +56,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 8
+        "view_count": 15
       },
       "media": [
         {
@@ -33,7 +75,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 100
+        "view_count": 103
       },
       "media": [
         {
@@ -52,7 +94,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 25
+        "view_count": 26
       },
       "media": [
         {
@@ -71,7 +113,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 94
+        "view_count": 97
       },
       "media": []
     },
@@ -84,7 +126,7 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 1,
-        "view_count": 238
+        "view_count": 241
       },
       "media": [
         {
@@ -311,44 +353,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HLaDBUGWYAAAIWD.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2067183104050016556",
-      "text": "Love a calm sail https://t.co/XKx31fgreo",
-      "created_at": "Wed Jun 17 09:50:33 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2067183104050016556",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 1,
-        "reply_count": 3,
-        "view_count": 90
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HLAcER_WAAAph9s.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2066810512826917143",
-      "text": "Out the house at 4am just for moments like this https://t.co/KJIa2SSpoO",
-      "created_at": "Tue Jun 16 09:10:00 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2066810512826917143",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 42
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HK7JNCYXIAACD_W.jpg",
           "video_url": null
         }
       ]
