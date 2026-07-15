@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-15T01:52:23Z",
+  "updated_at": "2026-07-15T09:55:54Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2077321707958755621",
+      "text": "Slow rideeeee, take it easyyy https://t.co/CUdRGWtBIh",
+      "created_at": "Wed Jul 15 09:17:44 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077321707958755621",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 8
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNQhFTVXcAEpaoQ.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2076971922743595416",
       "text": "Gonna want some shade today https://t.co/2re8blMLyo",
@@ -12,9 +31,9 @@
       "url": "https://x.com/0yst3rs/status/2076971922743595416",
       "metrics": {
         "like_count": 3,
-        "retweet_count": 0,
+        "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 60
+        "view_count": 100
       },
       "media": [
         {
@@ -31,9 +50,9 @@
       "url": "https://x.com/0yst3rs/status/2076611647746027690",
       "metrics": {
         "like_count": 3,
-        "retweet_count": 0,
+        "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 23
+        "view_count": 25
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 93
+        "view_count": 94
       },
       "media": []
     },
@@ -82,7 +101,7 @@
       "url": "https://x.com/0yst3rs/status/2075762951185723713",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 122,
+        "retweet_count": 123,
         "reply_count": 0,
         "view_count": 2
       },
@@ -330,30 +349,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HK7JNCYXIAACD_W.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2066462203717234734",
-      "text": "30 minutes makes a difference.   Just keep going! https://t.co/rUPD9eCVlU",
-      "created_at": "Mon Jun 15 10:05:57 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2066462203717234734",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 66
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HK2MapnXUAAOVqs.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HK2MarJXQAAO8gA.jpg",
           "video_url": null
         }
       ]
