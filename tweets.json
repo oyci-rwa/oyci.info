@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-07-16T10:02:17Z",
+  "updated_at": "2026-07-16T17:08:12Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2077800629150576939",
+      "text": "RT @HuLmNguyn4: 1. Injective Releases MiCA Whitepaper\n\nThis is not “MiCA approving Injective”.\n\nWhat actually happened:\n\nInjective has publ…",
+      "created_at": "Thu Jul 16 17:00:48 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077800629150576939",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 2
+      },
+      "media": []
+    },
     {
       "id": "2077395659825541493",
       "text": "RT @injective: Injective is officially a core member of the x402 Foundation under the @linuxfoundation alongside Google, AWS, Visa, Masterc…",
@@ -12,7 +25,7 @@
       "url": "https://x.com/0yst3rs/status/2077395659825541493",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 86,
+        "retweet_count": 87,
         "reply_count": 0,
         "view_count": 1
       },
@@ -113,7 +126,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 110
+        "view_count": 114
       },
       "media": []
     },
@@ -337,25 +350,6 @@
         "view_count": 79
       },
       "media": []
-    },
-    {
-      "id": "2068985246603727060",
-      "text": "Happily sailing https://t.co/wUa6OHdWv3",
-      "created_at": "Mon Jun 22 09:11:37 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2068985246603727060",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 34
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HLaDBUGWYAAAIWD.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
