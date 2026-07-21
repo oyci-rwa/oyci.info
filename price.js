@@ -17,6 +17,9 @@
 
   const priceEl = document.getElementById("oyci-price");
   if (!priceEl) return;
+  const mcPill = document.getElementById("oyci-mcpill");
+  const mcEl = document.getElementById("oyci-mc");
+  const mcChgEl = document.getElementById("oyci-mc-chg");
 
   function formatUSD(v) {
     if (!Number.isFinite(v) || v <= 0) return "—";
@@ -26,6 +29,71 @@
     const log10 = Math.floor(Math.log10(v));
     const decimals = Math.min(20, -log10 + 3);
     return "$" + v.toFixed(decimals);
+  }
+
+  function formatCompactUSD(v) {
+    if (!Number.isFinite(v) || v <= 0) return "—";
+    if (v >= 1e9) return "$" + (v / 1e9).toFixed(2) + "B";
+    if (v >= 1e6) return "$" + (v / 1e6).toFixed(2) + "M";
+    if (v >= 1e3) return "$" + (v / 1e3).toFixed(1) + "K";
+    return "$" + v.toFixed(0);
+  }
+
+  function formatPct(v) {
+    if (!Number.isFinite(v)) return "—";
+    const arrow = v > 0 ? "▲" : v < 0 ? "▼" : "•";
+    return arrow + " " + Math.abs(v * 100).toFixed(1) + "%";
+  }
+
+  async function fetchOyciStats() {
+    try {
+      const r = await fetch("https://api.choice.exchange/v1/graphql", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        cache: "no-store",
+        body: JSON.stringify({
+          query:
+            '{ analytics_tokenstats(where: {token_id: {_eq: "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI"}}) { market_cap price_change_usd_24h } }',
+        }),
+      });
+      const j = await r.json();
+      const row = j && j.data && j.data.analytics_tokenstats && j.data.analytics_tokenstats[0];
+      if (!row) return null;
+      return {
+        mc: Number(row.market_cap),
+        chg24h: Number(row.price_change_usd_24h),
+      };
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function renderMC(stats) {
+    if (!mcPill || !mcEl || !mcChgEl) return;
+    if (!stats || !Number.isFinite(stats.mc)) {
+      mcEl.textContent = "—";
+      mcChgEl.textContent = "—";
+      mcPill.classList.remove("up", "down", "flat");
+      mcPill.title = "Market cap unavailable";
+      return;
+    }
+    mcEl.textContent = formatCompactUSD(stats.mc);
+    mcChgEl.textContent = formatPct(stats.chg24h);
+    mcPill.classList.remove("up", "down", "flat");
+    if (!Number.isFinite(stats.chg24h) || Math.abs(stats.chg24h) < 0.001) {
+      mcPill.classList.add("flat");
+    } else if (stats.chg24h > 0) {
+      mcPill.classList.add("up");
+    } else {
+      mcPill.classList.add("down");
+    }
+    mcPill.title =
+      "Market cap $" +
+      stats.mc.toLocaleString("en-US", { maximumFractionDigits: 0 }) +
+      " · 24h " +
+      (stats.chg24h * 100).toFixed(2) +
+      "% · source: Choice analytics · updated " +
+      new Date().toLocaleTimeString();
   }
 
   async function fetchInjUsd() {
@@ -74,6 +142,7 @@
   }
 
   async function update() {
+    const statsPromise = fetchOyciStats();
     try {
       const [reserves, injUsd] = await Promise.all([
         fetchPoolReserves(),
@@ -96,6 +165,7 @@
       priceEl.textContent = "—";
       priceEl.title = "Live price unavailable (" + (err && err.message) + ")";
     }
+    renderMC(await statsPromise);
   }
 
   update();
