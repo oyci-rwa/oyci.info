@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-07-20T17:33:10Z",
+  "updated_at": "2026-07-21T02:05:36Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2079359356710113787",
+      "text": "RT @Zephyro_STARK: Ninjas, I’ve been to a lot of crypto events... but this Injective Summit hit different.\n\nUsually these events give you s…",
+      "created_at": "Tue Jul 21 00:14:37 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2079359356710113787",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
     {
       "id": "2077800629150576939",
       "text": "RT @HuLmNguyn4: 1. Injective Releases MiCA Whitepaper\n\nThis is not “MiCA approving Injective”.\n\nWhat actually happened:\n\nInjective has publ…",
@@ -25,7 +38,7 @@
       "url": "https://x.com/0yst3rs/status/2077395659825541493",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 92,
+        "retweet_count": 91,
         "reply_count": 0,
         "view_count": 1
       },
@@ -337,19 +350,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2069009341714256295",
-      "text": "Dredge daddy\n\n https://x.com/i/broadcasts/1AxRnnVzgWyxl",
-      "created_at": "Mon Jun 22 10:47:22 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2069009341714256295",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 79
-      },
-      "media": []
     }
   ]
 }
