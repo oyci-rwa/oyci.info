@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-21T10:20:37Z",
+  "updated_at": "2026-07-21T17:10:25Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2079535363362623872",
+      "text": "Happily providing yield.  Oysters on chain https://t.co/0hVDhFjZYs",
+      "created_at": "Tue Jul 21 11:54:01 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2079535363362623872",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNv-ZCcWQAA8li0.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2079359356710113787",
       "text": "RT @Zephyro_STARK: Ninjas, I’ve been to a lot of crypto events... but this Injective Summit hit different.\n\nUsually these events give you s…",
@@ -38,7 +57,7 @@
       "url": "https://x.com/0yst3rs/status/2077395659825541493",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 91,
+        "retweet_count": 92,
         "reply_count": 0,
         "view_count": 1
       },
@@ -53,7 +72,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 40
+        "view_count": 42
       },
       "media": [
         {
@@ -82,7 +101,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 24
+        "view_count": 26
       },
       "media": [
         {
@@ -101,7 +120,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 105
+        "view_count": 106
       },
       "media": [
         {
@@ -120,7 +139,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 27
+        "view_count": 28
       },
       "media": [
         {
@@ -328,25 +347,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HLkfsn3XMAAzpYw.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2069358051488825641",
-      "text": "Still about 40min of sailing https://t.co/2zIXMVwu2c",
-      "created_at": "Tue Jun 23 09:53:00 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2069358051488825641",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 59
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HLfWLSWWsAEFaiX.jpg",
           "video_url": null
         }
       ]
