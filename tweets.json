@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T17:13:19Z",
+  "updated_at": "2026-07-24T02:06:37Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -14,7 +14,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 30
+        "view_count": 32
       },
       "media": [
         {
@@ -31,7 +31,7 @@
       "url": "https://x.com/0yst3rs/status/2079359356710113787",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 2,
+        "retweet_count": 3,
         "reply_count": 0,
         "view_count": 0
       },
