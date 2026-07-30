@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-07-27T17:38:02Z",
+  "updated_at": "2026-07-30T01:52:41Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2082604556056207559",
+      "text": "RT @trippykiwi: gm. sippin on coffee and watching market activity on trippy terminal \n\nhttp://trade.trippyinj.xyz \n\n$INJ https://t.co/4KIBLlAl…",
+      "created_at": "Wed Jul 29 23:09:53 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2082604556056207559",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 1
+      },
+      "media": []
+    },
     {
       "id": "2079535363362623872",
       "text": "Happily providing yield.  Oysters on chain https://t.co/0hVDhFjZYs",
@@ -328,25 +341,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HLpkyJ-XoAAzoSW.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2069720362166751399",
-      "text": "30min to go still. Happy to just have the opportunity. https://t.co/uRlUb0iGj2",
-      "created_at": "Wed Jun 24 09:52:42 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2069720362166751399",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 61
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HLkfsn3XMAAzpYw.jpg",
           "video_url": null
         }
       ]
