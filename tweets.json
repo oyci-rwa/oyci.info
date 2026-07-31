@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-07-31T02:10:59Z",
+  "updated_at": "2026-07-31T10:32:12Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2083126043284586718",
+      "text": "There must be something in the water https://t.co/tztW03FHWa",
+      "created_at": "Fri Jul 31 09:42:05 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2083126043284586718",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 3
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOjAF0CW0AAaaKM.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2082604556056207559",
       "text": "RT @trippykiwi: gm. sippin on coffee and watching market activity on trippy terminal \n\nhttp://trade.trippyinj.xyz \n\n$INJ https://t.co/4KIBLlAl…",
@@ -201,7 +220,7 @@
       "url": "https://x.com/0yst3rs/status/2075762951185723713",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 122,
+        "retweet_count": 121,
         "reply_count": 0,
         "view_count": 2
       },
@@ -325,25 +344,6 @@
         "view_count": 3
       },
       "media": []
-    },
-    {
-      "id": "2070078069482606608",
-      "text": "Another farm added      USDC \nKira farm topped off\n$oyci farms on @ChoiceXchange \nApr that isn't inflation \n\n@DrugsOnInj @BackBoneLabsHub @kiraoninjective @TrashcatMeme  @ericinjective  @FourPillarsFP @Entrepreneur @Being_DerpyAF @GalacticSynd @Galactic_Mining https://t.co/bsQyhNfHKk",
-      "created_at": "Thu Jun 25 09:34:06 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2070078069482606608",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 45
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HLpkyJ-XoAAzoSW.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
