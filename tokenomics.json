@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T03:48:02Z",
+  "updated_at": "2026-08-02T08:35:06Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -29,7 +29,7 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 78.8087,
+      "tvl_usd": 78.9238,
       "apr_percentage": 0E-18
     },
     {
@@ -40,8 +40,8 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 2262.5738,
-      "apr_percentage": 8.899125535826366752
+      "tvl_usd": 2265.8787,
+      "apr_percentage": 8.899125535826366751
     },
     {
       "id": 10,
@@ -51,8 +51,8 @@
       "programmed_amount_raw": 250000000000000000000,
       "schedule_start": "2026-07-10T17:40:00+00:00",
       "schedule_end": "2026-08-09T17:40:00+00:00",
-      "tvl_usd": 527.1335,
-      "apr_percentage": 24.551614856573943242
+      "tvl_usd": 527.9035,
+      "apr_percentage": 25.574015152308073289
     },
     {
       "id": 6,
@@ -62,8 +62,8 @@
       "programmed_amount_raw": 385000000000,
       "schedule_start": "2026-05-26T23:42:00+00:00",
       "schedule_end": "2026-07-10T23:42:00+00:00",
-      "tvl_usd": 410.7838,
-      "apr_percentage": 20.370826905434390787
+      "tvl_usd": 411.3839,
+      "apr_percentage": 20.370819237566733801
     },
     {
       "id": 8,
@@ -73,7 +73,7 @@
       "programmed_amount_raw": 16000000,
       "schedule_start": "2026-06-25T02:55:00+00:00",
       "schedule_end": "2026-07-25T02:55:00+00:00",
-      "tvl_usd": 242.0966,
+      "tvl_usd": 242.4503,
       "apr_percentage": 0E-18
     },
     {
@@ -84,7 +84,7 @@
       "programmed_amount_raw": 8380000000000,
       "schedule_start": "2026-05-26T15:11:00+00:00",
       "schedule_end": "2026-06-23T15:11:00+00:00",
-      "tvl_usd": 269.6446,
+      "tvl_usd": 270.0385,
       "apr_percentage": 0E-18
     }
   ]
