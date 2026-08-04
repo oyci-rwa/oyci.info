@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-04T10:31:16Z",
+  "updated_at": "2026-08-04T17:39:05Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2084693068452602367",
+      "text": "$Oyci gonna bring it to ya https://t.co/ehbaAoJspG",
+      "created_at": "Tue Aug 04 17:28:53 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2084693068452602367",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 2
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2084692675505147904/img/FlyC10giy-xFoXlK.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2084692675505147904/vid/avc1/1920x1080/LOBmg4PRJ1VfiJnK.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2084560782512074839",
       "text": "RT @HuLmNguyn4: $INJ Q2, 2026 Recap\n\n🔹 Ranked #1 in daily developer activity, with 56 code commits in a single day, reinforcing the network…",
@@ -322,25 +341,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HMIo8h3XsAAau22.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2071891930070343934",
-      "text": "Another beautiful day https://t.co/zRpUT2n8m3",
-      "created_at": "Tue Jun 30 09:41:44 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2071891930070343934",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 123
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HMDWujCXMAEQk_E.jpg",
           "video_url": null
         }
       ]
