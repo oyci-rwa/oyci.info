@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-06T10:32:50Z",
+  "updated_at": "2026-08-07T02:22:25Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2085426661810450907",
+      "text": "$oyci yield in action.   \nCheck @ChoiceXchange  farms for getting paid. \nOnly coin on injective that's an oyster company.  @FourPillarsFP @TrashcatMeme  @ericinjective https://t.co/vX8X5yHIms",
+      "created_at": "Thu Aug 06 18:03:56 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2085426661810450907",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 30
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2085425153844953088/img/_ncSz0mtWjhoUvn0.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2085425153844953088/vid/avc1/1920x1080/jWAciy_mcUKkdFtf.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2084693068452602367",
       "text": "$Oyci gonna bring it to ya https://t.co/ehbaAoJspG",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 27
+        "view_count": 31
       },
       "media": [
         {
@@ -46,7 +65,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 20
+        "view_count": 24
       },
       "media": [
         {
@@ -78,7 +97,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 38
+        "view_count": 39
       },
       "media": [
         {
@@ -136,7 +155,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 48
+        "view_count": 49
       },
       "media": [
         {
@@ -165,7 +184,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 31
+        "view_count": 32
       },
       "media": [
         {
@@ -184,7 +203,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 110
+        "view_count": 111
       },
       "media": [
         {
@@ -322,25 +341,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HMS4k2kW0AA-Cj3.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2072264345539461436",
-      "text": "RT @0yst3rs: @CoinMarketCap https://t.co/09tbbXuybR",
-      "created_at": "Wed Jul 01 10:21:35 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2072264345539461436",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HMIo8h3XsAAau22.jpg",
           "video_url": null
         }
       ]
