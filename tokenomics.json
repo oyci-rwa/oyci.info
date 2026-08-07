@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T14:31:32Z",
+  "updated_at": "2026-08-07T00:11:57Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -29,7 +29,7 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 74.7273,
+      "tvl_usd": 73.3546,
       "apr_percentage": 0E-18
     },
     {
@@ -40,19 +40,8 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 2145.3989,
-      "apr_percentage": 9.654536124222218715
-    },
-    {
-      "id": 10,
-      "contract": "inj16y888zlql6mdendn2qtzjdjg4wplycrjaqzcnr",
-      "reward_symbol": "SAI",
-      "reward_decimals": 18,
-      "programmed_amount_raw": 250000000000000000000,
-      "schedule_start": "2026-07-10T17:40:00+00:00",
-      "schedule_end": "2026-08-09T17:40:00+00:00",
-      "tvl_usd": 499.8342,
-      "apr_percentage": 24.267498921862417072
+      "tvl_usd": 2105.9900,
+      "apr_percentage": 9.657564225081145675
     },
     {
       "id": 6,
@@ -62,8 +51,8 @@
       "programmed_amount_raw": 385000000000,
       "schedule_start": "2026-05-26T23:42:00+00:00",
       "schedule_end": "2026-07-10T23:42:00+00:00",
-      "tvl_usd": 389.5100,
-      "apr_percentage": 19.201404263343711277
+      "tvl_usd": 318.7592,
+      "apr_percentage": 23.064520039893781838
     },
     {
       "id": 8,
@@ -73,7 +62,7 @@
       "programmed_amount_raw": 16000000,
       "schedule_start": "2026-06-25T02:55:00+00:00",
       "schedule_end": "2026-07-25T02:55:00+00:00",
-      "tvl_usd": 229.5589,
+      "tvl_usd": 225.3421,
       "apr_percentage": 0E-18
     },
     {
@@ -84,8 +73,19 @@
       "programmed_amount_raw": 8380000000000,
       "schedule_start": "2026-05-26T15:11:00+00:00",
       "schedule_end": "2026-06-23T15:11:00+00:00",
-      "tvl_usd": 255.6802,
+      "tvl_usd": 250.9836,
       "apr_percentage": 0E-18
+    },
+    {
+      "id": 10,
+      "contract": "inj16y888zlql6mdendn2qtzjdjg4wplycrjaqzcnr",
+      "reward_symbol": "SAI",
+      "reward_decimals": 18,
+      "programmed_amount_raw": 250000000000000000000,
+      "schedule_start": "2026-07-10T17:40:00+00:00",
+      "schedule_end": "2026-08-09T17:40:00+00:00",
+      "tvl_usd": 701.0912,
+      "apr_percentage": 17.964737493314012416
     }
   ]
 }
