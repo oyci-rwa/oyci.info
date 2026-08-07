@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-07T08:51:12Z",
+  "updated_at": "2026-08-07T16:46:34Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2085662823938486572",
+      "text": "Almost!! https://t.co/TQ7eCF8Jpf",
+      "created_at": "Fri Aug 07 09:42:21 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2085662823938486572",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHDRuPW8AAa5s0.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2085426661810450907",
       "text": "$oyci yield in action.   \nCheck @ChoiceXchange  farms for getting paid. \nOnly coin on injective that's an oyster company.  @FourPillarsFP @TrashcatMeme  @ericinjective https://t.co/vX8X5yHIms",
@@ -14,7 +33,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 34
+        "view_count": 40
       },
       "media": [
         {
@@ -30,10 +49,10 @@
       "created_at": "Tue Aug 04 17:28:53 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2084693068452602367",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 32
+        "view_count": 34
       },
       "media": [
         {
@@ -65,7 +84,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 25
+        "view_count": 26
       },
       "media": [
         {
@@ -322,25 +341,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HMxmwuVXUAADZ6p.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2072984691607535864",
-      "text": "Lovely day for some heat. https://t.co/OCDZhkY0hO",
-      "created_at": "Fri Jul 03 10:03:59 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2072984691607535864",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 84
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HMS4k2kW0AA-Cj3.jpg",
           "video_url": null
         }
       ]
