@@ -1,20 +1,39 @@
 {
-  "updated_at": "2026-08-12T01:21:32Z",
+  "updated_at": "2026-08-12T16:51:39Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2087487950623801642",
+      "text": "Gooooood morning.   Hope everyone is doing well! https://t.co/LncMSlKgHu",
+      "created_at": "Wed Aug 12 10:34:45 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2087487950623801642",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 25
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPg_NZtXkAAHlm4.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2085662823938486572",
       "text": "Almost!! https://t.co/TQ7eCF8Jpf",
       "created_at": "Fri Aug 07 09:42:21 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2085662823938486572",
       "metrics": {
-        "like_count": 0,
+        "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 16
+        "view_count": 18
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 44
+        "view_count": 45
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 35
+        "view_count": 36
       },
       "media": [
         {
@@ -322,25 +341,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HM27flwXIAA_5Fw.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2075146525143917039",
-      "text": "Back on the water https://t.co/gIHt1bghdr",
-      "created_at": "Thu Jul 09 09:14:20 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2075146525143917039",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 2,
-        "reply_count": 1,
-        "view_count": 98
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HMxmwuVXUAADZ6p.jpg",
           "video_url": null
         }
       ]
