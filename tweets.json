@@ -1,8 +1,349 @@
 {
-  "updated_at": "2026-08-13T01:23:31Z",
+  "updated_at": "2026-08-13T09:05:46Z",
   "user": {
-    "name": "0yst3rs",
+    "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
-  "tweets": []
+  "tweets": [
+    {
+      "id": "2087487950623801642",
+      "text": "Gooooood morning.   Hope everyone is doing well! https://t.co/LncMSlKgHu",
+      "created_at": "Wed Aug 12 10:34:45 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2087487950623801642",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 29
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPg_NZtXkAAHlm4.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2085662823938486572",
+      "text": "Almost!! https://t.co/TQ7eCF8Jpf",
+      "created_at": "Fri Aug 07 09:42:21 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2085662823938486572",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 18
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHDRuPW8AAa5s0.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2085426661810450907",
+      "text": "$oyci yield in action.   \nCheck @ChoiceXchange  farms for getting paid. \nOnly coin on injective that's an oyster company.  @FourPillarsFP @TrashcatMeme  @ericinjective https://t.co/vX8X5yHIms",
+      "created_at": "Thu Aug 06 18:03:56 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2085426661810450907",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 45
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2085425153844953088/img/_ncSz0mtWjhoUvn0.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2085425153844953088/vid/avc1/1920x1080/jWAciy_mcUKkdFtf.mp4?tag=29"
+        }
+      ]
+    },
+    {
+      "id": "2084693068452602367",
+      "text": "$Oyci gonna bring it to ya https://t.co/ehbaAoJspG",
+      "created_at": "Tue Aug 04 17:28:53 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2084693068452602367",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 36
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2084692675505147904/img/FlyC10giy-xFoXlK.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2084692675505147904/vid/avc1/1920x1080/LOBmg4PRJ1VfiJnK.mp4?tag=29"
+        }
+      ]
+    },
+    {
+      "id": "2084560782512074839",
+      "text": "RT @HuLmNguyn4: $INJ Q2, 2026 Recap\n\n🔹 Ranked #1 in daily developer activity, with 56 code commits in a single day, reinforcing the network…",
+      "created_at": "Tue Aug 04 08:43:14 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2084560782512074839",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2083126043284586718",
+      "text": "There must be something in the water https://t.co/tztW03FHWa",
+      "created_at": "Fri Jul 31 09:42:05 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2083126043284586718",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOjAF0CW0AAaaKM.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2082604556056207559",
+      "text": "RT @trippykiwi: gm. sippin on coffee and watching market activity on trippy terminal \n\nhttp://trade.trippyinj.xyz \n\n$INJ https://t.co/4KIBLlAl…",
+      "created_at": "Wed Jul 29 23:09:53 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2082604556056207559",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 2
+      },
+      "media": []
+    },
+    {
+      "id": "2079535363362623872",
+      "text": "Happily providing yield.  Oysters on chain https://t.co/0hVDhFjZYs",
+      "created_at": "Tue Jul 21 11:54:01 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2079535363362623872",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 40
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNv-ZCcWQAA8li0.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2079359356710113787",
+      "text": "RT @Zephyro_STARK: Ninjas, I’ve been to a lot of crypto events... but this Injective Summit hit different.\n\nUsually these events give you s…",
+      "created_at": "Tue Jul 21 00:14:37 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2079359356710113787",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 0
+      },
+      "media": []
+    },
+    {
+      "id": "2077800629150576939",
+      "text": "RT @HuLmNguyn4: 1. Injective Releases MiCA Whitepaper\n\nThis is not “MiCA approving Injective”.\n\nWhat actually happened:\n\nInjective has publ…",
+      "created_at": "Thu Jul 16 17:00:48 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077800629150576939",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 2
+      },
+      "media": []
+    },
+    {
+      "id": "2077395659825541493",
+      "text": "RT @injective: Injective is officially a core member of the x402 Foundation under the @linuxfoundation alongside Google, AWS, Visa, Masterc…",
+      "created_at": "Wed Jul 15 14:11:36 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077395659825541493",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 93,
+        "reply_count": 0,
+        "view_count": 1
+      },
+      "media": []
+    },
+    {
+      "id": "2077335051193262500",
+      "text": "Grateful https://t.co/mS6urslsF6",
+      "created_at": "Wed Jul 15 10:10:45 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077335051193262500",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 49
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2077334772074872832/img/Eux7aLUuuOMgn05l.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2077334772074872832/vid/avc1/1080x1920/MYAsoVATOsPwNDwE.mp4?tag=28"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNQtNjyXoAACFnb.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNQtN8AXIAATTtW.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2077321707958755621",
+      "text": "Slow rideeeee, take it easyyy https://t.co/CUdRGWtBIh",
+      "created_at": "Wed Jul 15 09:17:44 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2077321707958755621",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNQhFTVXcAEpaoQ.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2076971922743595416",
+      "text": "Gonna want some shade today https://t.co/2re8blMLyo",
+      "created_at": "Tue Jul 14 10:07:49 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2076971922743595416",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 111
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNLi88zXIAA8-jl.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2076611647746027690",
+      "text": "$oyci is steady building and paying LP providers.   Check out @ChoiceXchange .  Get involved in the oyster operation @ericinjective  @ABCSharkTank  @Entrepreneur https://t.co/5xSZUVJMAw",
+      "created_at": "Mon Jul 13 10:16:13 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2076611647746027690",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 31
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNGbSSNWkAAMplm.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2075994894393286997",
+      "text": "| Reward | Amount programmed | Price|USD value | Window |\n|---|---|---|---|---|\n| INJ | 5 | $5.05 | $25.23 | May 15 → Jul 1 *(ended)* |\n| bINJ | 10 | $5.02 | $50.23 | May 15 → Aug 13 |\n| SAI | 250 | $0.1333 | $33.33 | Jul 10 → Aug 9 *(new)* |\n| DRUGS | 885,000 | $0.0000730 | $64.59 | May 26 → Oct 1 *(2 tranches)* |\n| USDC | 16 | $1.00 | $16.00 | Jun 25 → Jul 25 |\n| KIRA | 25,380,000 | $0.00000201 | $50.93 | May 26 → Jul 25 *(3 tranches)* |\n\n**TOTAL programmed rewards value: ~$240 USD**",
+      "created_at": "Sat Jul 11 17:25:27 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075994894393286997",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 1,
+        "reply_count": 1,
+        "view_count": 119
+      },
+      "media": []
+    },
+    {
+      "id": "2075918613186220301",
+      "text": "Proudly presenting a new farm of $sai offered through the oyci/inj LP.  A true builder for the community and well deserving of recognition.   \n$oyci is a commercial fishing operation located in Virginia.  Real yield coming on chain not inflation.\n@injective  @ericinjective  @GalacticSynd  @Galactic_Mining  @t",
+      "created_at": "Sat Jul 11 12:22:20 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075918613186220301",
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 3,
+        "reply_count": 1,
+        "view_count": 274
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM8klQbWEAAbJt_.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2075762951185723713",
+      "text": "RT @injective: Robinhood Chain assets on $INJ\n\nL O A D I N G https://t.co/jFFBZVUTk4",
+      "created_at": "Sat Jul 11 02:03:48 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075762951185723713",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 121,
+        "reply_count": 0,
+        "view_count": 2
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM4BxDzWwAAoJpn.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM4BxDvXMAA0j02.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2075521163913003060",
+      "text": "Game time \n\nHappy oyster Friday.\n\n@GalacticSynd  @Galactic_Mining  @TrashcatMeme  @culturemaxxing \n\n$oyci taking it a day at a time https://t.co/dQCOnzdcar",
+      "created_at": "Fri Jul 10 10:03:01 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2075521163913003060",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 193
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM27flwXIAA_5Fw.jpg",
+          "video_url": null
+        }
+      ]
+    }
+  ]
 }
