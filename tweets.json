@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-13T16:50:23Z",
+  "updated_at": "2026-08-14T16:48:32Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2088208408444870992",
+      "text": "Learning to enjoy the journey and not only the goal https://t.co/nSqkU3qYEO",
+      "created_at": "Fri Aug 14 10:17:36 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2088208408444870992",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 24
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2088208039899721728/img/1oaGisySDWD0A0m0.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2088208039899721728/vid/avc1/1080x1920/58UQn1YUVB99QoQ0.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2087487950623801642",
       "text": "Gooooood morning.   Hope everyone is doing well! https://t.co/LncMSlKgHu",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 29
+        "view_count": 31
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 18
+        "view_count": 19
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 45
+        "view_count": 46
       },
       "media": [
         {
@@ -71,7 +90,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 36
+        "view_count": 37
       },
       "media": [
         {
@@ -276,7 +295,7 @@
       "created_at": "Sat Jul 11 17:25:27 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2075994894393286997",
       "metrics": {
-        "like_count": 2,
+        "like_count": 1,
         "retweet_count": 1,
         "reply_count": 1,
         "view_count": 119
@@ -289,7 +308,7 @@
       "created_at": "Sat Jul 11 12:22:20 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2075918613186220301",
       "metrics": {
-        "like_count": 7,
+        "like_count": 6,
         "retweet_count": 3,
         "reply_count": 1,
         "view_count": 274
@@ -322,25 +341,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HM4BxDvXMAA0j02.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2075521163913003060",
-      "text": "Game time \n\nHappy oyster Friday.\n\n@GalacticSynd  @Galactic_Mining  @TrashcatMeme  @culturemaxxing \n\n$oyci taking it a day at a time https://t.co/dQCOnzdcar",
-      "created_at": "Fri Jul 10 10:03:01 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2075521163913003060",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 2,
-        "reply_count": 1,
-        "view_count": 193
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HM27flwXIAA_5Fw.jpg",
           "video_url": null
         }
       ]
