@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T00:56:31Z",
+  "updated_at": "2026-08-16T08:20:54Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -13,8 +13,8 @@
       "metrics": {
         "like_count": 6,
         "retweet_count": 1,
-        "reply_count": 2,
-        "view_count": 47
+        "reply_count": 3,
+        "view_count": 56
       },
       "media": [
         {
@@ -33,7 +33,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 34
+        "view_count": 35
       },
       "media": [
         {
@@ -52,7 +52,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 22
+        "view_count": 23
       },
       "media": [
         {
@@ -71,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 46
+        "view_count": 47
       },
       "media": [
         {
@@ -197,7 +197,7 @@
       "url": "https://x.com/0yst3rs/status/2077395659825541493",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 92,
+        "retweet_count": 91,
         "reply_count": 0,
         "view_count": 1
       },
@@ -317,30 +317,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HM8klQbWEAAbJt_.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2075762951185723713",
-      "text": "RT @injective: Robinhood Chain assets on $INJ\n\nL O A D I N G https://t.co/jFFBZVUTk4",
-      "created_at": "Sat Jul 11 02:03:48 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2075762951185723713",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 120,
-        "reply_count": 0,
-        "view_count": 2
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HM4BxDzWwAAoJpn.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HM4BxDvXMAA0j02.jpg",
           "video_url": null
         }
       ]
