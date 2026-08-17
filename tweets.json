@@ -1,20 +1,52 @@
 {
-  "updated_at": "2026-08-17T08:35:23Z",
+  "updated_at": "2026-08-17T16:19:59Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2089346957168820575",
+      "text": "https://x.com/i/spaces/1OxwbnwwXqoJB",
+      "created_at": "Mon Aug 17 13:41:47 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2089346957168820575",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 13
+      },
+      "media": []
+    },
+    {
+      "id": "2089315532407267622",
+      "text": "rewards past and present \n\nCome aboard the $oyci LP\n Rwa commercial fishing operation\nBringing oyster yield on chain\n@ericinjective  @FourPillarsFP https://t.co/wV93HuN7hH",
+      "created_at": "Mon Aug 17 11:36:55 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2089315532407267622",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 22
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HP69ZpSWcAAKK-N.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2089044385404985478",
       "text": "Getting some \"help\" with the next project https://t.co/qtHsmXnnev",
       "created_at": "Sun Aug 16 17:39:28 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2089044385404985478",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 35
+        "view_count": 43
       },
       "media": [
         {
@@ -33,7 +65,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 59
+        "view_count": 62
       },
       "media": [
         {
@@ -52,7 +84,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 35
+        "view_count": 38
       },
       "media": [
         {
@@ -71,7 +103,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 23
+        "view_count": 25
       },
       "media": [
         {
@@ -90,7 +122,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 47
+        "view_count": 49
       },
       "media": [
         {
@@ -109,7 +141,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 37
+        "view_count": 39
       },
       "media": [
         {
@@ -141,7 +173,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 27
+        "view_count": 29
       },
       "media": [
         {
@@ -173,7 +205,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 40
+        "view_count": 42
       },
       "media": [
         {
@@ -231,7 +263,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 49
+        "view_count": 51
       },
       "media": [
         {
@@ -260,7 +292,7 @@
         "like_count": 2,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 32
+        "view_count": 34
       },
       "media": [
         {
@@ -279,7 +311,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 111
+        "view_count": 113
       },
       "media": [
         {
@@ -298,7 +330,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 31
+        "view_count": 33
       },
       "media": [
         {
@@ -307,19 +339,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2075994894393286997",
-      "text": "| Reward | Amount programmed | Price|USD value | Window |\n|---|---|---|---|---|\n| INJ | 5 | $5.05 | $25.23 | May 15 → Jul 1 *(ended)* |\n| bINJ | 10 | $5.02 | $50.23 | May 15 → Aug 13 |\n| SAI | 250 | $0.1333 | $33.33 | Jul 10 → Aug 9 *(new)* |\n| DRUGS | 885,000 | $0.0000730 | $64.59 | May 26 → Oct 1 *(2 tranches)* |\n| USDC | 16 | $1.00 | $16.00 | Jun 25 → Jul 25 |\n| KIRA | 25,380,000 | $0.00000201 | $50.93 | May 26 → Jul 25 *(3 tranches)* |\n\n**TOTAL programmed rewards value: ~$240 USD**",
-      "created_at": "Sat Jul 11 17:25:27 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2075994894393286997",
-      "metrics": {
-        "like_count": 1,
-        "retweet_count": 1,
-        "reply_count": 1,
-        "view_count": 119
-      },
-      "media": []
     }
   ]
 }
