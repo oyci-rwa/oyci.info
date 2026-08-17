@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-16T16:17:07Z",
+  "updated_at": "2026-08-17T00:54:09Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2089044385404985478",
+      "text": "Getting some \"help\" with the next project https://t.co/qtHsmXnnev",
+      "created_at": "Sun Aug 16 17:39:28 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2089044385404985478",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 32
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HP3Gs4hWcAAOaZe.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2088208408444870992",
       "text": "Learning to enjoy the journey and not only the goal https://t.co/nSqkU3qYEO",
@@ -14,7 +33,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 58
+        "view_count": 59
       },
       "media": [
         {
@@ -301,25 +320,6 @@
         "view_count": 119
       },
       "media": []
-    },
-    {
-      "id": "2075918613186220301",
-      "text": "Proudly presenting a new farm of $sai offered through the oyci/inj LP.  A true builder for the community and well deserving of recognition.   \n$oyci is a commercial fishing operation located in Virginia.  Real yield coming on chain not inflation.\n@injective  @ericinjective  @GalacticSynd  @Galactic_Mining  @t",
-      "created_at": "Sat Jul 11 12:22:20 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2075918613186220301",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 3,
-        "reply_count": 1,
-        "view_count": 275
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HM8klQbWEAAbJt_.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
