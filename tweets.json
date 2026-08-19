@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-19T08:28:48Z",
+  "updated_at": "2026-08-19T16:23:29Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2090098441498009942",
+      "text": "RT @injective: 🚨 BREAKING: Injective is now an official SEC-registered transfer agent!\n\nWith this move, Injective becomes the first layer 1…",
+      "created_at": "Wed Aug 19 15:27:55 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2090098441498009942",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 174,
+        "reply_count": 0,
+        "view_count": 1
+      },
+      "media": []
+    },
+    {
+      "id": "2090064396210864539",
+      "text": "https://x.com/i/spaces/1XxygwPBEndGM",
+      "created_at": "Wed Aug 19 13:12:38 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2090064396210864539",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 9
+      },
+      "media": []
+    },
     {
       "id": "2089346957168820575",
       "text": "https://x.com/i/spaces/1OxwbnwwXqoJB",
@@ -14,7 +40,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 16
+        "view_count": 20
       },
       "media": []
     },
@@ -27,7 +53,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 31
+        "view_count": 35
       },
       "media": [
         {
@@ -43,10 +69,10 @@
       "created_at": "Sun Aug 16 17:39:28 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2089044385404985478",
       "metrics": {
-        "like_count": 4,
+        "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 46
+        "view_count": 49
       },
       "media": [
         {
@@ -65,7 +91,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 62
+        "view_count": 63
       },
       "media": [
         {
@@ -298,44 +324,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HNQhFTVXcAEpaoQ.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2076971922743595416",
-      "text": "Gonna want some shade today https://t.co/2re8blMLyo",
-      "created_at": "Tue Jul 14 10:07:49 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2076971922743595416",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 113
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HNLi88zXIAA8-jl.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2076611647746027690",
-      "text": "$oyci is steady building and paying LP providers.   Check out @ChoiceXchange .  Get involved in the oyster operation @ericinjective  @ABCSharkTank  @Entrepreneur https://t.co/5xSZUVJMAw",
-      "created_at": "Mon Jul 13 10:16:13 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2076611647746027690",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 33
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HNGbSSNWkAAMplm.jpg",
           "video_url": null
         }
       ]
