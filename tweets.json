@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-08-22T16:16:18Z",
+  "updated_at": "2026-08-23T00:57:32Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2091294672476123599",
+      "text": "About to watch Pauly shore do stand-up am offering 1000 oyci to all who guess right in my telegram poll https://t.me/+Hs_ObFRivWZlZDI5\n@PaulyShore @ funnybone vb...   Hey Pauly I'm in a Hawaiian out here!!! 💕",
+      "created_at": "Sat Aug 22 22:41:18 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2091294672476123599",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 12
+      },
+      "media": []
+    },
     {
       "id": "2090141347948921160",
       "text": "Anyone else lose that ability to do video live streams on x??",
@@ -14,7 +27,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 36
+        "view_count": 37
       },
       "media": []
     },
@@ -25,7 +38,7 @@
       "url": "https://x.com/0yst3rs/status/2090098441498009942",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 477,
+        "retweet_count": 480,
         "reply_count": 0,
         "view_count": 2
       },
@@ -40,7 +53,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 19
+        "view_count": 20
       },
       "media": []
     },
@@ -292,35 +305,6 @@
         "view_count": 1
       },
       "media": []
-    },
-    {
-      "id": "2077335051193262500",
-      "text": "Grateful https://t.co/mS6urslsF6",
-      "created_at": "Wed Jul 15 10:10:45 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2077335051193262500",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 52
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2077334772074872832/img/Eux7aLUuuOMgn05l.jpg",
-          "video_url": "https://video.twimg.com/amplify_video/2077334772074872832/vid/avc1/1080x1920/MYAsoVATOsPwNDwE.mp4?tag=28"
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HNQtNjyXoAACFnb.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HNQtN8AXIAATTtW.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
