@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-24T08:40:07Z",
+  "updated_at": "2026-08-24T16:29:00Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2091840868999160284",
+      "text": "Lovely morning on the water.  later today a new usdc yield starting on the oyci/inj LP.\n@ericinjective @FourPillarsFP   tradeable on @ChoiceXchange\n\nThe only commercial fishing operation on injective https://t.co/3Vt1Elre3e",
+      "created_at": "Mon Aug 24 10:51:42 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2091840868999160284",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQe2Ls7WwAA6REG.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2091294672476123599",
       "text": "About to watch Pauly shore do stand-up am offering 1000 oyci to all who guess right in my telegram poll https://t.me/+Hs_ObFRivWZlZDI5\n@PaulyShore @ funnybone vb...   Hey Pauly I'm in a Hawaiian out here!!! 💕",
@@ -14,7 +33,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 18
+        "view_count": 19
       },
       "media": []
     },
@@ -27,7 +46,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 37
+        "view_count": 38
       },
       "media": []
     },
@@ -53,7 +72,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 20
+        "view_count": 21
       },
       "media": []
     },
@@ -66,7 +85,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 24
+        "view_count": 25
       },
       "media": []
     },
@@ -79,7 +98,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 40
+        "view_count": 41
       },
       "media": [
         {
@@ -98,7 +117,7 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 51
+        "view_count": 52
       },
       "media": [
         {
@@ -117,7 +136,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 66
+        "view_count": 67
       },
       "media": [
         {
@@ -290,19 +309,6 @@
         "retweet_count": 1,
         "reply_count": 0,
         "view_count": 2
-      },
-      "media": []
-    },
-    {
-      "id": "2077395659825541493",
-      "text": "RT @injective: Injective is officially a core member of the x402 Foundation under the @linuxfoundation alongside Google, AWS, Visa, Masterc…",
-      "created_at": "Wed Jul 15 14:11:36 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2077395659825541493",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 92,
-        "reply_count": 0,
-        "view_count": 1
       },
       "media": []
     }
