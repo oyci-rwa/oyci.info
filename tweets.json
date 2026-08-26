@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-26T08:35:33Z",
+  "updated_at": "2026-08-26T16:43:23Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2092560140712980868",
+      "text": "671 ti having some coolant issues gonna baby here for now... Maybe a headgaset sooner than later #diesels #671ti https://t.co/W7pHGR2nUu",
+      "created_at": "Wed Aug 26 10:29:50 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2092560140712980868",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 25
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQpEWcFW0AA5_OS.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2092210520992452965",
       "text": "Thankful for another day https://t.co/7LVzevRkSw",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 22
+        "view_count": 28
       },
       "media": [
         {
@@ -46,7 +65,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 40
+        "view_count": 42
       },
       "media": [
         {
@@ -298,25 +317,6 @@
         "view_count": 2
       },
       "media": []
-    },
-    {
-      "id": "2079535363362623872",
-      "text": "Happily providing yield.  Oysters on chain https://t.co/0hVDhFjZYs",
-      "created_at": "Tue Jul 21 11:54:01 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2079535363362623872",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 43
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HNv-ZCcWQAA8li0.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
