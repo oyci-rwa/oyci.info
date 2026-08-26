@@ -1,49 +1,23 @@
 {
-  "updated_at": "2026-08-25T04:29:08Z",
+  "updated_at": "2026-08-26T04:30:06Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-08-25T04:29:08+00:00",
+  "forecast_generated": "2026-08-26T04:30:06+00:00",
   "periods": [
     {
       "name": "Overnight",
-      "start": "2026-08-25T00:00:00-04:00",
-      "end": "2026-08-25T06:00:00-04:00",
-      "temperature": 69,
-      "temperature_unit": "F",
-      "wind_speed": "3 to 10 mph",
-      "wind_direction": "NW",
-      "short_forecast": "Mostly Clear",
-      "detailed_forecast": "Mostly clear, with a low around 69. Northwest wind 3 to 10 mph.",
-      "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Tuesday",
-      "start": "2026-08-25T06:00:00-04:00",
-      "end": "2026-08-25T18:00:00-04:00",
-      "temperature": 86,
-      "temperature_unit": "F",
-      "wind_speed": "5 to 10 mph",
-      "wind_direction": "N",
-      "short_forecast": "Sunny",
-      "detailed_forecast": "Sunny, with a high near 86. North wind 5 to 10 mph.",
-      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Tuesday Night",
-      "start": "2026-08-25T18:00:00-04:00",
+      "start": "2026-08-26T00:00:00-04:00",
       "end": "2026-08-26T06:00:00-04:00",
-      "temperature": 70,
+      "temperature": 67,
       "temperature_unit": "F",
       "wind_speed": "5 mph",
-      "wind_direction": "SE",
+      "wind_direction": "S",
       "short_forecast": "Mostly Clear",
-      "detailed_forecast": "Mostly clear, with a low around 70. Southeast wind around 5 mph.",
+      "detailed_forecast": "Mostly clear, with a low around 67. South wind around 5 mph.",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
       "is_daytime": false
     },
@@ -51,13 +25,39 @@
       "name": "Wednesday",
       "start": "2026-08-26T06:00:00-04:00",
       "end": "2026-08-26T18:00:00-04:00",
-      "temperature": 89,
+      "temperature": 87,
       "temperature_unit": "F",
-      "wind_speed": "2 to 10 mph",
+      "wind_speed": "2 to 9 mph",
       "wind_direction": "S",
       "short_forecast": "Sunny",
-      "detailed_forecast": "Sunny, with a high near 89. South wind 2 to 10 mph.",
+      "detailed_forecast": "Sunny, with a high near 87. South wind 2 to 9 mph.",
       "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Wednesday Night",
+      "start": "2026-08-26T18:00:00-04:00",
+      "end": "2026-08-27T06:00:00-04:00",
+      "temperature": 74,
+      "temperature_unit": "F",
+      "wind_speed": "7 to 12 mph",
+      "wind_direction": "S",
+      "short_forecast": "Partly Cloudy",
+      "detailed_forecast": "Partly cloudy, with a low around 74. South wind 7 to 12 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Thursday",
+      "start": "2026-08-27T06:00:00-04:00",
+      "end": "2026-08-27T18:00:00-04:00",
+      "temperature": 87,
+      "temperature_unit": "F",
+      "wind_speed": "8 mph",
+      "wind_direction": "S",
+      "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "detailed_forecast": "A chance of showers and thunderstorms between 2pm and 5pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 87. South wind around 8 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+      "icon": "https://api.weather.gov/icons/land/day/sct/tsra_hi,40?size=medium",
       "is_daytime": true
     }
   ]
