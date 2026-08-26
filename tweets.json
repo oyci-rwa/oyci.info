@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T16:29:03Z",
+  "updated_at": "2026-08-26T00:56:03Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -11,10 +11,10 @@
       "created_at": "Tue Aug 25 11:20:34 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2092210520992452965",
       "metrics": {
-        "like_count": 1,
+        "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 19
+        "view_count": 21
       },
       "media": [
         {
@@ -46,7 +46,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 39
+        "view_count": 40
       },
       "media": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "id": "2090098441498009942",
-      "text": "RT @injective: �� BREAKING: Injective is now an official SEC-registered transfer agent!\n\nWith this move, Injective becomes the first layer 1…",
+      "text": "RT @injective: 🚨 BREAKING: Injective is now an official SEC-registered transfer agent!\n\nWith this move, Injective becomes the first layer 1…",
       "created_at": "Wed Aug 19 15:27:55 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2090098441498009942",
       "metrics": {
