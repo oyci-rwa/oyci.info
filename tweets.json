@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-08-29T00:19:25Z",
+  "updated_at": "2026-08-29T13:31:56Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2093668277562052805",
+      "text": "RT @GrinDroid: 🍄❤️‍🔥 $MOTION 4 $SHROOM on $INJ\n🍄🎉 GMotion and Thanks! https://t.co/6BYRIpc7Zm",
+      "created_at": "Sat Aug 29 11:53:10 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2093668277562052805",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 3
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ3zPX2WgAAKxUI.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2092560140712980868",
       "text": "671 ti having some coolant issues gonna baby here for now... Maybe a headgaset sooner than later #diesels #671ti https://t.co/W7pHGR2nUu",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 32
+        "view_count": 36
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 32
+        "view_count": 55
       },
       "media": [
         {
@@ -65,7 +84,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 44
+        "view_count": 66
       },
       "media": [
         {
@@ -84,7 +103,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 23
+        "view_count": 25
       },
       "media": []
     },
@@ -304,19 +323,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2082604556056207559",
-      "text": "RT @trippykiwi: gm. sippin on coffee and watching market activity on trippy terminal \n\nhttp://trade.trippyinj.xyz \n\n$INJ https://t.co/4KIBLlAl…",
-      "created_at": "Wed Jul 29 23:09:53 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2082604556056207559",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 3,
-        "reply_count": 0,
-        "view_count": 2
-      },
-      "media": []
     }
   ]
 }
