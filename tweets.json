@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-09-01T03:05:48Z",
+  "updated_at": "2026-09-01T12:57:24Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2094750454261358971",
+      "text": "Last month of private season https://t.co/GLpkB9Jgqr",
+      "created_at": "Tue Sep 01 11:33:21 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2094750454261358971",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 12
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRIMa3xWQAE80oZ.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2094389730716651661",
       "text": "This past month $OYCI has been cooking. \nNew boat added to the fleet. And almost 1 roll bent into cages\n\n $oyci farm on @ChoiceXchange has been providing for as well.  \n\nRwa commercial fishing operation \n@injective\n@FourPillarsFP \n@ericinjective https://t.co/KvfvuWHPrU",
@@ -14,7 +33,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 53
+        "view_count": 73
       },
       "media": [
         {
@@ -62,7 +81,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 41
+        "view_count": 42
       },
       "media": [
         {
@@ -81,7 +100,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 99
+        "view_count": 108
       },
       "media": [
         {
@@ -113,7 +132,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 83
+        "view_count": 85
       },
       "media": [
         {
@@ -235,7 +254,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 73
+        "view_count": 74
       },
       "media": [
         {
@@ -320,19 +339,6 @@
           "video_url": "https://video.twimg.com/amplify_video/2084692675505147904/vid/avc1/1920x1080/LOBmg4PRJ1VfiJnK.mp4?tag=29"
         }
       ]
-    },
-    {
-      "id": "2084560782512074839",
-      "text": "RT @HuLmNguyn4: $INJ Q2, 2026 Recap\n\n🔹 Ranked #1 in daily developer activity, with 56 code commits in a single day, reinforcing the network…",
-      "created_at": "Tue Aug 04 08:43:14 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2084560782512074839",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 0
-      },
-      "media": []
     }
   ]
 }
