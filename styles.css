@@ -439,11 +439,17 @@ a { color: inherit; text-decoration: none; }
 .tk-tile.tk-live .tk-k { color: var(--amber); }
 .tk-tile.tk-live .tk-v { color: var(--sand); }
 .tk-tile.tk-live .tk-sub-inline { color: rgba(241,231,210,0.6); }
-.tk-tile.tk-live .tk-v-row {
+.tk-tile .tk-v-row {
   display: grid; grid-template-columns: 1fr 1fr;
   gap: 18px;
   margin-top: 8px;
 }
+.tk-trades .tk-v-row > div + div {
+  border-left: 1px solid rgba(10,35,43,0.12);
+  padding-left: 18px;
+}
+.tk-trades .tk-buy { color: var(--kelp); }
+.tk-trades .tk-sell { color: var(--coral); }
 .tk-wide { grid-column: 1 / -1; }
 .tk-empty {
   grid-column: 1 / -1;
@@ -463,7 +469,8 @@ a { color: inherit; text-decoration: none; }
 }
 @media (max-width: 640px) {
   .tokenomics-grid { grid-template-columns: 1fr; }
-  .tk-tile.tk-live .tk-v-row { grid-template-columns: 1fr; gap: 14px; }
+  .tk-tile .tk-v-row { grid-template-columns: 1fr; gap: 14px; }
+  .tk-trades .tk-v-row > div + div { border-left: 0; padding-left: 0; }
 }
 
 /* ───── tweets section ───── */

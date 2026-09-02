@@ -20,6 +20,16 @@
       "position_count": 4
     }
   },
+  "trades": {
+    "buys": {
+      "count": 91,
+      "usd": 2334.31835152451
+    },
+    "sells": {
+      "count": 19,
+      "usd": 582.1040436099103
+    }
+  },
   "farms": [
     {
       "id": 2,

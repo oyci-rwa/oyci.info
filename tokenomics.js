@@ -86,6 +86,24 @@
           : (earliest ? (lp.schedule_type || "vesting") : "—")}</div>
       </div>`;
 
+    // Buys vs sells — lifetime swap totals on Choice
+    const trades = d.trades || {};
+    const buys = trades.buys || {};
+    const sells = trades.sells || {};
+    const fmtUsd = (v) =>
+      Number.isFinite(v) ? "$" + fmtNum(v, { maximumFractionDigits: 0 }) : "—";
+    const fmtCount = (n) =>
+      Number.isFinite(n) ? fmtNum(n) + " swap" + (n === 1 ? "" : "s") : "—";
+    const tradesTile = (Number.isFinite(buys.count) || Number.isFinite(sells.count))
+      ? `<div class="tk-tile tk-wide tk-trades">
+           <div class="tk-k">Buys vs sells on Choice</div>
+           <div class="tk-v-row">
+             <div><span class="tk-v tk-buy">${fmtUsd(buys.usd)}</span><span class="tk-sub-inline">bought · ${fmtCount(buys.count)}</span></div>
+             <div><span class="tk-v tk-sell">${fmtUsd(sells.usd)}</span><span class="tk-sub-inline">sold · ${fmtCount(sells.count)}</span></div>
+           </div>
+         </div>`
+      : "";
+
     // Farms — list each farm as its own tile, plus a summary tile
     const farms = Array.isArray(d.farms) ? d.farms : [];
     let tvlSum = 0;
@@ -128,7 +146,7 @@
         <div class="tk-sub">Live on-chain list — opens injscan in a new tab</div>
       </a>`;
 
-    root.innerHTML = supplyTile + lockupTile + farmTiles + holdersTile + liveTile;
+    root.innerHTML = supplyTile + lockupTile + tradesTile + farmTiles + holdersTile + liveTile;
 
     // Updated-at stamp
     const stamp = document.getElementById("tokenomics-updated");
