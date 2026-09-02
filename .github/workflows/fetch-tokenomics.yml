@@ -72,6 +72,16 @@ jobs:
           LOCK_RESP=$(curl -sS -X POST -H "Content-Type: application/json" -d "$LOCK_QUERY" "$CHOICE_GQL")
           jq -e 'has("data")' <<< "$LOCK_RESP" >/dev/null || { echo "Lock query failed"; echo "$LOCK_RESP" >&2; exit 1; }
 
+          # 2c) Choice swaps — lifetime buy/sell totals.
+          # Buys ask for OYCI, so usd_input is what was paid in; sells offer OYCI,
+          # so usd_output is what came out. Both measure the non-OYCI side.
+          TRADE_QUERY=$(cat <<'EOF'
+          {"query":"{ buys: analytics_choiceswap_aggregate(where: {ask_token_id: {_eq: \"factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI\"}}) { aggregate { count sum { usd_input } } } sells: analytics_choiceswap_aggregate(where: {offer_token_id: {_eq: \"factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI\"}}) { aggregate { count sum { usd_output } } } }"}
+          EOF
+          )
+          TRADE_RESP=$(curl -sS -X POST -H "Content-Type: application/json" -d "$TRADE_QUERY" "$CHOICE_GQL")
+          jq -e '.data.buys.aggregate.count != null' <<< "$TRADE_RESP" >/dev/null || { echo "Trade query failed"; echo "$TRADE_RESP" >&2; exit 1; }
+
           # 3) Build tokenomics.json
           NEW_JSON=$(jq -n \
             --arg updated "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
@@ -80,7 +90,8 @@ jobs:
             --arg lp_total_raw "$LP_TOTAL_RAW" \
             --argjson total "$OYCI_TOTAL" \
             --argjson farm "$FARM_RESP" \
-            --argjson lock "$LOCK_RESP" '
+            --argjson lock "$LOCK_RESP" \
+            --argjson trade "$TRADE_RESP" '
             {
               updated_at: $updated,
               supply: {
@@ -113,6 +124,16 @@ jobs:
                     position_count: ($tot.position_count // 0)
                   }
                 )
+              },
+              trades: {
+                buys: {
+                  count: ($trade.data.buys.aggregate.count // 0),
+                  usd: ($trade.data.buys.aggregate.sum.usd_input // 0)
+                },
+                sells: {
+                  count: ($trade.data.sells.aggregate.count // 0),
+                  usd: ($trade.data.sells.aggregate.sum.usd_output // 0)
+                }
               },
               farms: (($farm.data.staking_farm // []) | map({
                 id: .id,
