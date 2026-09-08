@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T13:52:18Z",
+  "updated_at": "2026-09-08T12:30:58Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -11,10 +11,10 @@
       "created_at": "Wed Sep 02 12:08:17 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2095121632738083200",
       "metrics": {
-        "like_count": 4,
+        "like_count": 8,
         "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 53
+        "reply_count": 1,
+        "view_count": 2587
       },
       "media": [
         {
@@ -30,10 +30,10 @@
       "created_at": "Wed Sep 02 10:57:48 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2095103895869493298",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 28
+        "view_count": 67
       },
       "media": [
         {
@@ -52,7 +52,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 39
+        "view_count": 68
       },
       "media": [
         {
@@ -71,7 +71,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 80
+        "view_count": 100
       },
       "media": [
         {
@@ -116,10 +116,10 @@
       "created_at": "Wed Aug 26 10:29:50 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2092560140712980868",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 44
+        "view_count": 61
       },
       "media": [
         {
@@ -138,7 +138,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 123
+        "view_count": 140
       },
       "media": [
         {
@@ -170,7 +170,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 87
+        "view_count": 97
       },
       "media": [
         {
@@ -189,7 +189,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 30
+        "view_count": 41
       },
       "media": []
     },
@@ -202,7 +202,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 44
+        "view_count": 49
       },
       "media": []
     },
@@ -213,7 +213,7 @@
       "url": "https://x.com/0yst3rs/status/2090098441498009942",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 492,
+        "retweet_count": 491,
         "reply_count": 0,
         "view_count": 2
       },
@@ -228,7 +228,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 26
+        "view_count": 31
       },
       "media": []
     },
@@ -241,7 +241,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 29
+        "view_count": 34
       },
       "media": []
     },
@@ -254,7 +254,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 45
+        "view_count": 50
       },
       "media": [
         {
@@ -273,7 +273,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 56
+        "view_count": 62
       },
       "media": [
         {
@@ -292,7 +292,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 80
+        "view_count": 86
       },
       "media": [
         {
@@ -311,31 +311,12 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 40
+        "view_count": 43
       },
       "media": [
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HPg_NZtXkAAHlm4.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2085662823938486572",
-      "text": "Almost!! https://t.co/TQ7eCF8Jpf",
-      "created_at": "Fri Aug 07 09:42:21 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2085662823938486572",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 27
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HPHDRuPW8AAa5s0.jpg",
           "video_url": null
         }
       ]
