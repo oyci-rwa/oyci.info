@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-09-08T19:11:34Z",
+  "updated_at": "2026-09-09T02:36:22Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2097454907993305111",
+      "text": "After being recognized by the founder of @injective   @ericinjective  as the first rwa to ipo on chain. It's obvious we have $MOTION .  Join the LP and enter the farm on @ChoiceXchange https://t.co/YuRBh06c5q",
+      "created_at": "Tue Sep 08 22:39:53 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2097454907993305111",
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 102
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRuoH0MWcAAxoyS.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2095121632738083200",
       "text": "https://t.co/bWNOzrTF1W",
@@ -14,7 +33,7 @@
         "like_count": 8,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 3273
+        "view_count": 3519
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 74
+        "view_count": 79
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 74
+        "view_count": 78
       },
       "media": [
         {
@@ -71,7 +90,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 102
+        "view_count": 104
       },
       "media": [
         {
@@ -119,7 +138,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 63
+        "view_count": 65
       },
       "media": [
         {
@@ -138,7 +157,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 141
+        "view_count": 145
       },
       "media": [
         {
@@ -170,7 +189,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 98
+        "view_count": 99
       },
       "media": [
         {
@@ -189,7 +208,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 43
+        "view_count": 45
       },
       "media": []
     },
@@ -202,7 +221,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 50
+        "view_count": 51
       },
       "media": []
     },
@@ -228,7 +247,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 32
+        "view_count": 33
       },
       "media": []
     },
@@ -241,7 +260,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 35
+        "view_count": 36
       },
       "media": []
     },
@@ -254,7 +273,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 50
+        "view_count": 51
       },
       "media": [
         {
@@ -299,25 +318,6 @@
           "type": "video",
           "url": "https://pbs.twimg.com/amplify_video_thumb/2088208039899721728/img/1oaGisySDWD0A0m0.jpg",
           "video_url": "https://video.twimg.com/amplify_video/2088208039899721728/vid/avc1/1080x1920/58UQn1YUVB99QoQ0.mp4?tag=29"
-        }
-      ]
-    },
-    {
-      "id": "2087487950623801642",
-      "text": "Gooooood morning.   Hope everyone is doing well! https://t.co/LncMSlKgHu",
-      "created_at": "Wed Aug 12 10:34:45 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2087487950623801642",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 43
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HPg_NZtXkAAHlm4.jpg",
-          "video_url": null
         }
       ]
     }
