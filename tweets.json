@@ -1,10 +1,42 @@
 {
-  "updated_at": "2026-09-15T19:26:00Z",
+  "updated_at": "2026-09-16T02:52:35Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2100011888646005226",
+      "text": "Let the kids play \n\nI climbed 27,112m on RUN IT UP. Your move. 🐾 https://runup.fun/game?beat=27112",
+      "created_at": "Wed Sep 16 00:00:25 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2100011888646005226",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 10
+      },
+      "media": []
+    },
+    {
+      "id": "2100010282508492990",
+      "text": "$Oyci gonna run it up!!!!!! https://t.co/ke6DuvA4gX",
+      "created_at": "Tue Sep 15 23:54:02 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2100010282508492990",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSS8OR2WsAAu-E6.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2097454907993305111",
       "text": "After being recognized by the founder of @injective   @ericinjective  as the first rwa to ipo on chain. It's obvious we have $MOTION .  Join the LP and enter the farm on @ChoiceXchange https://t.co/YuRBh06c5q",
@@ -14,7 +46,7 @@
         "like_count": 11,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 206
+        "view_count": 210
       },
       "media": [
         {
@@ -33,7 +65,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 4317
+        "view_count": 4363
       },
       "media": [
         {
@@ -299,25 +331,6 @@
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HP3Gs4hWcAAOaZe.jpg",
           "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2088208408444870992",
-      "text": "Learning to enjoy the journey and not only the goal https://t.co/nSqkU3qYEO",
-      "created_at": "Fri Aug 14 10:17:36 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2088208408444870992",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 1,
-        "reply_count": 3,
-        "view_count": 91
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2088208039899721728/img/1oaGisySDWD0A0m0.jpg",
-          "video_url": "https://video.twimg.com/amplify_video/2088208039899721728/vid/avc1/1080x1920/58UQn1YUVB99QoQ0.mp4?tag=29"
         }
       ]
     }
