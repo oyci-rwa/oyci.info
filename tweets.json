@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T12:57:01Z",
+  "updated_at": "2026-09-17T19:28:24Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -11,10 +11,10 @@
       "created_at": "Thu Sep 17 11:28:14 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2100547373122384182",
       "metrics": {
-        "like_count": 1,
-        "retweet_count": 1,
+        "like_count": 2,
+        "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 19
+        "view_count": 41
       },
       "media": []
     },
@@ -27,7 +27,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 18
+        "view_count": 21
       },
       "media": []
     },
@@ -40,7 +40,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 22
+        "view_count": 23
       },
       "media": [
         {
@@ -59,7 +59,7 @@
         "like_count": 11,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 210
+        "view_count": 211
       },
       "media": [
         {
@@ -78,7 +78,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 4475
+        "view_count": 4495
       },
       "media": [
         {
@@ -97,7 +97,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 91
+        "view_count": 92
       },
       "media": [
         {
@@ -116,7 +116,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 87
+        "view_count": 88
       },
       "media": [
         {
@@ -135,7 +135,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 113
+        "view_count": 114
       },
       "media": [
         {
@@ -183,7 +183,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 71
+        "view_count": 72
       },
       "media": [
         {
@@ -202,7 +202,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 153
+        "view_count": 154
       },
       "media": [
         {
@@ -234,7 +234,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 106
+        "view_count": 107
       },
       "media": [
         {
@@ -253,7 +253,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 50
+        "view_count": 52
       },
       "media": []
     },
@@ -266,7 +266,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 56
+        "view_count": 57
       },
       "media": []
     },
@@ -292,7 +292,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 37
+        "view_count": 38
       },
       "media": []
     },
