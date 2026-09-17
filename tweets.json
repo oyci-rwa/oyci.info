@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-09-17T02:56:42Z",
+  "updated_at": "2026-09-17T12:57:01Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2100547373122384182",
+      "text": "https://injhub.com/proposal/700/\n\nThis proposal creates an ERC20 token pair mapping for the $OYCI token (factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI), enabling seamless interoperability between the Cosmos bank module and the EVM environment.\n@ericinjective @FourPillarsFP @injective",
+      "created_at": "Thu Sep 17 11:28:14 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2100547373122384182",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 19
+      },
+      "media": []
+    },
     {
       "id": "2100011888646005226",
       "text": "Let the kids play \n\nI climbed 27,112m on RUN IT UP. Your move. 🐾 https://runup.fun/game?beat=27112",
@@ -14,7 +27,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 17
+        "view_count": 18
       },
       "media": []
     },
@@ -65,7 +78,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 4438
+        "view_count": 4475
       },
       "media": [
         {
@@ -311,25 +324,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HP69ZpSWcAAKK-N.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2089044385404985478",
-      "text": "Getting some \"help\" with the next project https://t.co/qtHsmXnnev",
-      "created_at": "Sun Aug 16 17:39:28 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2089044385404985478",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 66
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HP3Gs4hWcAAOaZe.jpg",
           "video_url": null
         }
       ]
