@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-09-18T12:35:35Z",
+  "updated_at": "2026-09-18T18:47:45Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2100955647533547616",
+      "text": "Being the first rwa on injective comes with a lot of responsibility, and one of those is to get oyci available to all who wish to have it.  That's why oyci is looking to adapt to the evm injective environment \n\nhttps://injhub.com/proposal/700/\n\nCosts the community nothing, while offering everything.  \n\n@ericinjective @FourPillarsFP @mirza @injective",
+      "created_at": "Fri Sep 18 14:30:34 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2100955647533547616",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 2,
+        "reply_count": 1,
+        "view_count": 32
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSgXVUWXMAA82V5.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2100547373122384182",
       "text": "https://injhub.com/proposal/700/\n\nThis proposal creates an ERC20 token pair mapping for the $OYCI token (factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI), enabling seamless interoperability between the Cosmos bank module and the EVM environment.\n@ericinjective @FourPillarsFP @injective",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 44
+        "view_count": 47
       },
       "media": []
     },
@@ -27,7 +46,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 21
+        "view_count": 23
       },
       "media": []
     },
@@ -40,7 +59,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 23
+        "view_count": 25
       },
       "media": [
         {
@@ -59,7 +78,7 @@
         "like_count": 11,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 211
+        "view_count": 212
       },
       "media": [
         {
@@ -78,7 +97,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 4532
+        "view_count": 4593
       },
       "media": [
         {
@@ -97,7 +116,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 92
+        "view_count": 93
       },
       "media": [
         {
@@ -116,7 +135,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 88
+        "view_count": 89
       },
       "media": [
         {
@@ -135,7 +154,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 114
+        "view_count": 115
       },
       "media": [
         {
@@ -183,7 +202,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 72
+        "view_count": 73
       },
       "media": [
         {
@@ -295,38 +314,6 @@
         "view_count": 38
       },
       "media": []
-    },
-    {
-      "id": "2089346957168820575",
-      "text": "https://x.com/i/spaces/1OxwbnwwXqoJB",
-      "created_at": "Mon Aug 17 13:41:47 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2089346957168820575",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 40
-      },
-      "media": []
-    },
-    {
-      "id": "2089315532407267622",
-      "text": "rewards past and present \n\nCome aboard the $oyci LP\n Rwa commercial fishing operation\nBringing oyster yield on chain\n@ericinjective  @FourPillarsFP https://t.co/wV93HuN7hH",
-      "created_at": "Mon Aug 17 11:36:55 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2089315532407267622",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 55
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HP69ZpSWcAAKK-N.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
