@@ -1,10 +1,57 @@
 {
-  "updated_at": "2026-09-21T14:45:38Z",
+  "updated_at": "2026-09-21T20:13:10Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2102076275561030010",
+      "text": "RT @injective: Injective is now the leading chain for tokenized real estate assets. Injective has also now entered the top ten chain list f…",
+      "created_at": "Mon Sep 21 16:43:33 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2102076275561030010",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 94,
+        "reply_count": 0,
+        "view_count": 1
+      },
+      "media": []
+    },
+    {
+      "id": "2102065289252704294",
+      "text": "Slowly.... Public season approaches \n\nVessel number 2\n\n$oyci https://t.co/pv4snZeXWG",
+      "created_at": "Mon Sep 21 15:59:54 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2102065289252704294",
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 68
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSwJNmvWsAAqIF4.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSwJN6UWcAIrH-M.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSwJOSRWUAA6Yi6.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSwJO_OXwAAoCYD.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2100955647533547616",
       "text": "Being the first rwa on injective comes with a lot of responsibility, and one of those is to get oyci available to all who wish to have it.  That's why oyci is looking to adapt to the evm injective environment \n\nhttps://injhub.com/proposal/700/\n\nCosts the community nothing, while offering everything.  \n\n@ericinjective @FourPillarsFP @mirza @injective",
@@ -14,7 +61,7 @@
         "like_count": 3,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 51
+        "view_count": 55
       },
       "media": [
         {
@@ -33,7 +80,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 53
+        "view_count": 55
       },
       "media": []
     },
@@ -46,7 +93,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 26
+        "view_count": 28
       },
       "media": []
     },
@@ -59,7 +106,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 28
+        "view_count": 30
       },
       "media": [
         {
@@ -78,7 +125,7 @@
         "like_count": 11,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 216
+        "view_count": 218
       },
       "media": [
         {
@@ -97,7 +144,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 4984
+        "view_count": 4989
       },
       "media": [
         {
@@ -116,7 +163,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 93
+        "view_count": 95
       },
       "media": [
         {
@@ -135,7 +182,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 89
+        "view_count": 91
       },
       "media": [
         {
@@ -154,7 +201,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 115
+        "view_count": 116
       },
       "media": [
         {
@@ -202,7 +249,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 73
+        "view_count": 74
       },
       "media": [
         {
@@ -221,7 +268,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 154
+        "view_count": 155
       },
       "media": [
         {
@@ -253,7 +300,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 107
+        "view_count": 108
       },
       "media": [
         {
@@ -272,7 +319,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 52
+        "view_count": 53
       },
       "media": []
     },
@@ -285,33 +332,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 57
-      },
-      "media": []
-    },
-    {
-      "id": "2090098441498009942",
-      "text": "RT @injective: 🚨 BREAKING: Injective is now an official SEC-registered transfer agent!\n\nWith this move, Injective becomes the first layer 1…",
-      "created_at": "Wed Aug 19 15:27:55 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2090098441498009942",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 484,
-        "reply_count": 0,
-        "view_count": 2
-      },
-      "media": []
-    },
-    {
-      "id": "2090064396210864539",
-      "text": "https://x.com/i/spaces/1XxygwPBEndGM",
-      "created_at": "Wed Aug 19 13:12:38 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2090064396210864539",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 38
+        "view_count": 58
       },
       "media": []
     }
