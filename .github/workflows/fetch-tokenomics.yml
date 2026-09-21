@@ -135,17 +135,27 @@ jobs:
                   usd: ($trade.data.sells.aggregate.sum.usd_output // 0)
                 }
               },
-              farms: (($farm.data.staking_farm // []) | map({
-                id: .id,
-                contract: .contract_addr,
-                reward_symbol: .reward_token.symbol,
-                reward_decimals: .reward_token.decimals,
-                programmed_amount_raw: (.distribution_schedules[0].amount // null),
-                schedule_start: (.distribution_schedules[0].start_time // null),
-                schedule_end: (.distribution_schedules[0].end_time // null),
-                tvl_usd: (.analytics[0].current_tvl_usd // null),
-                apr_percentage: (.analytics[0].current_apr_percentage // null)
-              }))
+              farms: (($farm.data.staking_farm // []) | map(
+                # Farms get topped up: a farm can carry several distribution schedules,
+                # so the live window runs from the earliest start to the LATEST end.
+                # Reading only [0] marks topped-up farms as expired.
+                ((.distribution_schedules // []) | sort_by(.end_time)) as $sch |
+                {
+                  id: .id,
+                  contract: .contract_addr,
+                  reward_symbol: .reward_token.symbol,
+                  reward_decimals: .reward_token.decimals,
+                  schedules: ($sch | map({
+                    start: .start_time,
+                    end: .end_time,
+                    amount_raw: .amount
+                  })),
+                  programmed_amount_raw: (if ($sch | length) > 0 then ($sch | map(.amount) | add) else null end),
+                  schedule_start: (if ($sch | length) > 0 then ($sch | map(.start_time) | min) else null end),
+                  schedule_end: (if ($sch | length) > 0 then ($sch | map(.end_time) | max) else null end),
+                  tvl_usd: (.analytics[0].current_tvl_usd // null),
+                  apr_percentage: (.analytics[0].current_apr_percentage // null)
+                }))
             }')
 
           # 4) Skip commit if unchanged (excluding updated_at)
