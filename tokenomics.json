@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T16:51:26Z",
+  "updated_at": "2026-09-23T21:26:56Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -8,8 +8,8 @@
   "lockups": {
     "lp": {
       "total_locked_raw": "129965233435540641",
-      "lp_total_supply_raw": "529132882190206295",
-      "locked_percentage": 24.56192722281476,
+      "lp_total_supply_raw": "535485539953657216",
+      "locked_percentage": 24.270540236583845,
       "position_count": 2,
       "earliest_unlock": "2026-12-15T00:25:00Z",
       "latest_unlock": "2028-04-01T23:49:00Z",
