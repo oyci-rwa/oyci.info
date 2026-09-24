@@ -1,20 +1,33 @@
 {
-  "updated_at": "2026-09-23T19:23:23Z",
+  "updated_at": "2026-09-24T02:42:49Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2102881011356844288",
+      "text": "Where does the OYCI farm yield come from?\n\nNot a token printer.\nNot endless emissions.\n\n🦪 Oysters are harvested\n💵 Oysters generate revenue\n⛓️ That real-world value is brought on-chain\n\nOYCI: yield from the tide, not inflation.\n\nFarm $OYCI on @ChoiceXchange",
+      "created_at": "Wed Sep 23 22:01:17 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2102881011356844288",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 1,
+        "reply_count": 2,
+        "view_count": 23
+      },
+      "media": []
+    },
+    {
       "id": "2102601750691602661",
       "text": "$oyci  \npays different \n \nReal yield available on @ChoiceXchange\n\nhttps://Oyci.info\nFor updates\n\nhttps://t.me/+Hs_ObFRivWZlZDI5 for daily convos with the Captain https://t.co/7gX5KTv4FI",
       "created_at": "Wed Sep 23 03:31:36 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2102601750691602661",
       "metrics": {
-        "like_count": 8,
+        "like_count": 9,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 152
+        "view_count": 163
       },
       "media": [
         {
@@ -33,7 +46,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 45
+        "view_count": 49
       },
       "media": []
     },
@@ -46,7 +59,7 @@
         "like_count": 0,
         "retweet_count": 106,
         "reply_count": 0,
-        "view_count": 1
+        "view_count": 2
       },
       "media": []
     },
@@ -59,7 +72,7 @@
         "like_count": 6,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 99
+        "view_count": 100
       },
       "media": [
         {
@@ -93,7 +106,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 65
+        "view_count": 66
       },
       "media": [
         {
@@ -176,7 +189,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 5098
+        "view_count": 5108
       },
       "media": [
         {
@@ -287,57 +300,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HQpEWcFW0AA5_OS.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2092210520992452965",
-      "text": "Thankful for another day https://t.co/7LVzevRkSw",
-      "created_at": "Tue Aug 25 11:20:34 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2092210520992452965",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 157
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2092209447921713152/img/MVr93wLJ0yg-seFN.jpg",
-          "video_url": "https://video.twimg.com/amplify_video/2092209447921713152/vid/avc1/1080x1920/E22yE5874aMLfJRP.mp4?tag=29"
-        }
-      ]
-    },
-    {
-      "id": "2091928891904438533",
-      "text": "RT @MB14H0110: Injective is exploding.. and Injective EVM is the quiet rocket behind it. 🚀 \n\nYes guys, @injective just posted some of the m…",
-      "created_at": "Mon Aug 24 16:41:28 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2091928891904438533",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 13,
-        "reply_count": 0,
-        "view_count": 3
-      },
-      "media": []
-    },
-    {
-      "id": "2091840868999160284",
-      "text": "Lovely morning on the water.  later today a new usdc yield starting on the oyci/inj LP.\n@ericinjective @FourPillarsFP   tradeable on @ChoiceXchange\n\nThe only commercial fishing operation on injective https://t.co/3Vt1Elre3e",
-      "created_at": "Mon Aug 24 10:51:42 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2091840868999160284",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 110
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HQe2Ls7WwAA6REG.jpg",
           "video_url": null
         }
       ]
