@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-09-24T02:42:49Z",
+  "updated_at": "2026-09-24T13:05:11Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2102963746066817430",
+      "text": "Had to wade out to the boat this mornin/night because of the nor’easter tide.\n\nCrypto talks a lot about “real-world assets.”\n\nThis is the real world. 🌊🦪\n\n$OYCI — yield from the tide, not inflation. https://t.co/PLPhvE6dLd",
+      "created_at": "Thu Sep 24 03:30:02 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2102963746066817430",
+      "metrics": {
+        "like_count": 5,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 75
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS86YNnW4AADW1J.jpg",
+          "video_url": null
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS86YbhXAAAhz6N.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2102881011356844288",
       "text": "Where does the OYCI farm yield come from?\n\nNot a token printer.\nNot endless emissions.\n\n🦪 Oysters are harvested\n💵 Oysters generate revenue\n⛓️ That real-world value is brought on-chain\n\nOYCI: yield from the tide, not inflation.\n\nFarm $OYCI on @ChoiceXchange",
       "created_at": "Wed Sep 23 22:01:17 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2102881011356844288",
       "metrics": {
-        "like_count": 1,
+        "like_count": 2,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 23
+        "view_count": 47
       },
       "media": []
     },
@@ -27,7 +51,7 @@
         "like_count": 9,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 163
+        "view_count": 165
       },
       "media": [
         {
@@ -72,7 +96,7 @@
         "like_count": 6,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 100
+        "view_count": 101
       },
       "media": [
         {
@@ -189,7 +213,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 5108
+        "view_count": 5123
       },
       "media": [
         {
@@ -281,25 +305,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HQ3zPX2WgAAKxUI.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2092560140712980868",
-      "text": "671 ti having some coolant issues gonna baby here for now... Maybe a headgaset sooner than later #diesels #671ti https://t.co/W7pHGR2nUu",
-      "created_at": "Wed Aug 26 10:29:50 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2092560140712980868",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 75
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HQpEWcFW0AA5_OS.jpg",
           "video_url": null
         }
       ]
