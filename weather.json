@@ -1,49 +1,23 @@
 {
-  "updated_at": "2026-09-24T08:51:21Z",
+  "updated_at": "2026-09-25T09:12:11Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-09-24T08:51:21+00:00",
+  "forecast_generated": "2026-09-25T09:12:11+00:00",
   "periods": [
     {
       "name": "Overnight",
-      "start": "2026-09-24T04:00:00-04:00",
-      "end": "2026-09-24T06:00:00-04:00",
-      "temperature": 64,
-      "temperature_unit": "F",
-      "wind_speed": "24 mph",
-      "wind_direction": "NE",
-      "short_forecast": "Chance Light Rain",
-      "detailed_forecast": "A chance of rain. Mostly cloudy, with a low around 64. Northeast wind around 24 mph, with gusts as high as 33 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-      "icon": "https://api.weather.gov/icons/land/night/rain,30?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Thursday",
-      "start": "2026-09-24T06:00:00-04:00",
-      "end": "2026-09-24T18:00:00-04:00",
-      "temperature": 69,
-      "temperature_unit": "F",
-      "wind_speed": "24 mph",
-      "wind_direction": "NE",
-      "short_forecast": "Slight Chance Light Rain",
-      "detailed_forecast": "A slight chance of rain. Mostly cloudy, with a high near 69. Northeast wind around 24 mph, with gusts as high as 33 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
-      "icon": "https://api.weather.gov/icons/land/day/rain,20?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Thursday Night",
-      "start": "2026-09-24T18:00:00-04:00",
+      "start": "2026-09-25T05:00:00-04:00",
       "end": "2026-09-25T06:00:00-04:00",
       "temperature": 60,
       "temperature_unit": "F",
-      "wind_speed": "17 to 23 mph",
+      "wind_speed": "21 mph",
       "wind_direction": "N",
       "short_forecast": "Mostly Cloudy",
-      "detailed_forecast": "Mostly cloudy, with a low around 60. North wind 17 to 23 mph, with gusts as high as 32 mph. New rainfall amounts less than a tenth of an inch possible.",
+      "detailed_forecast": "Mostly cloudy, with a low around 60. North wind around 21 mph, with gusts as high as 30 mph.",
       "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
       "is_daytime": false
     },
@@ -53,11 +27,37 @@
       "end": "2026-09-25T18:00:00-04:00",
       "temperature": 70,
       "temperature_unit": "F",
-      "wind_speed": "18 mph",
+      "wind_speed": "21 mph",
       "wind_direction": "N",
-      "short_forecast": "Mostly Sunny",
-      "detailed_forecast": "Mostly sunny, with a high near 70. North wind around 18 mph, with gusts as high as 26 mph.",
-      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "short_forecast": "Partly Sunny",
+      "detailed_forecast": "Partly sunny, with a high near 70. North wind around 21 mph, with gusts as high as 30 mph.",
+      "icon": "https://api.weather.gov/icons/land/day/wind_bkn?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Friday Night",
+      "start": "2026-09-25T18:00:00-04:00",
+      "end": "2026-09-26T06:00:00-04:00",
+      "temperature": 60,
+      "temperature_unit": "F",
+      "wind_speed": "13 to 20 mph",
+      "wind_direction": "N",
+      "short_forecast": "Mostly Cloudy",
+      "detailed_forecast": "Mostly cloudy, with a low around 60. North wind 13 to 20 mph, with gusts as high as 29 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Saturday",
+      "start": "2026-09-26T06:00:00-04:00",
+      "end": "2026-09-26T18:00:00-04:00",
+      "temperature": 73,
+      "temperature_unit": "F",
+      "wind_speed": "15 to 21 mph",
+      "wind_direction": "NW",
+      "short_forecast": "Partly Sunny",
+      "detailed_forecast": "Partly sunny, with a high near 73. Northwest wind 15 to 21 mph. New rainfall amounts less than a tenth of an inch possible.",
+      "icon": "https://api.weather.gov/icons/land/day/wind_bkn?size=medium",
       "is_daytime": true
     }
   ]
