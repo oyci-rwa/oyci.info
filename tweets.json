@@ -1,20 +1,33 @@
 {
-  "updated_at": "2026-09-24T19:43:00Z",
+  "updated_at": "2026-09-25T02:59:22Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2103246884626116955",
+      "text": "The James River has been oyster country for centuries. 🦪\nSome historic reefs were so large they actually reached the surface.\n\nPretty wild to think about what this river once looked like — and what it could look like again.\n\n$OYCI 🌊\n@VIMS_News",
+      "created_at": "Thu Sep 24 22:15:08 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2103246884626116955",
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 39
+      },
+      "media": []
+    },
+    {
       "id": "2102963746066817430",
-      "text": "Had to wade out to the boat this mornin/night because of the nor’easter tide.\n\nCrypto talks a lot about “real-world assets.”\n\nThis is the real world. 🌊🦪\n\n$OYCI — yield from the tide, not inflation. https://t.co/PLPhvE6dLd",
+      "text": "Had to wade out to the boat this mornin/night because of the nor���easter tide.\n\nCrypto talks a lot about “real-world assets.”\n\nThis is the real world. 🌊🦪\n\n$OYCI — yield from the tide, not inflation. https://t.co/PLPhvE6dLd",
       "created_at": "Thu Sep 24 03:30:02 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2102963746066817430",
       "metrics": {
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 96
+        "view_count": 101
       },
       "media": [
         {
@@ -35,10 +48,10 @@
       "created_at": "Wed Sep 23 22:01:17 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2102881011356844288",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 51
+        "view_count": 54
       },
       "media": []
     },
@@ -51,7 +64,7 @@
         "like_count": 9,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 167
+        "view_count": 168
       },
       "media": [
         {
@@ -213,7 +226,7 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 5127
+        "view_count": 5134
       },
       "media": [
         {
@@ -286,25 +299,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HRDEXARXIAE2y_4.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2093668277562052805",
-      "text": "RT @GrinDroid: 🍄❤️‍🔥 $MOTION 4 $SHROOM on $INJ\n🍄🎉 GMotion and Thanks! https://t.co/6BYRIpc7Zm",
-      "created_at": "Sat Aug 29 11:53:10 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2093668277562052805",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 4
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HQ3zPX2WgAAKxUI.jpg",
           "video_url": null
         }
       ]
