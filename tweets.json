@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-09-26T18:54:48Z",
+  "updated_at": "2026-09-27T03:08:37Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2103967601017737680",
+      "text": "Future Hokage of the oyster grounds. 🍜🦪 Believe it. https://t.co/PeYtfoJMjz",
+      "created_at": "Sat Sep 26 21:59:00 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2103967601017737680",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "view_count": 36
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2103967519367151617/img/r_aHlafl2KP1ul_x.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2103967519367151617/vid/avc1/720x1280/mZeG2Kta5pmkrC5D.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2103480393701675403",
       "text": "A rising tide will raise all ships",
@@ -14,7 +33,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 46
+        "view_count": 55
       },
       "media": []
     },
@@ -27,7 +46,7 @@
         "like_count": 4,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 68
+        "view_count": 75
       },
       "media": []
     },
@@ -40,7 +59,7 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 105
+        "view_count": 109
       },
       "media": [
         {
@@ -64,7 +83,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 59
+        "view_count": 60
       },
       "media": []
     },
@@ -239,51 +258,13 @@
         "like_count": 9,
         "retweet_count": 2,
         "reply_count": 1,
-        "view_count": 5155
+        "view_count": 5156
       },
       "media": [
         {
           "type": "video",
           "url": "https://pbs.twimg.com/amplify_video_thumb/2095121427267457027/img/fD1zaE29yHbjz4W4.jpg",
           "video_url": "https://video.twimg.com/amplify_video/2095121427267457027/vid/avc1/1080x1920/qa2c5j4nEaJLkdrl.mp4?tag=29"
-        }
-      ]
-    },
-    {
-      "id": "2095103895869493298",
-      "text": "91 buys vs 19 sells.\n People love oyci I can see why. Usdc rewards coming from oystering flowing on chain. \n\n@injective chain \n@ChoiceXchange  for buying and LP \n$oyci rwa commercial fishing operation based in Virginia \nhttp://Oyci.info \n\n@FourPillarsFP @ericinjective @PremierNinjas",
-      "created_at": "Wed Sep 02 10:57:48 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2095103895869493298",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 97
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HRNN4I5WQAIgmth.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2094750454261358971",
-      "text": "Last month of private season https://t.co/GLpkB9Jgqr",
-      "created_at": "Tue Sep 01 11:33:21 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2094750454261358971",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 93
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HRIMa3xWQAE80oZ.jpg",
-          "video_url": null
         }
       ]
     }
