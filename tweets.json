@@ -1,10 +1,48 @@
 {
-  "updated_at": "2026-09-28T03:05:29Z",
+  "updated_at": "2026-09-28T16:21:10Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2104572390306906320",
+      "text": "There is no other dev like the one cooking for $oyci\n\nCant claude these puppies on the deck\n@ericinjective @injective https://t.co/fYhlgNl634",
+      "created_at": "Mon Sep 28 14:02:13 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2104572390306906320",
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "view_count": 89
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2104572362297364480/img/KyfiAYCo56jDurdq.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2104572362297364480/vid/avc1/720x1280/aHw2jWEfzq2qMEbO.mp4?tag=29"
+        }
+      ]
+    },
+    {
+      "id": "2104518710811611526",
+      "text": "This should be fun https://t.co/lK7uTd5O8E",
+      "created_at": "Mon Sep 28 10:28:55 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2104518710811611526",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 91
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2104518675516518400/img/-9s6XeCf8zfFunAL.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2104518675516518400/vid/avc1/720x1280/sbPUhErLmpxDw43u.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2103967601017737680",
       "text": "Future Hokage of the oyster grounds. 🍜🦪 Believe it. https://t.co/PeYtfoJMjz",
@@ -14,7 +52,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 3,
-        "view_count": 76
+        "view_count": 82
       },
       "media": [
         {
@@ -33,7 +71,7 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 56
+        "view_count": 58
       },
       "media": []
     },
@@ -46,7 +84,7 @@
         "like_count": 5,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 80
+        "view_count": 81
       },
       "media": []
     },
@@ -59,7 +97,7 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 110
+        "view_count": 111
       },
       "media": [
         {
@@ -83,7 +121,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 60
+        "view_count": 61
       },
       "media": []
     },
@@ -96,7 +134,7 @@
         "like_count": 9,
         "retweet_count": 4,
         "reply_count": 0,
-        "view_count": 172
+        "view_count": 173
       },
       "media": [
         {
@@ -115,7 +153,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 50
+        "view_count": 51
       },
       "media": []
     },
@@ -141,7 +179,7 @@
         "like_count": 6,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 102
+        "view_count": 103
       },
       "media": [
         {
@@ -175,7 +213,7 @@
         "like_count": 4,
         "retweet_count": 2,
         "reply_count": 2,
-        "view_count": 66
+        "view_count": 67
       },
       "media": [
         {
@@ -194,7 +232,7 @@
         "like_count": 2,
         "retweet_count": 2,
         "reply_count": 0,
-        "view_count": 59
+        "view_count": 60
       },
       "media": []
     },
@@ -207,7 +245,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 30
+        "view_count": 31
       },
       "media": []
     },
@@ -220,51 +258,13 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 32
+        "view_count": 33
       },
       "media": [
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HSS8OR2WsAAu-E6.jpg",
           "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2097454907993305111",
-      "text": "After being recognized by the founder of @injective   @ericinjective  as the first rwa to ipo on chain. It's obvious we have $MOTION .  Join the LP and enter the farm on @ChoiceXchange https://t.co/YuRBh06c5q",
-      "created_at": "Tue Sep 08 22:39:53 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2097454907993305111",
-      "metrics": {
-        "like_count": 11,
-        "retweet_count": 2,
-        "reply_count": 2,
-        "view_count": 221
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HRuoH0MWcAAxoyS.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2095121632738083200",
-      "text": "https://t.co/bWNOzrTF1W",
-      "created_at": "Wed Sep 02 12:08:17 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2095121632738083200",
-      "metrics": {
-        "like_count": 9,
-        "retweet_count": 2,
-        "reply_count": 1,
-        "view_count": 5166
-      },
-      "media": [
-        {
-          "type": "video",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2095121427267457027/img/fD1zaE29yHbjz4W4.jpg",
-          "video_url": "https://video.twimg.com/amplify_video/2095121427267457027/vid/avc1/1080x1920/qa2c5j4nEaJLkdrl.mp4?tag=29"
         }
       ]
     }
