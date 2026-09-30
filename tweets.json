@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-09-30T03:32:25Z",
+  "updated_at": "2026-09-30T14:30:18Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2105244067411931626",
+      "text": "How it's starts https://t.co/CQXvdqsay0",
+      "created_at": "Wed Sep 30 10:31:13 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2105244067411931626",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 18
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTdUT7sWoAAbULL.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2104572390306906320",
       "text": "There is no other dev like the one cooking for $oyci\n\nCant claude these puppies on the deck\n@ericinjective @injective https://t.co/fYhlgNl634",
@@ -14,7 +33,7 @@
         "like_count": 5,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 122
+        "view_count": 135
       },
       "media": [
         {
@@ -248,25 +267,6 @@
         "view_count": 31
       },
       "media": []
-    },
-    {
-      "id": "2100010282508492990",
-      "text": "$Oyci gonna run it up!!!!!! https://t.co/ke6DuvA4gX",
-      "created_at": "Tue Sep 15 23:54:02 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2100010282508492990",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 33
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSS8OR2WsAAu-E6.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
