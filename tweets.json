@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-10-01T03:37:29Z",
+  "updated_at": "2026-10-01T15:00:05Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2105656700892074218",
+      "text": "$Oyci has the best farms around in my opinion.  \nNon inflation based.\n$Injective rises so will the value of some of the farms...  Oyci price down?? The usdc farm apr rises.\n  We are masters of both ebb and flow \n@injective @ericinjective @FourPillarsFP https://t.co/j5z79wd6v9",
+      "created_at": "Thu Oct 01 13:50:53 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2105656700892074218",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 23
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTjLnEDWYAAFu8W.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2105244067411931626",
       "text": "How it's starts https://t.co/CQXvdqsay0",
@@ -14,7 +33,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 29
+        "view_count": 33
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 6,
         "retweet_count": 1,
         "reply_count": 2,
-        "view_count": 139
+        "view_count": 141
       },
       "media": [
         {
@@ -52,7 +71,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 107
+        "view_count": 108
       },
       "media": [
         {
@@ -252,19 +271,6 @@
         "retweet_count": 2,
         "reply_count": 0,
         "view_count": 60
-      },
-      "media": []
-    },
-    {
-      "id": "2100011888646005226",
-      "text": "Let the kids play \n\nI climbed 27,112m on RUN IT UP. Your move. 🐾 https://runup.fun/game?beat=27112",
-      "created_at": "Wed Sep 16 00:00:25 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2100011888646005226",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 31
       },
       "media": []
     }
