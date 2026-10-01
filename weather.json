@@ -1,41 +1,15 @@
 {
-  "updated_at": "2026-09-30T10:05:43Z",
+  "updated_at": "2026-10-01T10:33:54Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-09-30T10:05:43+00:00",
+  "forecast_generated": "2026-10-01T10:33:54+00:00",
   "periods": [
     {
       "name": "Today",
-      "start": "2026-09-30T06:00:00-04:00",
-      "end": "2026-09-30T18:00:00-04:00",
-      "temperature": 80,
-      "temperature_unit": "F",
-      "wind_speed": "0 to 7 mph",
-      "wind_direction": "SE",
-      "short_forecast": "Patchy Fog then Sunny",
-      "detailed_forecast": "Patchy fog before 8am. Sunny, with a high near 80. Southeast wind 0 to 7 mph.",
-      "icon": "https://api.weather.gov/icons/land/day/fog/few?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Tonight",
-      "start": "2026-09-30T18:00:00-04:00",
-      "end": "2026-10-01T06:00:00-04:00",
-      "temperature": 65,
-      "temperature_unit": "F",
-      "wind_speed": "7 mph",
-      "wind_direction": "S",
-      "short_forecast": "Partly Cloudy",
-      "detailed_forecast": "Partly cloudy, with a low around 65. South wind around 7 mph.",
-      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Thursday",
       "start": "2026-10-01T06:00:00-04:00",
       "end": "2026-10-01T18:00:00-04:00",
       "temperature": 86,
@@ -48,16 +22,42 @@
       "is_daytime": true
     },
     {
-      "name": "Thursday Night",
+      "name": "Tonight",
       "start": "2026-10-01T18:00:00-04:00",
       "end": "2026-10-02T06:00:00-04:00",
-      "temperature": 68,
+      "temperature": 67,
       "temperature_unit": "F",
-      "wind_speed": "7 to 10 mph",
+      "wind_speed": "6 to 12 mph",
       "wind_direction": "SW",
       "short_forecast": "Mostly Clear",
-      "detailed_forecast": "Mostly clear, with a low around 68. Southwest wind 7 to 10 mph.",
+      "detailed_forecast": "Mostly clear, with a low around 67. Southwest wind 6 to 12 mph.",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Friday",
+      "start": "2026-10-02T06:00:00-04:00",
+      "end": "2026-10-02T18:00:00-04:00",
+      "temperature": 88,
+      "temperature_unit": "F",
+      "wind_speed": "10 mph",
+      "wind_direction": "SW",
+      "short_forecast": "Mostly Sunny",
+      "detailed_forecast": "Mostly sunny, with a high near 88. Southwest wind around 10 mph.",
+      "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Friday Night",
+      "start": "2026-10-02T18:00:00-04:00",
+      "end": "2026-10-03T06:00:00-04:00",
+      "temperature": 66,
+      "temperature_unit": "F",
+      "wind_speed": "9 mph",
+      "wind_direction": "W",
+      "short_forecast": "Partly Cloudy",
+      "detailed_forecast": "Partly cloudy, with a low around 66. West wind around 9 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
       "is_daytime": false
     }
   ]
