@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:04:42Z",
+  "updated_at": "2026-10-01T22:37:26Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -16,8 +16,8 @@
       "schedule_type": "linear"
     },
     "oyci": {
-      "total_locked_raw": "391884985885379",
-      "position_count": 4
+      "total_locked_raw": "449278687424646",
+      "position_count": 5
     }
   },
   "trades": {
@@ -31,6 +31,34 @@
     }
   },
   "farms": [
+    {
+      "id": 10,
+      "contract": "inj16y888zlql6mdendn2qtzjdjg4wplycrjaqzcnr",
+      "reward_symbol": "SAI",
+      "reward_decimals": 18,
+      "schedules": [
+        {
+          "start": "2026-07-10T17:40:00+00:00",
+          "end": "2026-08-09T17:40:00+00:00",
+          "amount_raw": 250000000000000000000
+        },
+        {
+          "start": "2026-08-07T18:55:00+00:00",
+          "end": "2026-12-24T19:55:00+00:00",
+          "amount_raw": 2500000000000000000000
+        },
+        {
+          "start": "2026-10-01T13:18:00+00:00",
+          "end": "2027-01-30T21:20:00+00:00",
+          "amount_raw": 500000000000000000000
+        }
+      ],
+      "programmed_amount_raw": 3.25e+21,
+      "schedule_start": "2026-07-10T17:40:00+00:00",
+      "schedule_end": "2027-01-30T21:20:00+00:00",
+      "tvl_usd": 1587.9023,
+      "apr_percentage": 51.591574503541783300
+    },
     {
       "id": 2,
       "contract": "inj1gkxq8tv4yayuu728sxvez5hy4v2h5qs6vuv6gh",
@@ -46,7 +74,7 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 61.8703,
+      "tvl_usd": 60.5112,
       "apr_percentage": 0E-18
     },
     {
@@ -64,8 +92,36 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 242.5637,
+      "tvl_usd": 237.2355,
       "apr_percentage": 0E-18
+    },
+    {
+      "id": 13,
+      "contract": "inj1cku6cjkdrw0natu3chu8xdkumjn3wql063z4ss",
+      "reward_symbol": "USDC",
+      "reward_decimals": 6,
+      "schedules": [
+        {
+          "start": "2026-08-15T16:30:00+00:00",
+          "end": "2026-09-14T16:30:00+00:00",
+          "amount_raw": 50000000
+        },
+        {
+          "start": "2026-08-24T15:21:00+00:00",
+          "end": "2026-10-09T15:21:00+00:00",
+          "amount_raw": 25000000
+        },
+        {
+          "start": "2026-10-01T13:21:00+00:00",
+          "end": "2026-11-09T14:21:00+00:00",
+          "amount_raw": 19000000
+        }
+      ],
+      "programmed_amount_raw": 94000000,
+      "schedule_start": "2026-08-15T16:30:00+00:00",
+      "schedule_end": "2026-11-09T14:21:00+00:00",
+      "tvl_usd": 141.3863,
+      "apr_percentage": 265.929030530989188721
     },
     {
       "id": 6,
@@ -87,7 +143,7 @@
       "programmed_amount_raw": 885000000000,
       "schedule_start": "2026-05-26T23:42:00+00:00",
       "schedule_end": "2026-10-01T05:30:00+00:00",
-      "tvl_usd": 470.5821,
+      "tvl_usd": 458.5730,
       "apr_percentage": 0E-18
     },
     {
@@ -105,7 +161,7 @@
       "programmed_amount_raw": 16000000,
       "schedule_start": "2026-06-25T02:55:00+00:00",
       "schedule_end": "2026-07-25T02:55:00+00:00",
-      "tvl_usd": 362.7682,
+      "tvl_usd": 353.5105,
       "apr_percentage": 0E-18
     },
     {
@@ -133,54 +189,8 @@
       "programmed_amount_raw": 25380000000000,
       "schedule_start": "2026-05-26T15:11:00+00:00",
       "schedule_end": "2026-07-25T03:06:00+00:00",
-      "tvl_usd": 271.8691,
+      "tvl_usd": 264.9311,
       "apr_percentage": 0E-18
-    },
-    {
-      "id": 10,
-      "contract": "inj16y888zlql6mdendn2qtzjdjg4wplycrjaqzcnr",
-      "reward_symbol": "SAI",
-      "reward_decimals": 18,
-      "schedules": [
-        {
-          "start": "2026-07-10T17:40:00+00:00",
-          "end": "2026-08-09T17:40:00+00:00",
-          "amount_raw": 250000000000000000000
-        },
-        {
-          "start": "2026-08-07T18:55:00+00:00",
-          "end": "2026-12-24T19:55:00+00:00",
-          "amount_raw": 2500000000000000000000
-        }
-      ],
-      "programmed_amount_raw": 2.75e+21,
-      "schedule_start": "2026-07-10T17:40:00+00:00",
-      "schedule_end": "2026-12-24T19:55:00+00:00",
-      "tvl_usd": 1627.7534,
-      "apr_percentage": 41.796060056150111769
-    },
-    {
-      "id": 13,
-      "contract": "inj1cku6cjkdrw0natu3chu8xdkumjn3wql063z4ss",
-      "reward_symbol": "USDC",
-      "reward_decimals": 6,
-      "schedules": [
-        {
-          "start": "2026-08-15T16:30:00+00:00",
-          "end": "2026-09-14T16:30:00+00:00",
-          "amount_raw": 50000000
-        },
-        {
-          "start": "2026-08-24T15:21:00+00:00",
-          "end": "2026-10-09T15:21:00+00:00",
-          "amount_raw": 25000000
-        }
-      ],
-      "programmed_amount_raw": 75000000,
-      "schedule_start": "2026-08-15T16:30:00+00:00",
-      "schedule_end": "2026-10-09T15:21:00+00:00",
-      "tvl_usd": 144.9346,
-      "apr_percentage": 136.859974139131721575
     },
     {
       "id": 14,
@@ -197,8 +207,8 @@
       "programmed_amount_raw": 16000000000000000000000,
       "schedule_start": "2026-09-08T22:13:00+00:00",
       "schedule_end": "2026-10-08T22:13:00+00:00",
-      "tvl_usd": 1053.6986,
-      "apr_percentage": 21.369351643590346127
+      "tvl_usd": 1027.9017,
+      "apr_percentage": 19.981215018495262326
     }
   ]
 }
