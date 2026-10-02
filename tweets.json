@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T20:43:48Z",
+  "updated_at": "2026-10-02T03:37:22Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -11,10 +11,10 @@
       "created_at": "Thu Oct 01 13:50:53 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2105656700892074218",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 119
+        "reply_count": 2,
+        "view_count": 129
       },
       "media": [
         {
@@ -260,19 +260,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2100547373122384182",
-      "text": "https://injhub.com/proposal/700/\n\nThis proposal creates an ERC20 token pair mapping for the $OYCI token (factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI), enabling seamless interoperability between the Cosmos bank module and the EVM environment.\n@ericinjective @FourPillarsFP @injective",
-      "created_at": "Thu Sep 17 11:28:14 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2100547373122384182",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 2,
-        "reply_count": 0,
-        "view_count": 60
-      },
-      "media": []
     }
   ]
 }
