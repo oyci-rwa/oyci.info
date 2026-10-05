@@ -1,63 +1,63 @@
 {
-  "updated_at": "2026-10-04T10:18:14Z",
+  "updated_at": "2026-10-05T10:58:51Z",
   "location": {
     "name": "Menchville",
     "region": "Virginia",
     "grid": "AKQ 81,60"
   },
   "elevation_m": 0.9144,
-  "forecast_generated": "2026-10-04T10:18:14+00:00",
+  "forecast_generated": "2026-10-05T10:58:51+00:00",
   "periods": [
     {
       "name": "Today",
-      "start": "2026-10-04T06:00:00-04:00",
-      "end": "2026-10-04T18:00:00-04:00",
-      "temperature": 72,
-      "temperature_unit": "F",
-      "wind_speed": "6 mph",
-      "wind_direction": "N",
-      "short_forecast": "Rain Showers Likely",
-      "detailed_forecast": "Rain showers likely. Cloudy, with a high near 72. North wind around 6 mph. Chance of precipitation is 60%. New rainfall amounts between a quarter and half of an inch possible.",
-      "icon": "https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,60?size=medium",
-      "is_daytime": true
-    },
-    {
-      "name": "Tonight",
-      "start": "2026-10-04T18:00:00-04:00",
-      "end": "2026-10-05T06:00:00-04:00",
-      "temperature": 63,
-      "temperature_unit": "F",
-      "wind_speed": "7 mph",
-      "wind_direction": "NW",
-      "short_forecast": "Chance Rain Showers then Cloudy",
-      "detailed_forecast": "A chance of rain showers before midnight. Cloudy, with a low around 63. Northwest wind around 7 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-      "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/ovc?size=medium",
-      "is_daytime": false
-    },
-    {
-      "name": "Monday",
       "start": "2026-10-05T06:00:00-04:00",
       "end": "2026-10-05T18:00:00-04:00",
-      "temperature": 73,
+      "temperature": 76,
       "temperature_unit": "F",
-      "wind_speed": "7 to 10 mph",
+      "wind_speed": "6 to 9 mph",
       "wind_direction": "N",
       "short_forecast": "Partly Sunny",
-      "detailed_forecast": "Partly sunny, with a high near 73. North wind 7 to 10 mph.",
+      "detailed_forecast": "Partly sunny, with a high near 76. North wind 6 to 9 mph.",
       "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
       "is_daytime": true
     },
     {
-      "name": "Monday Night",
+      "name": "Tonight",
       "start": "2026-10-05T18:00:00-04:00",
       "end": "2026-10-06T06:00:00-04:00",
-      "temperature": 54,
+      "temperature": 55,
       "temperature_unit": "F",
-      "wind_speed": "12 mph",
+      "wind_speed": "7 to 10 mph",
       "wind_direction": "N",
       "short_forecast": "Mostly Clear",
-      "detailed_forecast": "Mostly clear, with a low around 54. North wind around 12 mph.",
+      "detailed_forecast": "Mostly clear, with a low around 55. North wind 7 to 10 mph.",
       "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+      "is_daytime": false
+    },
+    {
+      "name": "Tuesday",
+      "start": "2026-10-06T06:00:00-04:00",
+      "end": "2026-10-06T18:00:00-04:00",
+      "temperature": 67,
+      "temperature_unit": "F",
+      "wind_speed": "6 to 12 mph",
+      "wind_direction": "NE",
+      "short_forecast": "Sunny",
+      "detailed_forecast": "Sunny, with a high near 67. Northeast wind 6 to 12 mph.",
+      "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+      "is_daytime": true
+    },
+    {
+      "name": "Tuesday Night",
+      "start": "2026-10-06T18:00:00-04:00",
+      "end": "2026-10-07T06:00:00-04:00",
+      "temperature": 53,
+      "temperature_unit": "F",
+      "wind_speed": "1 to 6 mph",
+      "wind_direction": "SE",
+      "short_forecast": "Clear",
+      "detailed_forecast": "Clear, with a low around 53. Southeast wind 1 to 6 mph.",
+      "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
       "is_daytime": false
     }
   ]
