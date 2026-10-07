@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-10-07T03:48:15Z",
+  "updated_at": "2026-10-07T14:59:06Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2107763890071257208",
+      "text": "RT @MB14H0110: me when I thought they changed $INJ to $INJC: https://t.co/d0ZFtbYZXM",
+      "created_at": "Wed Oct 07 09:24:06 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2107763890071257208",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 3,
+        "reply_count": 0,
+        "view_count": 1
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HT7bAhgWMAA0uKo.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2107469022589596140",
       "text": "Little Tuesday pile https://t.co/m4vaaHBOjB",
@@ -14,7 +33,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 71
+        "view_count": 74
       },
       "media": [
         {
@@ -257,25 +276,6 @@
         {
           "type": "photo",
           "url": "https://pbs.twimg.com/media/HSwJO_OXwAAoCYD.jpg",
-          "video_url": null
-        }
-      ]
-    },
-    {
-      "id": "2100955647533547616",
-      "text": "Being the first rwa on injective comes with a lot of responsibility, and one of those is to get oyci available to all who wish to have it.  That's why oyci is looking to adapt to the evm injective environment \n\nhttps://injhub.com/proposal/700/\n\nCosts the community nothing, while offering everything.  \n\n@ericinjective @FourPillarsFP @mirza @injective",
-      "created_at": "Fri Sep 18 14:30:34 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2100955647533547616",
-      "metrics": {
-        "like_count": 4,
-        "retweet_count": 2,
-        "reply_count": 2,
-        "view_count": 67
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSgXVUWXMAA82V5.jpg",
           "video_url": null
         }
       ]
