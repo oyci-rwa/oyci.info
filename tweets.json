@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-10-08T04:01:54Z",
+  "updated_at": "2026-10-08T15:07:33Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2108147577245909363",
+      "text": "The $oyci farms on @ChoiceXchange  seemed to have the most motion.  \n\nRwa commerical fishing operation based in Virginia \n\n@injective @ericinjective https://t.co/uQcH8ppNSP",
+      "created_at": "Thu Oct 08 10:48:44 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2108147577245909363",
+      "metrics": {
+        "like_count": 7,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 141
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUGlDICXsAAl6eb.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2107763890071257208",
       "text": "RT @MB14H0110: me when I thought they changed $INJ to $INJC: https://t.co/d0ZFtbYZXM",
@@ -14,7 +33,7 @@
         "like_count": 0,
         "retweet_count": 3,
         "reply_count": 0,
-        "view_count": 2
+        "view_count": 3
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 75
+        "view_count": 78
       },
       "media": [
         {
@@ -90,7 +109,7 @@
         "like_count": 7,
         "retweet_count": 3,
         "reply_count": 2,
-        "view_count": 157
+        "view_count": 158
       },
       "media": [
         {
@@ -240,45 +259,11 @@
       "url": "https://x.com/0yst3rs/status/2102076275561030010",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 107,
+        "retweet_count": 106,
         "reply_count": 0,
         "view_count": 2
       },
       "media": []
-    },
-    {
-      "id": "2102065289252704294",
-      "text": "Slowly.... Public season approaches \n\nVessel number 2\n\n$oyci https://t.co/pv4snZeXWG",
-      "created_at": "Mon Sep 21 15:59:54 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2102065289252704294",
-      "metrics": {
-        "like_count": 6,
-        "retweet_count": 0,
-        "reply_count": 1,
-        "view_count": 103
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSwJNmvWsAAqIF4.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSwJN6UWcAIrH-M.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSwJOSRWUAA6Yi6.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSwJO_OXwAAoCYD.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
