@@ -1,10 +1,42 @@
 {
-  "updated_at": "2026-10-09T14:52:40Z",
+  "updated_at": "2026-10-09T20:27:43Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2108601468508836201",
+      "text": "Guess the number of bushels and win a prize https://t.co/sbxSumtyK3",
+      "created_at": "Fri Oct 09 16:52:20 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2108601468508836201",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 16
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUNB2MlWsAAhKr4.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
+      "id": "2108572151334711610",
+      "text": "The world is your oyster!\n\nhttps://x.com/i/spaces/1MJgNbXPaDyGL",
+      "created_at": "Fri Oct 09 14:55:50 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2108572151334711610",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "view_count": 20
+      },
+      "media": []
+    },
     {
       "id": "2108147577245909363",
       "text": "The $oyci farms on @ChoiceXchange  seemed to have the most motion.  \n\nRwa commerical fishing operation based in Virginia \n\n@injective @ericinjective https://t.co/uQcH8ppNSP",
@@ -14,7 +46,7 @@
         "like_count": 8,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 164
+        "view_count": 166
       },
       "media": [
         {
@@ -185,7 +217,7 @@
     },
     {
       "id": "2102963746066817430",
-      "text": "Had to wade out to the boat this mornin/night because of the nor’easter tide.\n\nCrypto talks a lot about “real-world assets.”\n\nThis is the real world. 🌊🦪\n\n$OYCI — yield from the tide, not inflation. https://t.co/PLPhvE6dLd",
+      "text": "Had to wade out to the boat this mornin/night because of the nor’easter tide.\n\nCrypto talks a lot about ��real-world assets.”\n\nThis is the real world. 🌊🦪\n\n$OYCI — yield from the tide, not inflation. https://t.co/PLPhvE6dLd",
       "created_at": "Thu Sep 24 03:30:02 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2102963746066817430",
       "metrics": {
@@ -238,32 +270,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2102389532561649925",
-      "text": "The best pre market show not only on x but anywhere IMO",
-      "created_at": "Tue Sep 22 13:28:19 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2102389532561649925",
-      "metrics": {
-        "like_count": 1,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 51
-      },
-      "media": []
-    },
-    {
-      "id": "2102076275561030010",
-      "text": "RT @injective: Injective is now the leading chain for tokenized real estate assets. Injective has also now entered the top ten chain list f…",
-      "created_at": "Mon Sep 21 16:43:33 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2102076275561030010",
-      "metrics": {
-        "like_count": 0,
-        "retweet_count": 106,
-        "reply_count": 0,
-        "view_count": 2
-      },
-      "media": []
     }
   ]
 }
