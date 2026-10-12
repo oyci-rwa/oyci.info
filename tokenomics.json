@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:48:59Z",
+  "updated_at": "2026-10-12T15:13:51Z",
   "supply": {
     "total": 1000000000.0,
     "denom": "OYCI",
@@ -56,8 +56,8 @@
       "programmed_amount_raw": 3.25e+21,
       "schedule_start": "2026-07-10T17:40:00+00:00",
       "schedule_end": "2027-01-30T21:20:00+00:00",
-      "tvl_usd": 1630.5423,
-      "apr_percentage": 47.456594049595567213
+      "tvl_usd": 1565.5661,
+      "apr_percentage": 48.251427569927901655
     },
     {
       "id": 2,
@@ -74,7 +74,7 @@
       "programmed_amount_raw": 5000000000000000000,
       "schedule_start": "2026-05-15T00:49:00+00:00",
       "schedule_end": "2026-07-01T00:49:00+00:00",
-      "tvl_usd": 58.6646,
+      "tvl_usd": 56.3268,
       "apr_percentage": 0E-18
     },
     {
@@ -92,7 +92,7 @@
       "programmed_amount_raw": 10000000000000000000,
       "schedule_start": "2026-05-15T00:52:00+00:00",
       "schedule_end": "2026-08-13T00:52:00+00:00",
-      "tvl_usd": 229.9956,
+      "tvl_usd": 220.8304,
       "apr_percentage": 0E-18
     },
     {
@@ -120,8 +120,8 @@
       "programmed_amount_raw": 94000000,
       "schedule_start": "2026-08-15T16:30:00+00:00",
       "schedule_end": "2026-11-09T14:21:00+00:00",
-      "tvl_usd": 715.4998,
-      "apr_percentage": 24.821638339834314677
+      "tvl_usd": 686.9875,
+      "apr_percentage": 25.852830024999393032
     },
     {
       "id": 14,
@@ -143,8 +143,8 @@
       "programmed_amount_raw": 5.1e+22,
       "schedule_start": "2026-09-08T22:13:00+00:00",
       "schedule_end": "2026-11-07T21:21:00+00:00",
-      "tvl_usd": 486.3462,
-      "apr_percentage": 73.080397786968498575
+      "tvl_usd": 466.9655,
+      "apr_percentage": 71.929508578649865275
     },
     {
       "id": 6,
@@ -166,7 +166,7 @@
       "programmed_amount_raw": 885000000000,
       "schedule_start": "2026-05-26T23:42:00+00:00",
       "schedule_end": "2026-10-01T05:30:00+00:00",
-      "tvl_usd": 444.5784,
+      "tvl_usd": 426.8622,
       "apr_percentage": 0E-18
     },
     {
@@ -184,7 +184,7 @@
       "programmed_amount_raw": 16000000,
       "schedule_start": "2026-06-25T02:55:00+00:00",
       "schedule_end": "2026-07-25T02:55:00+00:00",
-      "tvl_usd": 342.7222,
+      "tvl_usd": 329.0649,
       "apr_percentage": 0E-18
     },
     {
@@ -212,7 +212,7 @@
       "programmed_amount_raw": 25380000000000,
       "schedule_start": "2026-05-26T15:11:00+00:00",
       "schedule_end": "2026-07-25T03:06:00+00:00",
-      "tvl_usd": 256.8460,
+      "tvl_usd": 246.6108,
       "apr_percentage": 0E-18
     }
   ]
