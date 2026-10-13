@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-10-13T05:00:45Z",
+  "updated_at": "2026-10-13T15:29:23Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2109961082399805466",
+      "text": "Lucky enough to watch @SpaceX from a boat in the James river, Virginia.\n\nAmazing work @elonmusk and all team members who make this stuff happen everyday! https://t.co/gKyHe5za82",
+      "created_at": "Tue Oct 13 10:54:57 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2109961082399805466",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 10
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2109960949419425792/img/cIQsUvp9FuFpmbTO.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2109960949419425792/vid/avc1/720x1280/8YQk00dZW1d_PFLT.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2109578098236666325",
       "text": "NGL this the type of energy needed at 5am.. killer music\nhttps://x.com/i/spaces/1pKkOXZPOLmKj",
@@ -14,7 +33,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 18
+        "view_count": 24
       },
       "media": []
     },
@@ -27,7 +46,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 29
+        "view_count": 33
       },
       "media": [
         {
@@ -46,7 +65,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 28
+        "view_count": 31
       },
       "media": []
     },
@@ -59,7 +78,7 @@
         "like_count": 8,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 169
+        "view_count": 171
       },
       "media": [
         {
@@ -97,7 +116,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 82
+        "view_count": 83
       },
       "media": [
         {
@@ -217,7 +236,7 @@
     },
     {
       "id": "2103246884626116955",
-      "text": "The James River has been oyster country for centuries. 🦪\nSome historic reefs were so large they actually reached the surface.\n\nPretty wild to think about what this river once looked like — and what it could look like again.\n\n$OYCI 🌊\n@VIMS_News",
+      "text": "The James River has been oyster country for centuries. 🦪\nSome historic reefs were so large they actually reached the surface.\n\nPretty wild to think about what this river once looked like �� and what it could look like again.\n\n$OYCI 🌊\n@VIMS_News",
       "created_at": "Thu Sep 24 22:15:08 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2103246884626116955",
       "metrics": {
