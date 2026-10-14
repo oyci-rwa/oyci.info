@@ -1,20 +1,39 @@
 {
-  "updated_at": "2026-10-14T13:14:01Z",
+  "updated_at": "2026-10-14T19:55:17Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
     {
+      "id": "2110423064764633428",
+      "text": "$oyci  rwa commerical fishing in Virginia https://t.co/to7oRdcd8z",
+      "created_at": "Wed Oct 14 17:30:43 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2110423064764633428",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 1,
+        "reply_count": 0,
+        "view_count": 25
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUm6hfwWgAAk7HA.jpg",
+          "video_url": null
+        }
+      ]
+    },
+    {
       "id": "2109961082399805466",
       "text": "Lucky enough to watch @SpaceX from a boat in the James river, Virginia.\n\nAmazing work @elonmusk and all team members who make this stuff happen everyday! https://t.co/gKyHe5za82",
       "created_at": "Tue Oct 13 10:54:57 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2109961082399805466",
       "metrics": {
-        "like_count": 2,
+        "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 15
+        "view_count": 16
       },
       "media": [
         {
@@ -33,7 +52,7 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 24
+        "view_count": 25
       },
       "media": []
     },
@@ -46,7 +65,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 33
+        "view_count": 34
       },
       "media": [
         {
