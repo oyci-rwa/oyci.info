@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T02:43:50Z",
+  "updated_at": "2026-10-16T12:56:14Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
@@ -14,7 +14,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 39
+        "view_count": 42
       },
       "media": [
         {
@@ -30,10 +30,10 @@
       "created_at": "Tue Oct 13 10:54:57 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2109961082399805466",
       "metrics": {
-        "like_count": 3,
+        "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 18
+        "view_count": 20
       },
       "media": [
         {
@@ -49,10 +49,10 @@
       "created_at": "Mon Oct 12 09:33:07 +0000 2026",
       "url": "https://x.com/0yst3rs/status/2109578098236666325",
       "metrics": {
-        "like_count": 0,
+        "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 27
+        "view_count": 29
       },
       "media": []
     },
@@ -65,7 +65,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 35
+        "view_count": 37
       },
       "media": [
         {
@@ -84,7 +84,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 1,
-        "view_count": 32
+        "view_count": 34
       },
       "media": []
     },
@@ -97,7 +97,7 @@
         "like_count": 8,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 171
+        "view_count": 173
       },
       "media": [
         {
@@ -135,7 +135,7 @@
         "like_count": 3,
         "retweet_count": 1,
         "reply_count": 1,
-        "view_count": 83
+        "view_count": 85
       },
       "media": [
         {
@@ -154,7 +154,7 @@
         "like_count": 4,
         "retweet_count": 0,
         "reply_count": 2,
-        "view_count": 160
+        "view_count": 165
       },
       "media": [
         {
