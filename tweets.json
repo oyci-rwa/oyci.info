@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-10-20T19:47:03Z",
+  "updated_at": "2026-10-21T13:21:25Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2112862412231545047",
+      "text": "Hino motor coming to life.  Anyone. Ever had one of these?? @ericinjective @Toyota  @injective https://t.co/VQWYKFGWGu",
+      "created_at": "Wed Oct 21 11:03:48 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2112862412231545047",
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 41
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2112862381801873408/img/9QUm_tL1pY09O3v3.jpg",
+          "video_url": "https://video.twimg.com/amplify_video/2112862381801873408/vid/avc1/576x1024/A96FcMVMlokwiAgN.mp4?tag=29"
+        }
+      ]
+    },
     {
       "id": "2110423064764633428",
       "text": "$oyci  rwa commerical fishing in Virginia https://t.co/to7oRdcd8z",
@@ -154,7 +173,7 @@
         "like_count": 4,
         "retweet_count": 0,
         "reply_count": 2,
-        "view_count": 170
+        "view_count": 171
       },
       "media": [
         {
@@ -289,19 +308,6 @@
           "video_url": null
         }
       ]
-    },
-    {
-      "id": "2102881011356844288",
-      "text": "Where does the OYCI farm yield come from?\n\nNot a token printer.\nNot endless emissions.\n\n🦪 Oysters are harvested\n💵 Oysters generate revenue\n⛓️ That real-world value is brought on-chain\n\nOYCI: yield from the tide, not inflation.\n\nFarm $OYCI on @ChoiceXchange",
-      "created_at": "Wed Sep 23 22:01:17 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2102881011356844288",
-      "metrics": {
-        "like_count": 3,
-        "retweet_count": 1,
-        "reply_count": 2,
-        "view_count": 62
-      },
-      "media": []
     }
   ]
 }
