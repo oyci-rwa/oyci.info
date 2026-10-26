@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-10-26T14:45:53Z",
+  "updated_at": "2026-10-26T20:49:38Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2114738623228875185",
+      "text": "RT @injective: The next major financial market for AI is the price of compute.\n\nToday, Injective is officially releasing the Super Intellig…",
+      "created_at": "Mon Oct 26 15:19:12 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2114738623228875185",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 154,
+        "reply_count": 0,
+        "view_count": 3
+      },
+      "media": []
+    },
     {
       "id": "2112862412231545047",
       "text": "Hino motor coming to life.  Anyone. Ever had one of these?? @ericinjective @Toyota  @injective https://t.co/VQWYKFGWGu",
@@ -284,30 +297,6 @@
         "view_count": 82
       },
       "media": []
-    },
-    {
-      "id": "2102963746066817430",
-      "text": "Had to wade out to the boat this mornin/night because of the nor’easter tide.\n\nCrypto talks a lot about “real-world assets.”\n\nThis is the real world. 🌊🦪\n\n$OYCI — yield from the tide, not inflation. https://t.co/PLPhvE6dLd",
-      "created_at": "Thu Sep 24 03:30:02 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2102963746066817430",
-      "metrics": {
-        "like_count": 5,
-        "retweet_count": 1,
-        "reply_count": 0,
-        "view_count": 112
-      },
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS86YNnW4AADW1J.jpg",
-          "video_url": null
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS86YbhXAAAhz6N.jpg",
-          "video_url": null
-        }
-      ]
     }
   ]
 }
