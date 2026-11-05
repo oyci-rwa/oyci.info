@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-11-03T04:56:13Z",
+  "updated_at": "2026-11-05T21:51:07Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2118375413604864361",
+      "text": "RT @injective: Today, INJ just made history.\n\n$INJC, the first U.S. ETF for $INJ, is now live on @Nasdaq with staking built in.\n\nA new era…",
+      "created_at": "Thu Nov 05 16:10:30 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2118375413604864361",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 447,
+        "reply_count": 0,
+        "view_count": 4
+      },
+      "media": []
+    },
     {
       "id": "2114738623228875185",
       "text": "RT @injective: The next major financial market for AI is the price of compute.\n\nToday, Injective is officially releasing the Super Intellig…",
@@ -27,7 +40,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 70
+        "view_count": 71
       },
       "media": [
         {
@@ -46,7 +59,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 53
+        "view_count": 54
       },
       "media": [
         {
@@ -282,19 +295,6 @@
         "retweet_count": 0,
         "reply_count": 0,
         "view_count": 59
-      },
-      "media": []
-    },
-    {
-      "id": "2103246884626116955",
-      "text": "The James River has been oyster country for centuries. 🦪\nSome historic reefs were so large they actually reached the surface.\n\nPretty wild to think about what this river once looked like — and what it could look like again.\n\n$OYCI 🌊\n@VIMS_News",
-      "created_at": "Thu Sep 24 22:15:08 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2103246884626116955",
-      "metrics": {
-        "like_count": 5,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 82
       },
       "media": []
     }
