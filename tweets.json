@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-11-06T15:32:59Z",
+  "updated_at": "2026-11-06T21:12:41Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2118763489128837543",
+      "text": "RT @injective: We are kicking off Friday with a bang!\n\nThe Canary Capital and Injective teams have been invited to the @Nasdaq to ring the…",
+      "created_at": "Fri Nov 06 17:52:35 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2118763489128837543",
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 95,
+        "reply_count": 0,
+        "view_count": 1
+      },
+      "media": []
+    },
     {
       "id": "2118375413604864361",
       "text": "RT @injective: Today, INJ just made history.\n\n$INJC, the first U.S. ETF for $INJ, is now live on @Nasdaq with staking built in.\n\nA new era…",
@@ -12,7 +25,7 @@
       "url": "https://x.com/0yst3rs/status/2118375413604864361",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 501,
+        "retweet_count": 507,
         "reply_count": 0,
         "view_count": 4
       },
@@ -40,7 +53,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 71
+        "view_count": 72
       },
       "media": [
         {
@@ -59,7 +72,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 54
+        "view_count": 55
       },
       "media": [
         {
@@ -78,7 +91,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 27
+        "view_count": 28
       },
       "media": [
         {
@@ -97,7 +110,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 34
+        "view_count": 35
       },
       "media": []
     },
@@ -284,19 +297,6 @@
           "video_url": "https://video.twimg.com/amplify_video/2103967519367151617/vid/avc1/720x1280/mZeG2Kta5pmkrC5D.mp4?tag=29"
         }
       ]
-    },
-    {
-      "id": "2103480393701675403",
-      "text": "A rising tide will raise all ships",
-      "created_at": "Fri Sep 25 13:43:01 +0000 2026",
-      "url": "https://x.com/0yst3rs/status/2103480393701675403",
-      "metrics": {
-        "like_count": 2,
-        "retweet_count": 0,
-        "reply_count": 0,
-        "view_count": 59
-      },
-      "media": []
     }
   ]
 }
