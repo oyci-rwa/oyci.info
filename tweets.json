@@ -1,10 +1,29 @@
 {
-  "updated_at": "2026-11-09T04:07:22Z",
+  "updated_at": "2026-11-10T05:38:14Z",
   "user": {
     "name": "Oyster Cage Initiative",
     "username": "0yst3rs"
   },
   "tweets": [
+    {
+      "id": "2119845758664839445",
+      "text": "Head down hands moving.. it's the only way. https://t.co/nDAKTXUXxs",
+      "created_at": "Mon Nov 09 17:33:08 +0000 2026",
+      "url": "https://x.com/0yst3rs/status/2119845758664839445",
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "view_count": 27
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWs0etHWoAEh13F.jpg",
+          "video_url": null
+        }
+      ]
+    },
     {
       "id": "2118763489128837543",
       "text": "RT @injective: We are kicking off Friday with a bang!\n\nThe Canary Capital and Injective teams have been invited to the @Nasdaq to ring the…",
@@ -25,7 +44,7 @@
       "url": "https://x.com/0yst3rs/status/2118375413604864361",
       "metrics": {
         "like_count": 0,
-        "retweet_count": 515,
+        "retweet_count": 517,
         "reply_count": 0,
         "view_count": 4
       },
@@ -53,7 +72,7 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 78
+        "view_count": 79
       },
       "media": [
         {
@@ -72,7 +91,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 59
+        "view_count": 60
       },
       "media": [
         {
@@ -91,7 +110,7 @@
         "like_count": 4,
         "retweet_count": 1,
         "reply_count": 0,
-        "view_count": 31
+        "view_count": 32
       },
       "media": [
         {
@@ -110,7 +129,7 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "view_count": 37
+        "view_count": 38
       },
       "media": []
     },
